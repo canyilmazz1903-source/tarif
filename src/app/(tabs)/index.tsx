@@ -126,6 +126,7 @@ export default function Kesfet() {
               </View>
             </View>
 
+            <Ray baslik="🔥 Yeni Nesil Mutfak" tarifler={koleksiyondakiler('yeni-nesil')} />
             <Ray baslik="⚡ 15 Dakikada" tarifler={onbesDakikalikler()} />
             <Ray baslik="🍲 Tek Tencere" tarifler={koleksiyondakiler('tek-tencere')} />
             <Ray baslik={`🌿 ${AY_ADLARI[simdi.getMonth()]} Mevsiminde`} tarifler={mevsim} />
@@ -138,7 +139,10 @@ export default function Kesfet() {
 
             <View style={{ gap: Bosluk.s }}>
               <View style={{ paddingHorizontal: Bosluk.l }}>
-                <BolumBasligi baslik="Tüm Tarifler" aciklama="50 denenmiş, ölçülü tarif" />
+                <BolumBasligi
+                  baslik="Tüm Tarifler"
+                  aciklama={`${TARIFLER.length} denenmiş, ölçülü tarif`}
+                />
               </View>
               <ScrollView
                 horizontal

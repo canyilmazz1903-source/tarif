@@ -44,7 +44,11 @@ export type Koleksiyon =
   | 'ramazan'
   | 'osmanli'
   | 'misafir'
-  | '101';
+  | '101'
+  | 'yeni-nesil'
+  | 'sokak-lezzeti'
+  | 'airfryer'
+  | 'viral-tatli';
 
 export interface TarifMalzeme {
   /** Malzeme sözlüğündeki ad (küçük harf) ya da serbest metin. */

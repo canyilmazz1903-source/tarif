@@ -6,8 +6,14 @@ import { KAHVALTILIKLAR } from '@/data/tarifler/kahvaltiliklar';
 import { SALATALAR } from '@/data/tarifler/salatalar';
 import { TATLILAR } from '@/data/tarifler/tatlilar';
 import { ZEYTINYAGLILAR } from '@/data/tarifler/zeytinyaglilar';
+import { AIRFRYER_PRATIK } from '@/data/tarifler/yeni-nesil-airfryer';
+import { MODERN_BRUNCH } from '@/data/tarifler/yeni-nesil-brunch';
+import { MODERN_MAKARNALAR } from '@/data/tarifler/yeni-nesil-makarna';
+import { SOKAK_LEZZETLERI } from '@/data/tarifler/yeni-nesil-sokak';
+import { VIRAL_TATLILAR } from '@/data/tarifler/yeni-nesil-tatli';
 
-export const TARIFLER: Tarif[] = [
+/** Klasik Türk mutfağı paketi (50 tarif). */
+export const KLASIK_TARIFLER: Tarif[] = [
   ...CORBALAR,
   ...ANA_YEMEKLER,
   ...HAMUR_ISLERI,
@@ -16,6 +22,17 @@ export const TARIFLER: Tarif[] = [
   ...SALATALAR,
   ...KAHVALTILIKLAR,
 ];
+
+/** Yeni Nesil Mutfak paketi (55 tarif): sokak lezzetleri, one-pot, airfryer, brunch, viral tatlılar. */
+export const YENI_NESIL_TARIFLER: Tarif[] = [
+  ...SOKAK_LEZZETLERI,
+  ...MODERN_MAKARNALAR,
+  ...AIRFRYER_PRATIK,
+  ...MODERN_BRUNCH,
+  ...VIRAL_TATLILAR,
+];
+
+export const TARIFLER: Tarif[] = [...KLASIK_TARIFLER, ...YENI_NESIL_TARIFLER];
 
 const INDEX = new Map(TARIFLER.map((t) => [t.id, t]));
 

@@ -120,7 +120,8 @@ export default function Profil() {
             kullanılan, israfı ve maliyeti düşünen tarif uygulamasıdır.
           </Yazi>
           <Yazi varyant="kucuk" renk="metinIkincil">
-            • 50 denenmiş, ölçülü tarif — tamamı internetsiz çalışır{'\n'}
+            • {TARIFLER.length} denenmiş, ölçülü tarif — tamamı internetsiz çalışır{'\n'}
+            • Klasik Türk mutfağı + Yeni Nesil Mutfak paketi{'\n'}
             • Ölçü motoru: su bardağı ↔ gram dönüşümü{'\n'}
             • Pişirme Modu: kararmayan ekran + adım zamanlayıcıları{'\n'}
             • Sürüm 1.0.0

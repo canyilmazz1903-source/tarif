@@ -1,11 +1,19 @@
 import { MALZEMELER, malzemeBul } from '@/data/malzemeler';
-import { TARIFLER } from '@/data/tarifler';
+import { KLASIK_TARIFLER, TARIFLER, YENI_NESIL_TARIFLER } from '@/data/tarifler';
 import { maliyetRozeti, porsiyonMaliyeti } from '@/lib/maliyet';
 
-// Brief kabul kriterleri: 50 tarif, kısa başlıklar, tutarlı veri.
+// Brief kabul kriterleri: 50 klasik + 55 yeni nesil tarif, kısa başlıklar, tutarlı veri.
 describe('tarif verisi bütünlüğü', () => {
-  it('tam 50 tarif var', () => {
-    expect(TARIFLER).toHaveLength(50);
+  it('50 klasik + 55 yeni nesil = 105 tarif var', () => {
+    expect(KLASIK_TARIFLER).toHaveLength(50);
+    expect(YENI_NESIL_TARIFLER).toHaveLength(55);
+    expect(TARIFLER).toHaveLength(105);
+  });
+
+  it('yeni nesil paketin tamamı yeni-nesil koleksiyon etiketli', () => {
+    for (const t of YENI_NESIL_TARIFLER) {
+      expect(t.koleksiyonlar).toContain('yeni-nesil');
+    }
   });
 
   it('id\'ler benzersiz', () => {
@@ -40,8 +48,8 @@ describe('tarif verisi bütünlüğü', () => {
     }
   });
 
-  it('kategori dağılımı brief ile uyumlu (25 tarifin ×2 ölçeği)', () => {
-    const say = (k: string) => TARIFLER.filter((t) => t.kategori === k).length;
+  it('klasik paketin kategori dağılımı brief ile uyumlu (25 tarifin ×2 ölçeği)', () => {
+    const say = (k: string) => KLASIK_TARIFLER.filter((t) => t.kategori === k).length;
     expect(say('corba')).toBe(8);
     expect(say('ana-yemek')).toBe(12);
     expect(say('hamur-isi')).toBe(8);

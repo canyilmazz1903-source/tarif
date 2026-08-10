@@ -60,8 +60,9 @@ export default function Onboarding() {
               Bugün ne pişirsem?
             </Yazi>
             <Yazi varyant="govde" renk="metinIkincil" style={{ textAlign: 'center', fontSize: 17, lineHeight: 26 }}>
-              10 saniyede cevap. 50 denenmiş, ölçülü tarif — hepsi internetsiz çalışır. Eller
-              hamurluyken bile kullanılan Pişirme Modu ile.
+              10 saniyede cevap. Klasiklerden yeni nesil sokak lezzetlerine 100'den fazla
+              denenmiş, ölçülü tarif — hepsi internetsiz çalışır. Eller hamurluyken bile
+              kullanılan Pişirme Modu ile.
             </Yazi>
           </View>
         ) : (

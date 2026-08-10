@@ -2,7 +2,10 @@
 
 **"Bugün ne pişirsem?" sorusunu 10 saniyede cevaplayan, mutfakta eller serbest kullanılan, israfı ve maliyeti düşünen tarif uygulaması.**
 
-Expo (React Native) ile geliştirildi. **50 denenmiş, ölçülü Türk yemeği tarifi** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır.
+Expo (React Native) ile geliştirildi. **105 denenmiş, ölçülü tarif** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır. İki paket:
+
+- **Klasik Türk Mutfağı (50):** çorbalardan zeytinyağlılara, hamur işlerinden tatlılara denenmiş klasikler
+- **Yeni Nesil Mutfak (55):** sosyal medya şeflerinin tarzında özgün tarifler — smash burger, tantuni, one-pot makarnalar, airfryer pratikleri, modern brunch, San Sebastian cheesecake gibi viral tatlılar
 
 ## Özellikler
 
@@ -65,8 +68,8 @@ src/
     onboarding.tsx
   components/           # TarifKarti, ui/ (Buton, Cip, Rozet, Yazi, Ekran)
   data/
-    malzemeler.ts       # 90+ malzeme sözlüğü (dönüşüm katsayıları + fiyatlar)
-    tarifler/           # 50 tarif, kategoriye göre 7 dosya
+    malzemeler.ts       # 125+ malzeme sözlüğü (dönüşüm katsayıları + fiyatlar)
+    tarifler/           # 105 tarif: klasik paket (7 dosya) + yeni nesil paket (5 dosya)
   lib/                  # olcu-motoru, maliyet, ara, oneri (+testler)
   stores/               # zustand persist: ayarlar, kayitli, dolap, plan, alisveris
   types/tarif.ts
