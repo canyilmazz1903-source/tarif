@@ -1,0 +1,115 @@
+import { useRouter } from 'expo-router';
+import { Pressable, View } from 'react-native';
+
+import { Rozet } from '@/components/ui/Rozet';
+import { Yazi } from '@/components/ui/Yazi';
+import { Bosluk, Yaricap } from '@/constants/theme';
+import { useTema } from '@/hooks/use-tema';
+import { maliyetRozeti } from '@/lib/maliyet';
+import type { Kategori, Tarif } from '@/types/tarif';
+
+/** Kategoriye göre kapak zemin tonları (açık/koyu). */
+export const KATEGORI_TON: Record<Kategori, [string, string]> = {
+  corba: ['#FFE8CC', '#4A2E14'],
+  'ana-yemek': ['#FFD8C2', '#4A2418'],
+  'hamur-isi': ['#FDEBC8', '#453317'],
+  tatli: ['#FCE0EC', '#43222F'],
+  zeytinyagli: ['#D8F0DC', '#1E3A26'],
+  kahvaltilik: ['#FFF3BF', '#403A15'],
+  salata: ['#DEF3D8', '#243A1E'],
+};
+
+export function zorlukYazi(z: Tarif['zorluk']): string {
+  return z === 'kolay' ? 'Kolay' : z === 'orta' ? 'Orta' : 'Zor';
+}
+
+export function Kapak({ tarif, boy }: { tarif: Tarif; boy: number }) {
+  const { koyu } = useTema();
+  const ton = KATEGORI_TON[tarif.kategori][koyu ? 1 : 0];
+  return (
+    <View
+      accessibilityLabel={`${tarif.baslik} görseli`}
+      style={{
+        height: boy,
+        borderRadius: Yaricap.m,
+        backgroundColor: ton,
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <Yazi style={{ fontSize: boy * 0.42, lineHeight: boy * 0.52 }}>{tarif.emoji}</Yazi>
+    </View>
+  );
+}
+
+export function TarifKarti({ tarif }: { tarif: Tarif }) {
+  const { palet } = useTema();
+  const router = useRouter();
+  const sure = tarif.hazirlikDk + tarif.pisirmeDk;
+
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={`${tarif.baslik}, ${sure} dakika, ${zorlukYazi(tarif.zorluk)}`}
+      onPress={() => router.push({ pathname: '/tarif/[id]', params: { id: tarif.id } })}
+      style={({ pressed }) => ({
+        backgroundColor: palet.kart,
+        borderRadius: Yaricap.l,
+        padding: Bosluk.m,
+        gap: Bosluk.m,
+        borderWidth: 1,
+        borderColor: palet.cizgi,
+        opacity: pressed ? 0.92 : 1,
+      })}
+    >
+      <Kapak tarif={tarif} boy={150} />
+      <View style={{ gap: Bosluk.s }}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: Bosluk.s }}>
+          <Yazi varyant="baslik" style={{ flex: 1 }} numberOfLines={1}>
+            {tarif.baslik}
+          </Yazi>
+          {tarif.editorOnayli ? <Rozet metin="Editör ✓" ton="ikincil" /> : null}
+        </View>
+        <Yazi varyant="kucuk" renk="metinIkincil" numberOfLines={2}>
+          {tarif.altBaslik}
+        </Yazi>
+        <View style={{ flexDirection: 'row', gap: Bosluk.s, flexWrap: 'wrap' }}>
+          <Rozet metin={`⏱ ${sure} dk`} />
+          <Rozet metin={zorlukYazi(tarif.zorluk)} />
+          <Rozet metin={maliyetRozeti(tarif)} ton="amber" />
+          <Rozet metin={`${tarif.kaloriPerPorsiyon} kcal`} />
+        </View>
+      </View>
+    </Pressable>
+  );
+}
+
+export function MiniTarifKarti({ tarif }: { tarif: Tarif }) {
+  const { palet } = useTema();
+  const router = useRouter();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={tarif.baslik}
+      onPress={() => router.push({ pathname: '/tarif/[id]', params: { id: tarif.id } })}
+      style={({ pressed }) => ({
+        width: 150,
+        backgroundColor: palet.kart,
+        borderRadius: Yaricap.m,
+        padding: Bosluk.s,
+        gap: Bosluk.s,
+        borderWidth: 1,
+        borderColor: palet.cizgi,
+        opacity: pressed ? 0.92 : 1,
+      })}
+    >
+      <Kapak tarif={tarif} boy={84} />
+      <Yazi varyant="etiket" numberOfLines={2} style={{ minHeight: 36 }}>
+        {tarif.baslik}
+      </Yazi>
+      <Yazi varyant="kucuk" renk="metinIkincil">
+        ⏱ {tarif.hazirlikDk + tarif.pisirmeDk} dk · {zorlukYazi(tarif.zorluk)}
+      </Yazi>
+    </Pressable>
+  );
+}

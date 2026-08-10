@@ -1,56 +1,83 @@
-# Welcome to your Expo app 👋
+# 🍲 Tencere — Türk Yemek Tarifleri
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**"Bugün ne pişirsem?" sorusunu 10 saniyede cevaplayan, mutfakta eller serbest kullanılan, israfı ve maliyeti düşünen tarif uygulaması.**
 
-## Get started
+Expo (React Native) ile geliştirildi. **50 denenmiş, ölçülü Türk yemeği tarifi** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır.
 
-1. Install dependencies
+## Özellikler
 
-   ```bash
-   npm install
-   ```
+- **Keşfet** — saat + mevsim + beslenme tercihine göre günlük 3 öneri; "15 Dakikada", "Tek Tencere", "Mevsiminde", "Artanı Değerlendir", "Osmanlı Mutfağı", "Editör Onaylı" koleksiyon rayları
+- **Pişirme Modu** — kararmayan ekran (keep-awake), adım başına gömülü zamanlayıcı, sesli adım okuma (TR), unlu parmak dostu ≥64pt butonlar
+- **Ölçü motoru** — su bardağı ↔ gram dönüşümü (un 1 bardak = 130 g, şeker = 180 g, pirinç = 200 g…), porsiyon ayarında akıllı kesir yuvarlama (1⅓ su bardağı)
+- **Dolapta Ne Var** — evdeki malzemeleri işaretle, "3/4 malzeme sende var, eksik: krema" formatında sonuç
+- **Artanı Değerlendir** — kalan malzemeden israf-önleme tarifleri (tirit, ekmek köftesi, kol böreği, ekmek tatlısı…)
+- **Maliyet motoru** — malzeme fiyatlarından porsiyon başına tahmini TL + ₺/₺₺/₺₺₺ rozetleri
+- **Haftalık Planlayıcı** — öğünlere tarif ekle, haftanın tahmini maliyetini gör, tek dokunuşla birleştirilmiş alışveriş listesi (reyona göre gruplu)
+- **Defterim** — kayıtlı tarifler tamamen offline
+- **Koyu mod** — sistem takipli + manuel; Fraunces + Inter tipografi
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Kurulum (yerel geliştirme)
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Testler ve tip kontrolü:
 
-### Other setup steps
+```bash
+npm run typecheck
+npm test
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## Codemagic ile build
 
-## Learn more
+Repo kökündeki [codemagic.yaml](codemagic.yaml) üç workflow içerir:
 
-To learn more about developing your project with Expo, look at the following resources:
+| Workflow | Gereksinim | Çıktı |
+|---|---|---|
+| `android-onizleme` | **Hiçbir kurulum gerektirmez** | Test APK'sı |
+| `ios-appstore` | App Store Connect API anahtarı (ad: `tencere-asc`) | TestFlight'a otomatik IPA |
+| `android-playstore` | Keystore (referans adı: `tencere_keystore`) | İmzalı AAB |
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+İlk denemede `android-onizleme` çalıştırarak pipeline'ın yeşil olduğunu doğrula; sonra mağaza workflow'larını kur. Adım adım kurulum rehberi için Claude artifact'ine bak.
 
-## Join the community
+- **Bundle ID / Package:** `com.canyilmaz.tencere`
+- Native klasörler (`ios/`, `android/`) repoda tutulmaz; her build'de `npx expo prebuild` ile üretilir (CNG).
 
-Join our community of developers creating universal apps.
+## App Store gizlilik beyanı (özet)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Uygulama **hiçbir kişisel veri toplamaz**: hesap yok, analitik yok, reklam SDK'sı yok, ağ çağrısı yok. Tüm veriler (kayıtlı tarifler, dolap, plan, alışveriş listesi) cihazda AsyncStorage'da saklanır.
+
+- App Privacy: **"Data Not Collected"**
+- ATT (App Tracking Transparency): **gerekmez**
+- Şifreleme beyanı: `ITSAppUsesNonExemptEncryption = false` (app.json'da hazır)
+
+## Proje yapısı
+
+```
+src/
+  app/                  # expo-router ekranları
+    (tabs)/             # Keşfet, Ara, Planlayıcı, Defterim, Profil
+    tarif/[id].tsx      # Tarif detay (porsiyon + ölçü toggle)
+    pisirme/[id].tsx    # Tam ekran Pişirme Modu
+    alisveris.tsx       # Alışveriş listesi (modal)
+    onboarding.tsx
+  components/           # TarifKarti, ui/ (Buton, Cip, Rozet, Yazi, Ekran)
+  data/
+    malzemeler.ts       # 90+ malzeme sözlüğü (dönüşüm katsayıları + fiyatlar)
+    tarifler/           # 50 tarif, kategoriye göre 7 dosya
+  lib/                  # olcu-motoru, maliyet, ara, oneri (+testler)
+  stores/               # zustand persist: ayarlar, kayitli, dolap, plan, alisveris
+  types/tarif.ts
+```
+
+## Kritik akış (manuel test senaryosu)
+
+1. Uygulamayı aç → onboarding'i geç
+2. Keşfet'te günlük 3 öneriden birine dokun
+3. Tarif detayında porsiyonu 4 → 6 yap, "Gram" toggle'ına bas
+4. "PİŞİRMEYE BAŞLA" → adımlarda ilerle, zamanlayıcıyı başlat
+5. Bitir → deftere kaydet
+6. Planlayıcı'da bir öğüne tarif ekle → "Alışveriş listesini çıkar"
+7. Uçak moduna al → Defterim'den kayıtlı tarifi aç (tam çalışır)

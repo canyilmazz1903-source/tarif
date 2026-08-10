@@ -1,65 +1,78 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
+// Tencere tasarım sistemi — sıcak, iştah açıcı, gürültüsüz.
 
-import '@/global.css';
+export interface Palet {
+  zemin: string;
+  kart: string;
+  kartIkincil: string;
+  metin: string;
+  metinIkincil: string;
+  cizgi: string;
+  birincil: string;
+  birincilYumusak: string;
+  ikincil: string;
+  ikincilYumusak: string;
+  amber: string;
+  amberYumusak: string;
+  hata: string;
+}
 
-import { Platform } from 'react-native';
-
-export const Colors = {
+export const Renkler: { light: Palet; dark: Palet } = {
   light: {
-    text: '#000000',
-    background: '#ffffff',
-    backgroundElement: '#F0F0F3',
-    backgroundSelected: '#E0E1E6',
-    textSecondary: '#60646C',
+    zemin: '#FDF9F4',
+    kart: '#FFFFFF',
+    kartIkincil: '#F6EFE7',
+    metin: '#2B2119',
+    metinIkincil: '#8A7A6D',
+    cizgi: '#EFE6DB',
+    birincil: '#E8590C',
+    birincilYumusak: '#FDEBDD',
+    ikincil: '#2B8A3E',
+    ikincilYumusak: '#E3F3E8',
+    amber: '#E8A20C',
+    amberYumusak: '#FBF3DD',
+    hata: '#C92A2A',
   },
   dark: {
-    text: '#ffffff',
-    background: '#000000',
-    backgroundElement: '#212225',
-    backgroundSelected: '#2E3135',
-    textSecondary: '#B0B4BA',
+    zemin: '#1A1614',
+    kart: '#252019',
+    kartIkincil: '#2E2820',
+    metin: '#F5EDE4',
+    metinIkincil: '#A6988B',
+    cizgi: '#38302A',
+    birincil: '#FF7A2F',
+    birincilYumusak: '#3A2417',
+    ikincil: '#51CF66',
+    ikincilYumusak: '#1E3324',
+    amber: '#FFC94D',
+    amberYumusak: '#3A3118',
+    hata: '#FF6B6B',
   },
+};
+
+export const Bosluk = {
+  xs: 4,
+  s: 8,
+  m: 12,
+  l: 16,
+  xl: 24,
+  xxl: 32,
 } as const;
 
-export type ThemeColor = keyof typeof Colors.light & keyof typeof Colors.dark;
-
-export const Fonts = Platform.select({
-  ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
-    sans: 'system-ui',
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
-    serif: 'ui-serif',
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
-    rounded: 'ui-rounded',
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
-    mono: 'ui-monospace',
-  },
-  default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
-  },
-  web: {
-    sans: 'var(--font-display)',
-    serif: 'var(--font-serif)',
-    rounded: 'var(--font-rounded)',
-    mono: 'var(--font-mono)',
-  },
-});
-
-export const Spacing = {
-  half: 2,
-  one: 4,
-  two: 8,
-  three: 16,
-  four: 24,
-  five: 32,
-  six: 64,
+export const Yaricap = {
+  s: 10,
+  m: 16,
+  l: 22,
+  tam: 999,
 } as const;
 
-export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
-export const MaxContentWidth = 800;
+export const Font = {
+  baslik: 'Fraunces_600SemiBold',
+  baslikKalin: 'Fraunces_700Bold',
+  govde: 'Inter_400Regular',
+  govdeOrta: 'Inter_500Medium',
+  govdeKalin: 'Inter_600SemiBold',
+} as const;
+
+// Dokunma hedefleri (brief: ≥44pt, pişirme modunda ≥64pt).
+export const DokunmaHedefi = 44;
+export const PisirmeDokunmaHedefi = 64;

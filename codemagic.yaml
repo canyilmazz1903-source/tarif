@@ -1,0 +1,118 @@
+# Tencere — Codemagic CI/CD
+#
+# 3 workflow:
+#   1. android-onizleme : Hiçbir imzalama/hesap kurulumu GEREKTİRMEZ. İlk "yeşil build" için bunu çalıştır.
+#   2. ios-appstore     : App Store Connect entegrasyonu ister (API anahtarı adı: tencere-asc).
+#   3. android-playstore: Keystore ister (referans adı: tencere_keystore).
+#
+# Kurulum adımları için repodaki README ve App Store kurulum rehberine bak.
+
+workflows:
+  android-onizleme:
+    name: Android Önizleme APK (imzasız kurulum, ilk test)
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      java: 17
+      node: 22.14.0
+      vars:
+        EXPO_NO_TELEMETRY: "1"
+    scripts:
+      - name: Bağımlılıkları kur
+        script: npm ci
+      - name: Testler + tip kontrolü
+        script: |
+          npx tsc --noEmit
+          npx jest --ci
+      - name: Expo prebuild (android)
+        script: npx expo prebuild --platform android --no-install && cd android && chmod +x gradlew
+      - name: Release APK derle
+        script: cd android && ./gradlew assembleRelease
+    artifacts:
+      - android/app/build/outputs/**/*.apk
+
+  ios-appstore:
+    name: iOS App Store / TestFlight
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    integrations:
+      # Codemagic > Teams > Integrations > App Store Connect'te API anahtarını
+      # TAM OLARAK bu adla kaydet: tencere-asc
+      app_store_connect: tencere-asc
+    environment:
+      node: 22.14.0
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.canyilmaz.tencere
+      vars:
+        EXPO_NO_TELEMETRY: "1"
+    scripts:
+      - name: Bağımlılıkları kur
+        script: npm ci
+      - name: Testler + tip kontrolü
+        script: |
+          npx tsc --noEmit
+          npx jest --ci
+      - name: Expo prebuild (ios)
+        script: npx expo prebuild --platform ios --no-install
+      - name: CocoaPods
+        script: cd ios && pod install
+      - name: İmzalama profillerini uygula
+        script: xcode-project use-profiles
+      - name: IPA derle
+        script: xcode-project build-ipa --workspace ios/Tencere.xcworkspace --scheme Tencere
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+
+  android-playstore:
+    name: Android Play Store AAB (imzalı)
+    max_build_duration: 60
+    instance_type: linux_x2
+    environment:
+      java: 17
+      node: 22.14.0
+      android_signing:
+        # Codemagic > Teams > Code signing identities > Android'e keystore'u
+        # TAM OLARAK bu referans adıyla yükle: tencere_keystore
+        - tencere_keystore
+      vars:
+        EXPO_NO_TELEMETRY: "1"
+    scripts:
+      - name: Bağımlılıkları kur
+        script: npm ci
+      - name: Testler + tip kontrolü
+        script: |
+          npx tsc --noEmit
+          npx jest --ci
+      - name: Expo prebuild (android)
+        script: npx expo prebuild --platform android --no-install && cd android && chmod +x gradlew
+      - name: İmzalı AAB derle
+        script: |
+          cd android
+          cat >> app/build.gradle <<'EOF'
+          android {
+              signingConfigs {
+                  release {
+                      storeFile file(System.getenv("CM_KEYSTORE_PATH"))
+                      storePassword System.getenv("CM_KEYSTORE_PASSWORD")
+                      keyAlias System.getenv("CM_KEY_ALIAS")
+                      keyPassword System.getenv("CM_KEY_PASSWORD")
+                  }
+              }
+              buildTypes {
+                  release {
+                      signingConfig signingConfigs.release
+                  }
+              }
+          }
+          EOF
+          ./gradlew bundleRelease
+    artifacts:
+      - android/app/build/outputs/**/*.aab
