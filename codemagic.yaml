@@ -38,7 +38,7 @@ workflows:
     integrations:
       # Codemagic > Teams > Integrations > App Store Connect'te API anahtarını
       # TAM OLARAK bu adla kaydet: tencere-asc
-      app_store_connect: tencere-asc
+      app_store_connect: Codemagic API
     environment:
       node: 22.14.0
       xcode: latest
