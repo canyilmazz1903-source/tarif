@@ -2,11 +2,13 @@
 #
 # 3 workflow:
 #   1. android-onizleme : Hiçbir imzalama/hesap kurulumu GEREKTİRMEZ. İlk "yeşil build" için bunu çalıştır.
-#   2. ios-appstore     : App Store Connect entegrasyonu ister (API anahtarı adı: tencere-asc).
+#   2. ios-appstore     : App Store Connect entegrasyonu (Codemagic API) + apple_credentials
+#                         environment group'u ister (CERTIFICATE_PRIVATE_KEY değişkeni).
+#                         İmzalama, diğer app'lerde kanıtlanmış manuel yöntemle yapılır
+#                         (fetch-signing-files --create), ios_signing bloğu KULLANILMAZ.
 #   3. android-playstore: Keystore ister (referans adı: tencere_keystore).
 #
 # Kurulum adımları için repodaki README ve App Store kurulum rehberine bak.
-
 workflows:
   android-onizleme:
     name: Android Önizleme APK (imzasız kurulum, ilk test)
@@ -36,16 +38,17 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      # Codemagic > Teams > Integrations > App Store Connect'te API anahtarını
-      # TAM OLARAK bu adla kaydet: tencere-asc
+      # Codemagic > Teams > Integrations > App Store Connect'teki API anahtarının adı
       app_store_connect: Codemagic API
     environment:
+      groups:
+        # Bu group CERTIFICATE_PRIVATE_KEY değişkenini içerir (UdHocam'la aynı).
+        # Group, UdHocam uygulamasının kendi ayarlarında tanımlıysa Tencere'de
+        # görünmez — Tencere'ye de aynı adla ekle veya Team seviyesine taşı.
+        - apple_credentials
       node: 22.14.0
       xcode: latest
       cocoapods: default
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.canyilmaz.tencere
       vars:
         EXPO_NO_TELEMETRY: "1"
     scripts:
@@ -59,10 +62,25 @@ workflows:
         script: npx expo prebuild --platform ios --no-install
       - name: CocoaPods
         script: cd ios && pod install
-      - name: İmzalama profillerini uygula
-        script: xcode-project use-profiles
+      - name: Set up code signing
+        script: |
+          keychain initialize
+          app-store-connect fetch-signing-files "com.canyilmaz.tencere" \
+            --type IOS_APP_STORE \
+            --create \
+            --certificate-key=@env:CERTIFICATE_PRIVATE_KEY
+          keychain add-certificates
+          xcode-project use-profiles
       - name: IPA derle
-        script: xcode-project build-ipa --workspace ios/Tencere.xcworkspace --scheme Tencere
+        script: |
+          xcode-project build-ipa \
+            --workspace ios/Tencere.xcworkspace \
+            --scheme Tencere \
+            --verbose || {
+              echo "=== Export IPA Failed. Printing Codemagic Logs ==="
+              cat $TMPDIR/codemagic-*.log 2>/dev/null || cat /var/folders/*/*/*/T/codemagic-*.log 2>/dev/null
+              exit 1
+            }
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
