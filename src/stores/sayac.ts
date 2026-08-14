@@ -71,18 +71,23 @@ export const useSayac = create<SayacState>()(
   ),
 );
 
-/** Bu tarif+adım için kalan saniye; sayaç o adım için kurulu değilse null. */
+/**
+ * Bu tarif+adım için kalan saniye; sayaç o adım için kurulu değilse null.
+ * Saf fonksiyon: `simdiMs` dışarıdan verilir (görüntü katmanı useSimdi ile besler;
+ * testler sabit değerlerle çağırır). Negatif değer asla dönmez (0'a kırpılır).
+ */
 export function kalanSaniye(
   s: Pick<SayacState, 'tarifId' | 'adimIdx' | 'bitisZamaniMs' | 'duraklatmaKalanSn'>,
   tarifId: string,
   adimIdx: number,
+  simdiMs: number = Date.now(),
 ): { kalan: number; calisiyor: boolean } | null {
   if (s.tarifId !== tarifId || s.adimIdx !== adimIdx) return null;
   if (s.bitisZamaniMs != null) {
-    return { kalan: Math.max(0, Math.round((s.bitisZamaniMs - Date.now()) / 1000)), calisiyor: true };
+    return { kalan: Math.max(0, Math.round((s.bitisZamaniMs - simdiMs) / 1000)), calisiyor: true };
   }
   if (s.duraklatmaKalanSn != null) {
-    return { kalan: s.duraklatmaKalanSn, calisiyor: false };
+    return { kalan: Math.max(0, s.duraklatmaKalanSn), calisiyor: false };
   }
   return null;
 }

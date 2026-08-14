@@ -16,6 +16,7 @@ import { Rozet } from '@/components/ui/Rozet';
 import { Yazi } from '@/components/ui/Yazi';
 import { Bosluk, DokunmaHedefi, PisirmeDokunmaHedefi, Yaricap } from '@/constants/theme';
 import { tarifBul } from '@/data/tarifler';
+import { useSimdi } from '@/hooks/use-simdi';
 import { useTema } from '@/hooks/use-tema';
 import { normalize } from '@/lib/ara';
 import { miktarYazi, porsiyonla } from '@/lib/olcu-motoru';
@@ -32,29 +33,39 @@ function sureYazi(sn: number): string {
 
 /**
  * Gömülü zamanlayıcı — doğruluk kaynağı persist store'daki bitiş timestamp'i.
- * Kilit/arka plan sonrası kalan süre yeniden hesaplanır; bildirim store'da kurulur.
+ * Görüntü tazeleme useSimdi ile (çalışırken 500 ms; duraklatılmışken interval YOK).
+ * Kilitten dönüşte AppState senkronuyla sıçramasız doğru değer; bitişte ✓ + haptik.
  */
 function Sayac({ tarif, adimIdx, adim, kucuk = false }: { tarif: Tarif; adimIdx: number; adim: TarifAdim; kucuk?: boolean }) {
   const { palet } = useTema();
   const sayac = useSayac();
-  const [, tikla] = useState(0);
+  const [doldu, setDoldu] = useState(false);
 
-  const durum = kalanSaniye(sayac, tarif.id, adimIdx);
+  const oncekiDurum = kalanSaniye(sayac, tarif.id, adimIdx);
+  const simdi = useSimdi(oncekiDurum?.calisiyor ?? false);
+  const durum = kalanSaniye(sayac, tarif.id, adimIdx, simdi);
   const calisiyor = durum?.calisiyor ?? false;
 
+  // Bitiş davranışı (S-2): 0'a ulaşınca ✓ durumu + haptik; store sıfırlanır
+  // (bildirim zaten tetiklenmiş ya da sifirla iptal eder).
   useEffect(() => {
-    if (!calisiyor) return;
-    const i = setInterval(() => tikla((x) => x + 1), 500);
-    return () => clearInterval(i);
-  }, [calisiyor]);
+    if (calisiyor && durum != null && durum.kalan <= 0 && !doldu) {
+      setDoldu(true);
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+      sayac.sifirla();
+    }
+  }, [calisiyor, durum, doldu, sayac]);
 
   if (!adim.sureSn) return null;
-  const kalan = durum?.kalan ?? adim.sureSn;
-  const doldu = durum != null && kalan === 0;
+  const kalan = doldu ? 0 : (durum?.kalan ?? adim.sureSn);
 
   const basDurdur = () => {
     Haptics.selectionAsync();
-    if (durum == null) {
+    if (doldu) {
+      // Yeniden başlatma: doldu durumunu temizle ve sıfırdan kur.
+      setDoldu(false);
+      sayac.baslat(tarif.id, adimIdx, adim.sureSn ?? 0, adim.baslik);
+    } else if (durum == null) {
       sayac.baslat(tarif.id, adimIdx, adim.sureSn ?? 0, adim.baslik);
     } else if (calisiyor) {
       sayac.duraklat();

@@ -99,6 +99,6 @@ Sayacın kilit ekranında canlı geri sayımı (ActivityKit / Dynamic Island) **
 3. Planlayıcı → "Menümü Oluştur" → Sadece akşam + Dolabımdan başla + bütçe → planı kaydet → "Alışveriş Listesini Çıkar" (dolaptakiler düşer, bilgi satırı görünür)
 4. Alışveriş → satır fiyatları + genel toplam → "Marketteyim" → reyon reyon işaretle
 5. Keşfet → tarif → porsiyon 4 → 6, "Gram" toggle
-6. "PİŞİRMEYE BAŞLA" → mod segmentinden Sayfa/Adım geçişi → sayacı başlat → telefonu kilitle, 2 dk sonra aç (kalan süre doğru; süre kilitliyken dolarsa bildirim gelir)
+6. "PİŞİRMEYE BAŞLA" → mod segmentinden Sayfa/Adım geçişi → sayacı başlat → ekranda saniye saniye aktığını gör → telefonu kilitle 30 sn → aç → değerin ~30 azaldığını gör (sıçramasız) → duraklat/devam et → bitişte "✓ Süre doldu" + haptik titreşim; süre kilitliyken dolarsa bildirim gelir
 7. Bitir → deftere kaydet → uçak modunda Defterim'den aç (tam çalışır)
 8. Profil → Yiyemediklerim'e "yumurta" ekle → menemen hiçbir listede görünmez; tarif linki uyarı bandıyla açılır
