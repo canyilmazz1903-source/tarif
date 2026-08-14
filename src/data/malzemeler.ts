@@ -1,5 +1,8 @@
 import type { Malzeme } from '@/types/tarif';
 
+/** Sözlükteki ortalama fiyatların son elden geçirildiği tarih — UI'da "fiyatlar {tarih}" notu için. */
+export const FIYAT_GUNCELLEME_TARIHI = 'Ağustos 2026';
+
 // Normalize malzeme sözlüğü: ölçü motoru ve maliyet motoru buradan beslenir.
 // Dönüşüm standartları: su bardağı = 200 ml, yemek kaşığı = 15 ml, çay kaşığı = 5 ml.
 // Fiyatlar ortalama market fiyatı (TL/kg ya da TL/lt) — maliyet rozetleri için yaklaşık değerler.
@@ -154,6 +157,49 @@ export const MALZEMELER: Malzeme[] = [
   { ad: 'yer fıstığı ezmesi', kategori: 'kuruyemis', varsayilanBirim: 'g', gramPerYemekKasigi: 18, fiyatTlPerKg: 400 },
   { ad: 'kedidili bisküvi', kategori: 'bakliyat-tahil', varsayilanBirim: 'adet', gramPerAdet: 10, fiyatTlPerKg: 250 },
   { ad: 'burçak bisküvi', kategori: 'bakliyat-tahil', varsayilanBirim: 'adet', gramPerAdet: 12, fiyatTlPerKg: 200 },
+
+  // v1.1 genişlemesi — günlük mutfak, Osmanlı, klasik tatlılar ve Demlik & Fincan için
+  { ad: 'işkembe', kategori: 'et-tavuk-balik', varsayilanBirim: 'g', fiyatTlPerKg: 220 },
+  { ad: 'kuzu ciğeri', kategori: 'et-tavuk-balik', varsayilanBirim: 'g', fiyatTlPerKg: 480 },
+  { ad: 'bütün tavuk', kategori: 'et-tavuk-balik', varsayilanBirim: 'adet', gramPerAdet: 1500, fiyatTlPerKg: 130 },
+  { ad: 'levrek', kategori: 'et-tavuk-balik', varsayilanBirim: 'adet', gramPerAdet: 400, fiyatTlPerKg: 450 },
+  { ad: 'brokoli', kategori: 'sebze', varsayilanBirim: 'adet', gramPerAdet: 400, fiyatTlPerKg: 60, mevsimAylari: [10, 11, 12, 1, 2] },
+  { ad: 'kereviz', kategori: 'sebze', varsayilanBirim: 'adet', gramPerAdet: 400, fiyatTlPerKg: 45, mevsimAylari: [11, 12, 1, 2, 3] },
+  { ad: 'beyaz lahana', kategori: 'sebze', varsayilanBirim: 'adet', gramPerAdet: 1200, fiyatTlPerKg: 20, mevsimAylari: [10, 11, 12, 1, 2, 3] },
+  { ad: 'semizotu', kategori: 'sebze', varsayilanBirim: 'demet', gramPerAdet: 300, fiyatTlPerKg: 50, mevsimAylari: [5, 6, 7, 8] },
+  { ad: 'kırmızı soğan', kategori: 'sebze', varsayilanBirim: 'adet', gramPerAdet: 120, fiyatTlPerKg: 25 },
+  { ad: 'kırmızı lahana', kategori: 'sebze', varsayilanBirim: 'adet', gramPerAdet: 1000, fiyatTlPerKg: 30, mevsimAylari: [10, 11, 12, 1, 2] },
+  { ad: 'portakal', kategori: 'meyve', varsayilanBirim: 'adet', gramPerAdet: 200, fiyatTlPerKg: 35, mevsimAylari: [11, 12, 1, 2, 3] },
+  { ad: 'vişne', kategori: 'meyve', varsayilanBirim: 'g', fiyatTlPerKg: 90, mevsimAylari: [6, 7] },
+  { ad: 'kayısı', kategori: 'meyve', varsayilanBirim: 'adet', gramPerAdet: 40, fiyatTlPerKg: 80, mevsimAylari: [6, 7, 8] },
+  { ad: 'ayva', kategori: 'meyve', varsayilanBirim: 'adet', gramPerAdet: 300, fiyatTlPerKg: 50, mevsimAylari: [10, 11, 12, 1] },
+  { ad: 'kuru incir', kategori: 'kuruyemis', varsayilanBirim: 'adet', gramPerAdet: 20, fiyatTlPerKg: 300 },
+  { ad: 'kuru üzüm', kategori: 'kuruyemis', varsayilanBirim: 'g', gramPerYemekKasigi: 10, fiyatTlPerKg: 180 },
+  { ad: 'hurma', kategori: 'kuruyemis', varsayilanBirim: 'adet', gramPerAdet: 10, fiyatTlPerKg: 350 },
+  { ad: 'badem', kategori: 'kuruyemis', varsayilanBirim: 'g', gramPerSuBardagi: 110, gramPerYemekKasigi: 9, fiyatTlPerKg: 600 },
+  { ad: 'kabak çekirdeği (iç)', kategori: 'kuruyemis', varsayilanBirim: 'g', gramPerYemekKasigi: 9, fiyatTlPerKg: 450 },
+  { ad: 'siyah çay', kategori: 'sos-temel', varsayilanBirim: 'g', gramPerYemekKasigi: 6, gramPerCayKasigi: 2, fiyatTlPerKg: 400 },
+  { ad: 'türk kahvesi', kategori: 'sos-temel', varsayilanBirim: 'g', gramPerYemekKasigi: 6, gramPerCayKasigi: 2, fiyatTlPerKg: 700 },
+  { ad: 'ıhlamur', kategori: 'sos-temel', varsayilanBirim: 'g', gramPerYemekKasigi: 3, fiyatTlPerKg: 900 },
+  { ad: 'kuşburnu (kuru)', kategori: 'sos-temel', varsayilanBirim: 'g', gramPerYemekKasigi: 8, fiyatTlPerKg: 350 },
+  { ad: 'salep tozu', kategori: 'sos-temel', varsayilanBirim: 'g', gramPerCayKasigi: 3, fiyatTlPerKg: 2500 },
+  { ad: 'damla sakızı', kategori: 'sos-temel', varsayilanBirim: 'g', fiyatTlPerKg: 5000 },
+  { ad: 'karanfil', kategori: 'baharat', varsayilanBirim: 'adet', gramPerAdet: 0.1, fiyatTlPerKg: 800 },
+  { ad: 'zerdeçal', kategori: 'baharat', varsayilanBirim: 'g', gramPerCayKasigi: 3, fiyatTlPerKg: 350 },
+  { ad: 'safran', kategori: 'baharat', varsayilanBirim: 'g', gramPerCayKasigi: 1, fiyatTlPerKg: 90000 },
+  { ad: 'erişte', kategori: 'bakliyat-tahil', varsayilanBirim: 'g', gramPerSuBardagi: 120, fiyatTlPerKg: 140 },
+  { ad: 'bezelye', kategori: 'sebze', varsayilanBirim: 'g', gramPerSuBardagi: 150, fiyatTlPerKg: 70 },
+  { ad: 'dolmalık biber', kategori: 'sebze', varsayilanBirim: 'adet', gramPerAdet: 100, fiyatTlPerKg: 45, mevsimAylari: [6, 7, 8, 9] },
+  { ad: 'barbunya (kuru)', kategori: 'bakliyat-tahil', varsayilanBirim: 'g', gramPerSuBardagi: 180, fiyatTlPerKg: 120 },
+  { ad: 'sumak', kategori: 'baharat', varsayilanBirim: 'g', gramPerCayKasigi: 3, gramPerYemekKasigi: 8, fiyatTlPerKg: 240 },
+  { ad: 'haşhaş', kategori: 'baharat', varsayilanBirim: 'g', gramPerYemekKasigi: 9, fiyatTlPerKg: 300 },
+  { ad: 'gül suyu', kategori: 'sos-temel', varsayilanBirim: 'ml', gramPerYemekKasigi: 15, fiyatTlPerKg: 250 },
+  { ad: 'guar/jelatin (toz)', kategori: 'sos-temel', varsayilanBirim: 'g', gramPerCayKasigi: 3, fiyatTlPerKg: 1200 },
+  { ad: 'buz', kategori: 'sos-temel', varsayilanBirim: 'adet', gramPerAdet: 20, fiyatTlPerKg: 0 },
+  { ad: 'maden suyu', kategori: 'sos-temel', varsayilanBirim: 'ml', gramPerSuBardagi: 200, fiyatTlPerKg: 30 },
+  { ad: 'güllaç yaprağı', kategori: 'bakliyat-tahil', varsayilanBirim: 'adet', gramPerAdet: 40, fiyatTlPerKg: 400 },
+  { ad: 'buğday (aşurelik)', kategori: 'bakliyat-tahil', varsayilanBirim: 'g', gramPerSuBardagi: 180, fiyatTlPerKg: 60 },
+  { ad: 'firik bulguru', kategori: 'bakliyat-tahil', varsayilanBirim: 'g', gramPerSuBardagi: 180, fiyatTlPerKg: 120 },
 ];
 
 const INDEX = new Map(MALZEMELER.map((m) => [m.ad, m]));

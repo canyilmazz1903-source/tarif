@@ -8,7 +8,8 @@ import { Cip } from '@/components/ui/Cip';
 import { Yazi } from '@/components/ui/Yazi';
 import { Ekran } from '@/components/ui/Ekran';
 import { Bosluk, Yaricap } from '@/constants/theme';
-import { KATEGORILER, TARIFLER, koleksiyondakiler, onbesDakikalikler } from '@/data/tarifler';
+import { KATEGORILER, TARIFLER } from '@/data/tarifler';
+import { useTarifler } from '@/hooks/use-tarifler';
 import { useTema } from '@/hooks/use-tema';
 import { gunlukOneriler, mevsimindekiler } from '@/lib/oneri';
 import { useAyarlar } from '@/stores/ayarlar';
@@ -44,16 +45,21 @@ export default function Kesfet() {
   const router = useRouter();
   const tercihler = useAyarlar((s) => s.beslenmeTercihleri);
   const [kategori, setKategori] = useState<Kategori | null>(null);
+  const tarifler = useTarifler();
 
   const simdi = useMemo(() => new Date(), []);
   const oneriler = useMemo(
-    () => gunlukOneriler(TARIFLER, simdi, tercihler),
-    [simdi, tercihler],
+    () => gunlukOneriler(tarifler, simdi, tercihler),
+    [tarifler, simdi, tercihler],
   );
-  const mevsim = useMemo(() => mevsimindekiler(TARIFLER, simdi), [simdi]);
+  const mevsim = useMemo(() => mevsimindekiler(tarifler, simdi), [tarifler, simdi]);
   const akis = useMemo(
-    () => (kategori ? TARIFLER.filter((t) => t.kategori === kategori) : TARIFLER),
-    [kategori],
+    () => (kategori ? tarifler.filter((t) => t.kategori === kategori) : tarifler),
+    [tarifler, kategori],
+  );
+  const kol = (k: string) => tarifler.filter((t) => t.koleksiyonlar.includes(k as never));
+  const onbes = tarifler.filter(
+    (t) => t.koleksiyonlar.includes('15-dakika') || t.hazirlikDk + t.pisirmeDk <= 20,
   );
 
   const saat = simdi.getHours();
@@ -126,15 +132,19 @@ export default function Kesfet() {
               </View>
             </View>
 
-            <Ray baslik="🔥 Yeni Nesil Mutfak" tarifler={koleksiyondakiler('yeni-nesil')} />
-            <Ray baslik="⚡ 15 Dakikada" tarifler={onbesDakikalikler()} />
-            <Ray baslik="🍲 Tek Tencere" tarifler={koleksiyondakiler('tek-tencere')} />
+            <Ray baslik="🔥 Yeni Nesil Mutfak" tarifler={kol('yeni-nesil')} />
+            <Ray baslik="⚡ 15 Dakikada" tarifler={onbes} />
+            <Ray baslik="🍲 Tek Tencere" tarifler={kol('tek-tencere')} />
             <Ray baslik={`🌿 ${AY_ADLARI[simdi.getMonth()]} Mevsiminde`} tarifler={mevsim} />
-            <Ray baslik="♻️ Artanı Değerlendir" tarifler={koleksiyondakiler('artan')} />
-            <Ray baslik="🏛 Osmanlı Mutfağı" tarifler={koleksiyondakiler('osmanli')} />
+            <Ray baslik="♻️ Artanı Değerlendir" tarifler={kol('artan')} />
+            <Ray
+              baslik="🏛 Osmanlı Saray Mutfağı"
+              tarifler={[...kol('osmanli-saray'), ...kol('osmanli')]}
+            />
+            <Ray baslik="☕ Demlik & Fincan" tarifler={kol('demlik-fincan')} />
             <Ray
               baslik="✓ Editör Onaylı"
-              tarifler={TARIFLER.filter((t) => t.editorOnayli).slice(0, 10)}
+              tarifler={tarifler.filter((t) => t.editorOnayli).slice(0, 10)}
             />
 
             <View style={{ gap: Bosluk.s }}>

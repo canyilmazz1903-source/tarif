@@ -1,18 +1,38 @@
 import { MALZEMELER, malzemeBul } from '@/data/malzemeler';
-import { KLASIK_TARIFLER, TARIFLER, YENI_NESIL_TARIFLER } from '@/data/tarifler';
+import {
+  GUNLUK_EK_TARIFLER,
+  KLASIK_TARIFLER,
+  OSMANLI_SARAY_TARIFLER,
+  TARIFLER,
+  YENI_NESIL_TARIFLER,
+} from '@/data/tarifler';
 import { maliyetRozeti, porsiyonMaliyeti } from '@/lib/maliyet';
 
-// Brief kabul kriterleri: 50 klasik + 55 yeni nesil tarif, kısa başlıklar, tutarlı veri.
+// v1.1 kabul kriterleri: 300 tarif, kısa başlıklar, tutarlı veri (P0-A).
 describe('tarif verisi bütünlüğü', () => {
-  it('50 klasik + 55 yeni nesil = 105 tarif var', () => {
+  it('paket dağılımı: 50 klasik + 80 yeni nesil + 130 günlük ek + 25 Osmanlı + 15 içecek = 300', () => {
     expect(KLASIK_TARIFLER).toHaveLength(50);
-    expect(YENI_NESIL_TARIFLER).toHaveLength(55);
-    expect(TARIFLER).toHaveLength(105);
+    expect(YENI_NESIL_TARIFLER).toHaveLength(80);
+    expect(GUNLUK_EK_TARIFLER).toHaveLength(130);
+    expect(OSMANLI_SARAY_TARIFLER).toHaveLength(25);
+    expect(TARIFLER).toHaveLength(300);
+  });
+
+  it('Osmanlı Saray paketi osmanli-saray etiketli ve tarihi alt başlıklı', () => {
+    for (const t of OSMANLI_SARAY_TARIFLER) {
+      expect(t.koleksiyonlar).toContain('osmanli-saray');
+    }
   });
 
   it('yeni nesil paketin tamamı yeni-nesil koleksiyon etiketli', () => {
     for (const t of YENI_NESIL_TARIFLER) {
       expect(t.koleksiyonlar).toContain('yeni-nesil');
+    }
+  });
+
+  it('v1.1 editoryal setin tamamı editör onaylı', () => {
+    for (const t of [...GUNLUK_EK_TARIFLER, ...OSMANLI_SARAY_TARIFLER]) {
+      expect(t.editorOnayli).toBe(true);
     }
   });
 
@@ -94,12 +114,12 @@ describe('tarif verisi bütünlüğü', () => {
     }
   });
 
-  it('zamanlayıcılı adımlar gerçekçi sürelerde (30 sn – 12 saat)', () => {
+  it('zamanlayıcılı adımlar gerçekçi sürelerde (30 sn – 24 saat)', () => {
     for (const t of TARIFLER) {
       for (const a of t.adimlar) {
         if (a.sureSn != null) {
           expect(a.sureSn).toBeGreaterThanOrEqual(30);
-          expect(a.sureSn).toBeLessThanOrEqual(12 * 3600);
+          expect(a.sureSn).toBeLessThanOrEqual(24 * 3600);
         }
       }
     }

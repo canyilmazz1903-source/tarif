@@ -94,6 +94,51 @@ export function dolaptaNeVar(tarifler: Tarif[], dolaptakiler: string[]): DolapSo
     );
 }
 
+// Ters indeks: tarif id → normalize edilmiş ana-malzeme kümesi.
+// Faceted filtre (canlı daraltma + pasifleştirme) her dokunuşta bunun üzerinden
+// çalışır; 300 tarif × ~10 malzeme ölçeğinde istemcide <16ms.
+let tersIndeks: Map<string, Set<string>> | null = null;
+
+function indeks(tarifler: Tarif[]): Map<string, Set<string>> {
+  if (tersIndeks && tersIndeks.size === tarifler.length) return tersIndeks;
+  tersIndeks = new Map(
+    tarifler.map((t) => [
+      t.id,
+      new Set(
+        t.malzemeler
+          .filter((m) => !KILER.has(m.ad.toLocaleLowerCase('tr')))
+          .map((m) => normalize(m.ad)),
+      ),
+    ]),
+  );
+  return tersIndeks;
+}
+
+/** Seçili malzemelerin TAMAMINI kullanan tarifler (canlı daraltma). */
+export function kapsayanTarifler(tarifler: Tarif[], secili: string[]): Tarif[] {
+  if (secili.length === 0) return [];
+  const idx = indeks(tarifler);
+  const s = secili.map((a) => normalize(a));
+  return tarifler.filter((t) => {
+    const kume = idx.get(t.id);
+    return kume != null && s.every((m) => kume.has(m));
+  });
+}
+
+/**
+ * Akıllı pasifleştirme: seçili küme S iken aday m için S ∪ {m} kombinasyonunu
+ * kullanan yayında tarif yoksa aday seçilemez (0-sonuç ekranı imkansızlaşır).
+ */
+export function adayPasifMi(tarifler: Tarif[], secili: string[], aday: string): boolean {
+  const idx = indeks(tarifler);
+  const s = [...secili.map((a) => normalize(a)), normalize(aday)];
+  for (const t of tarifler) {
+    const kume = idx.get(t.id);
+    if (kume && s.every((m) => kume.has(m))) return false;
+  }
+  return true;
+}
+
 /** Artanı Değerlendir: eldeki artan malzemeye göre israf-önleme tarifleri öne gelir. */
 export function artaniDegerlendir(tarifler: Tarif[], artanlar: string[]): DolapSonucu[] {
   const sonuclar = dolaptaNeVar(tarifler, artanlar);

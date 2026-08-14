@@ -1,6 +1,11 @@
-import { ScrollView, View } from 'react-native';
+import { useMemo, useState } from 'react';
+import { ScrollView, Switch, TextInput, View } from 'react-native';
 
 import { Cip } from '@/components/ui/Cip';
+import { MALZEMELER } from '@/data/malzemeler';
+import { normalize } from '@/lib/ara';
+import { KACINMA_GRUPLARI } from '@/lib/alerji';
+import { Font } from '@/constants/theme';
 import { Ekran } from '@/components/ui/Ekran';
 import { Yazi } from '@/components/ui/Yazi';
 import { Bosluk, Yaricap } from '@/constants/theme';
@@ -49,6 +54,17 @@ export default function Profil() {
   const ayarlar = useAyarlar();
   const kayitliSayisi = useKayitli((s) => Object.values(s.listeler).flat().length);
   const dolapSayisi = useDolap((s) => s.malzemeler.length);
+  const [malzemeAra, setMalzemeAra] = useState('');
+
+  // Arama boşken yalnız seçilenler görünür; aramada sözlükten eşleşenler listelenir.
+  const yiyemedikleriListesi = useMemo(() => {
+    const q = normalize(malzemeAra.trim());
+    if (!q) return ayarlar.yiyemedikleri;
+    const eslesenler = MALZEMELER.filter((m) => normalize(m.ad).includes(q))
+      .map((m) => m.ad)
+      .slice(0, 12);
+    return [...new Set([...ayarlar.yiyemedikleri, ...eslesenler])];
+  }, [malzemeAra, ayarlar.yiyemedikleri]);
 
   return (
     <Ekran>
@@ -114,6 +130,79 @@ export default function Profil() {
           </View>
         </Kutu>
 
+        <Kutu baslik="🚫 Yiyemediklerim">
+          <Yazi varyant="kucuk" renk="metinIkincil">
+            Seçtiklerini içeren tarifler hiçbir listede görünmez; paylaşılan linkler uyarıyla
+            açılır.
+          </Yazi>
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: Bosluk.s }}>
+            {KACINMA_GRUPLARI.map((g) => (
+              <Cip
+                key={g.key}
+                baslik={g.ad}
+                secili={ayarlar.kacinmaGruplari.includes(g.key)}
+                onPress={() => ayarlar.toggleKacinmaGrubu(g.key)}
+              />
+            ))}
+          </View>
+          <TextInput
+            value={malzemeAra}
+            onChangeText={setMalzemeAra}
+            placeholder="Malzeme ara ve ekle…"
+            placeholderTextColor={palet.metinIkincil}
+            style={{
+              backgroundColor: palet.kartIkincil,
+              borderRadius: Yaricap.s,
+              paddingHorizontal: Bosluk.m,
+              minHeight: 44,
+              color: palet.metin,
+              fontFamily: Font.govde,
+            }}
+          />
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: Bosluk.s }}>
+            {yiyemedikleriListesi.map((ad) => (
+              <Cip
+                key={ad}
+                baslik={ayarlar.yiyemedikleri.includes(ad) ? `${ad} ✕` : ad}
+                secili={ayarlar.yiyemedikleri.includes(ad)}
+                onPress={() => ayarlar.toggleYiyemedigi(ad)}
+              />
+            ))}
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: Bosluk.m }}>
+            <View style={{ flex: 1 }}>
+              <Yazi varyant="etiket">Filtre açık</Yazi>
+              <Yazi varyant="kucuk" renk="metinIkincil">
+                Misafir için pişiriyorsan geçici kapatabilirsin.
+              </Yazi>
+            </View>
+            <Switch
+              value={ayarlar.alerjiFiltresiAcik}
+              onValueChange={ayarlar.setAlerjiFiltresiAcik}
+              trackColor={{ true: palet.birincil, false: palet.cizgi }}
+              accessibilityLabel="Yiyemediklerim filtresi"
+            />
+          </View>
+        </Kutu>
+
+        <Kutu baslik="🍳 Pişirme görünümü">
+          <Yazi varyant="kucuk" renk="metinIkincil">
+            Tarifleri nasıl takip etmeyi seversin? Her tarifte geçici değiştirilebilir.
+          </Yazi>
+          <View style={{ flexDirection: 'row', gap: Bosluk.s }}>
+            <Cip
+              baslik="▸ Adım Adım"
+              secili={ayarlar.pisirmeGorunumu === 'adim'}
+              onPress={() => ayarlar.setPisirmeGorunumu('adim')}
+            />
+            <Cip
+              baslik="☰ Sayfa"
+              secili={ayarlar.pisirmeGorunumu === 'sayfa'}
+              onPress={() => ayarlar.setPisirmeGorunumu('sayfa')}
+            />
+          </View>
+        </Kutu>
+
         <Kutu baslik="ℹ️ Tencere hakkında">
           <Yazi varyant="govde" renk="metinIkincil">
             Tencere; "Bugün ne pişirsem?" sorusunu 10 saniyede cevaplayan, mutfakta eller serbest
@@ -124,7 +213,7 @@ export default function Profil() {
             • Klasik Türk mutfağı + Yeni Nesil Mutfak paketi{'\n'}
             • Ölçü motoru: su bardağı ↔ gram dönüşümü{'\n'}
             • Pişirme Modu: kararmayan ekran + adım zamanlayıcıları{'\n'}
-            • Sürüm 1.0.0
+            • Sürüm 1.1.0
           </Yazi>
         </Kutu>
       </ScrollView>

@@ -1,5 +1,9 @@
+import { useRouter } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { FlatList, ScrollView, TextInput, View } from 'react-native';
+import { FlatList, Pressable, ScrollView, TextInput, View } from 'react-native';
+
+import { KOLEKSIYON_KARTLARI } from '@/app/kategori/[slug]';
+import { KATEGORI_TON } from '@/components/TarifKarti';
 
 import { BosDurum } from '@/components/BosDurum';
 import { TarifKarti } from '@/components/TarifKarti';
@@ -11,9 +15,28 @@ import { Bosluk, Font, Yaricap } from '@/constants/theme';
 import { MALZEMELER } from '@/data/malzemeler';
 import { KATEGORILER, TARIFLER } from '@/data/tarifler';
 import { useTema } from '@/hooks/use-tema';
-import { artaniDegerlendir, dolaptaNeVar, normalize, tarifAra, type AramaFiltresi } from '@/lib/ara';
+import { malzemeGorseli } from '@/data/gorseller';
+import {
+  adayPasifMi,
+  artaniDegerlendir,
+  dolaptaNeVar,
+  kapsayanTarifler,
+  normalize,
+  tarifAra,
+  type AramaFiltresi,
+} from '@/lib/ara';
 import { useDolap } from '@/stores/dolap';
-import type { BeslenmeEtiketi, Kategori, Zorluk } from '@/types/tarif';
+import { useTarifler } from '@/hooks/use-tarifler';
+import type { BeslenmeEtiketi, Kategori, Malzeme, Zorluk } from '@/types/tarif';
+import { Image } from 'react-native';
+
+const MALZEME_SEKMELERI: Array<{ key: Malzeme['kategori'][]; ad: string }> = [
+  { key: ['sebze', 'meyve'], ad: 'Sebze & Meyve' },
+  { key: ['et-tavuk-balik'], ad: 'Et & Tavuk' },
+  { key: ['sut-urunu'], ad: 'Süt Ürünü' },
+  { key: ['bakliyat-tahil', 'kuruyemis'], ad: 'Bakliyat & Tahıl' },
+  { key: ['sos-temel', 'baharat'], ad: 'Temel' },
+];
 
 type Mod = 'ara' | 'dolap';
 
@@ -21,24 +44,82 @@ const BESLENMELER: BeslenmeEtiketi[] = ['vegan', 'vejetaryen', 'glutensiz', 'lak
 const SURELER = [20, 40, 60] as const;
 const ZORLUKLAR: Zorluk[] = ['kolay', 'orta', 'zor'];
 
+function KategoriIzgara() {
+  const { palet, koyu } = useTema();
+  const router = useRouter();
+  const tarifler = useTarifler();
+  const kartlar = [
+    ...KATEGORILER.map((k) => ({
+      slug: k.key as string,
+      ad: k.ad,
+      emoji: k.emoji,
+      sayi: tarifler.filter((t) => t.kategori === k.key).length,
+      ton: KATEGORI_TON[k.key][koyu ? 1 : 0],
+    })),
+    ...KOLEKSIYON_KARTLARI.map((k) => ({
+      slug: k.slug as string,
+      ad: k.ad,
+      emoji: k.emoji,
+      sayi: tarifler.filter((t) => t.koleksiyonlar.includes(k.slug)).length,
+      ton: palet.kartIkincil,
+    })),
+  ].filter((k) => k.sayi > 0);
+
+  return (
+    <View style={{ gap: Bosluk.m, paddingBottom: Bosluk.l }}>
+      <Yazi varyant="baslik">Kategoriler</Yazi>
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: Bosluk.m }}>
+        {kartlar.map((k) => (
+          <Pressable
+            key={k.slug}
+            accessibilityRole="button"
+            accessibilityLabel={`${k.ad}, ${k.sayi} tarif`}
+            onPress={() => router.push({ pathname: '/kategori/[slug]', params: { slug: k.slug } })}
+            style={({ pressed }) => ({
+              width: '47.5%',
+              backgroundColor: k.ton,
+              borderRadius: Yaricap.m,
+              padding: Bosluk.l,
+              gap: Bosluk.xs,
+              opacity: pressed ? 0.85 : 1,
+            })}
+          >
+            <Yazi style={{ fontSize: 30, lineHeight: 38 }}>{k.emoji}</Yazi>
+            <Yazi varyant="altBaslik" numberOfLines={1}>
+              {k.ad}
+            </Yazi>
+            <Yazi varyant="kucuk" renk="metinIkincil">
+              {k.sayi} tarif
+            </Yazi>
+          </Pressable>
+        ))}
+      </View>
+      <Yazi varyant="baslik">Tüm sonuçlar</Yazi>
+    </View>
+  );
+}
+
 export default function Ara() {
   const { palet } = useTema();
   const [mod, setMod] = useState<Mod>('ara');
   const [sorgu, setSorgu] = useState('');
   const [filtre, setFiltre] = useState<AramaFiltresi>({});
   const [artanModu, setArtanModu] = useState(false);
+  const [malzemeSekmesi, setMalzemeSekmesi] = useState(0);
   const dolap = useDolap();
+  const tarifler = useTarifler();
 
-  const sonuclar = useMemo(() => tarifAra(TARIFLER, sorgu, filtre), [sorgu, filtre]);
-  const dolapSonuclari = useMemo(
-    () =>
-      dolap.malzemeler.length === 0
-        ? []
-        : artanModu
-          ? artaniDegerlendir(TARIFLER, dolap.malzemeler)
-          : dolaptaNeVar(TARIFLER, dolap.malzemeler),
-    [dolap.malzemeler, artanModu],
-  );
+  const sonuclar = useMemo(() => tarifAra(tarifler, sorgu, filtre), [tarifler, sorgu, filtre]);
+
+  // Canlı daraltma: seçilen malzemelerin TAMAMINI kullanan tarifler.
+  // Artan modunda israf-önleme etiketlileri öne alan eski sıralama korunur.
+  const dolapSonuclari = useMemo(() => {
+    if (dolap.malzemeler.length === 0) return [];
+    if (artanModu) return artaniDegerlendir(tarifler, dolap.malzemeler);
+    const kapsayanlar = kapsayanTarifler(tarifler, dolap.malzemeler);
+    const detay = dolaptaNeVar(kapsayanlar, dolap.malzemeler);
+    return detay;
+  }, [tarifler, dolap.malzemeler, artanModu]);
 
   const malzemeArama = useMemo(() => {
     const q = normalize(sorgu);
@@ -82,11 +163,13 @@ export default function Ara() {
           contentContainerStyle={{ paddingHorizontal: Bosluk.l, paddingBottom: Bosluk.xxl, gap: Bosluk.l }}
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={
-            <ScrollView
-              horizontal
-              showsHorizontalScrollIndicator={false}
-              contentContainerStyle={{ gap: Bosluk.s, paddingBottom: Bosluk.m }}
-            >
+            <View>
+              {sorgu.trim() === '' ? <KategoriIzgara /> : null}
+              <ScrollView
+                horizontal
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={{ gap: Bosluk.s, paddingBottom: Bosluk.m }}
+              >
               {KATEGORILER.map((k) => (
                 <Cip
                   key={k.key}
@@ -133,7 +216,8 @@ export default function Ara() {
                   }
                 />
               ))}
-            </ScrollView>
+              </ScrollView>
+            </View>
           }
           renderItem={({ item }) => <TarifKarti tarif={item} />}
           ListEmptyComponent={
@@ -152,9 +236,12 @@ export default function Ara() {
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={
             <View style={{ gap: Bosluk.m, paddingBottom: Bosluk.m }}>
+              {/* Seçilenler çubuğu + canlı sonuç başlığı */}
               <View style={{ flexDirection: 'row', alignItems: 'center', gap: Bosluk.s }}>
                 <Yazi varyant="altBaslik" style={{ flex: 1 }}>
-                  Dolabındakiler ({dolap.malzemeler.length})
+                  {dolap.malzemeler.length === 0
+                    ? 'Malzeme seç'
+                    : `${dolap.malzemeler.length} malzemeyle ${dolapSonuclari.length} tarif`}
                 </Yazi>
                 <Cip
                   baslik="♻️ Elimde kalan var"
@@ -162,15 +249,104 @@ export default function Ara() {
                   onPress={() => setArtanModu((a) => !a)}
                 />
               </View>
-              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: Bosluk.s }}>
-                {malzemeArama.slice(0, 40).map((m) => (
+              {dolap.malzemeler.length > 0 ? (
+                <ScrollView
+                  horizontal
+                  showsHorizontalScrollIndicator={false}
+                  contentContainerStyle={{ gap: Bosluk.s }}
+                >
+                  {dolap.malzemeler.map((ad) => (
+                    <Cip key={ad} baslik={`${ad} ✕`} secili onPress={() => dolap.toggle(ad)} />
+                  ))}
+                  <Cip baslik="Temizle" onPress={dolap.temizle} />
+                </ScrollView>
+              ) : null}
+
+              {/* Kategori sekmeleri */}
+              <ScrollView
+                horizontal
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={{ gap: Bosluk.s }}
+              >
+                {MALZEME_SEKMELERI.map((s, i) => (
                   <Cip
-                    key={m.ad}
-                    baslik={m.ad}
-                    secili={dolap.malzemeler.includes(m.ad)}
-                    onPress={() => dolap.toggle(m.ad)}
+                    key={s.ad}
+                    baslik={s.ad}
+                    secili={malzemeSekmesi === i}
+                    onPress={() => setMalzemeSekmesi(i)}
                   />
                 ))}
+              </ScrollView>
+
+              {/* Görsel malzeme ızgarası + akıllı pasifleştirme */}
+              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: Bosluk.s }}>
+                {malzemeArama
+                  .filter(
+                    (m) =>
+                      sorgu.trim() !== '' ||
+                      MALZEME_SEKMELERI[malzemeSekmesi].key.includes(m.kategori),
+                  )
+                  .map((m) => {
+                    const secili = dolap.malzemeler.includes(m.ad);
+                    const pasif =
+                      !secili &&
+                      !artanModu &&
+                      dolap.malzemeler.length > 0 &&
+                      adayPasifMi(tarifler, dolap.malzemeler, m.ad);
+                    const gorsel = malzemeGorseli(m.ad);
+                    return (
+                      <Pressable
+                        key={m.ad}
+                        accessibilityRole="button"
+                        accessibilityState={{ selected: secili, disabled: pasif }}
+                        accessibilityLabel={m.ad}
+                        disabled={pasif}
+                        onPress={() => dolap.toggle(m.ad)}
+                        style={{
+                          width: '31%',
+                          minHeight: 84,
+                          borderRadius: Yaricap.m,
+                          backgroundColor: secili ? palet.birincilYumusak : palet.kart,
+                          borderWidth: 1.5,
+                          borderColor: secili ? palet.birincil : palet.cizgi,
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          gap: 4,
+                          padding: Bosluk.s,
+                          opacity: pasif ? 0.35 : 1,
+                        }}
+                      >
+                        {gorsel != null ? (
+                          <Image
+                            source={gorsel}
+                            style={{ width: 36, height: 36 }}
+                            accessibilityIgnoresInvertColors
+                          />
+                        ) : (
+                          <View
+                            style={{
+                              width: 36,
+                              height: 36,
+                              borderRadius: 18,
+                              backgroundColor: secili ? palet.birincil : palet.kartIkincil,
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                            }}
+                          >
+                            <Yazi
+                              varyant="altBaslik"
+                              style={{ color: secili ? '#FFFFFF' : palet.metinIkincil }}
+                            >
+                              {m.ad.slice(0, 1).toLocaleUpperCase('tr')}
+                            </Yazi>
+                          </View>
+                        )}
+                        <Yazi varyant="kucuk" numberOfLines={1} style={{ textAlign: 'center' }}>
+                          {m.ad}
+                        </Yazi>
+                      </Pressable>
+                    );
+                  })}
               </View>
             </View>
           }

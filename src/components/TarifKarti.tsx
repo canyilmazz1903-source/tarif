@@ -1,5 +1,7 @@
 import { useRouter } from 'expo-router';
-import { Pressable, View } from 'react-native';
+import { Image, Pressable, View } from 'react-native';
+
+import { tarifGorseli } from '@/data/gorseller';
 
 import { Rozet } from '@/components/ui/Rozet';
 import { Yazi } from '@/components/ui/Yazi';
@@ -12,11 +14,13 @@ import type { Kategori, Tarif } from '@/types/tarif';
 export const KATEGORI_TON: Record<Kategori, [string, string]> = {
   corba: ['#FFE8CC', '#4A2E14'],
   'ana-yemek': ['#FFD8C2', '#4A2418'],
+  'pilav-bakliyat': ['#F5E5C8', '#3F3216'],
   'hamur-isi': ['#FDEBC8', '#453317'],
   tatli: ['#FCE0EC', '#43222F'],
   zeytinyagli: ['#D8F0DC', '#1E3A26'],
   kahvaltilik: ['#FFF3BF', '#403A15'],
   salata: ['#DEF3D8', '#243A1E'],
+  icecek: ['#DCEAF5', '#1E2E3A'],
 };
 
 export function zorlukYazi(z: Tarif['zorluk']): string {
@@ -26,6 +30,7 @@ export function zorlukYazi(z: Tarif['zorluk']): string {
 export function Kapak({ tarif, boy }: { tarif: Tarif; boy: number }) {
   const { koyu } = useTema();
   const ton = KATEGORI_TON[tarif.kategori][koyu ? 1 : 0];
+  const gorsel = tarifGorseli(tarif.id);
   return (
     <View
       accessibilityLabel={`${tarif.baslik} görseli`}
@@ -35,9 +40,19 @@ export function Kapak({ tarif, boy }: { tarif: Tarif; boy: number }) {
         backgroundColor: ton,
         alignItems: 'center',
         justifyContent: 'center',
+        overflow: 'hidden',
       }}
     >
-      <Yazi style={{ fontSize: boy * 0.42, lineHeight: boy * 0.52 }}>{tarif.emoji}</Yazi>
+      {gorsel != null ? (
+        <Image
+          source={gorsel}
+          resizeMode="contain"
+          style={{ width: '100%', height: '100%' }}
+          accessibilityIgnoresInvertColors
+        />
+      ) : (
+        <Yazi style={{ fontSize: boy * 0.42, lineHeight: boy * 0.52 }}>{tarif.emoji}</Yazi>
+      )}
     </View>
   );
 }

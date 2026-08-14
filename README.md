@@ -2,10 +2,13 @@
 
 **"Bugün ne pişirsem?" sorusunu 10 saniyede cevaplayan, mutfakta eller serbest kullanılan, israfı ve maliyeti düşünen tarif uygulaması.**
 
-Expo (React Native) ile geliştirildi. **105 denenmiş, ölçülü tarif** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır. İki paket:
+Expo (React Native) ile geliştirildi. **300 denenmiş, ölçülü tarif** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır. Katmanlar (v1.1):
 
-- **Klasik Türk Mutfağı (50):** çorbalardan zeytinyağlılara, hamur işlerinden tatlılara denenmiş klasikler
-- **Yeni Nesil Mutfak (55):** sosyal medya şeflerinin tarzında özgün tarifler — smash burger, tantuni, one-pot makarnalar, airfryer pratikleri, modern brunch, San Sebastian cheesecake gibi viral tatlılar
+- **Günlük Türk Mutfağı (180):** çorbalar, etli/sebzeli ana yemekler, pilav & bakliyat, hamur işleri, kahvaltılıklar, salata & mezeler, pratik makarnalar
+- **Klasik Tatlılar (~50):** sütlü, şerbetli, kek-kurabiye ve meyveli tatlılar
+- **Osmanlı Saray Mutfağı (25):** mutancana, mahmudiye, zerde, elmasiye gibi saray klasikleri (tarihi notlarıyla)
+- **Yeni Nesil / Trend (80):** sokak lezzetleri, one-pot makarnalar, airfryer, brunch, fit & meal-prep, viral tatlılar
+- **Demlik & Fincan (15):** Türk kahvesi çeşitleri, salep, kış çayları, limonatalar
 
 ## Özellikler
 
@@ -75,12 +78,27 @@ src/
   types/tarif.ts
 ```
 
-## Kritik akış (manuel test senaryosu)
+## v1.1 yenilikleri
+
+- **Kategoriler ızgarası + kategori sayfaları** — Ara sekmesinde görsel kartlar, canlı tarif sayılarıyla
+- **Marketteyim modu** — reyon reyon ilerleyen tam ekran alışveriş; canlı "12/23 alındı · kalan ₺" sayacı; satır fiyatları, grup alt toplamları ve "fiyatlar {tarih}" notu
+- **Akıllı dolap filtresi** — kategori sekmeli görsel malzeme ızgarası; seçimle sonuçlar anında daralır; 0 sonuca götürecek malzemeler otomatik pasifleşir
+- **Yiyemediklerim** — malzeme + hızlı grup (gluten, laktoz, deniz, fındık-fıstık) bazlı global filtre; paylaşılan linkler uyarı bandıyla açılır; "misafir için pişiriyorum" geçici kapatma
+- **Pişirme Modu 2.0** — swipe ile adım geçişi (pager), Sayfa modu (tüm tarif tek scroll'da, ≥17pt), timestamp tabanlı sayaç (kilitte durmaz) + süre dolunca yerel bildirim
+- **Menümü Oluştur sihirbazı** — 3 soru: öğünler (sadece akşam desteği) / dolabımdan başla / bütçe & kişi → haftalık plan + alternatif değiştirme + dolaptakileri düşen alışveriş listesi
+- **Görsel üretim hattı** — tools/gorsel-uretici/ (SD 1.5 + DreamShaper v8, ComfyUI); ayrıntı için klasördeki README
+
+### Live Activity notu (iOS kilit ekranı canlı sayacı)
+
+Sayacın kilit ekranında canlı geri sayımı (ActivityKit / Dynamic Island) **custom native modül + widget extension** gerektirir; Expo managed akışta hazır-bakımlı bir paket olmadığından bu sürümde eklenmedi. Temel işlev native modülsüz tamamlandı: sayaç bitiş zamanı timestamp olarak saklanır (kilitte geçen süre kaybolmaz) ve süre dolunca `expo-notifications` yerel bildirimi ses ile uyarır. İleride eklenecekse: EAS dev build + küçük bir Swift ActivityKit modülü + config plugin gerekir.
+
+## Kritik akış (manuel test senaryosu — v1.1)
 
 1. Uygulamayı aç → onboarding'i geç
-2. Keşfet'te günlük 3 öneriden birine dokun
-3. Tarif detayında porsiyonu 4 → 6 yap, "Gram" toggle'ına bas
-4. "PİŞİRMEYE BAŞLA" → adımlarda ilerle, zamanlayıcıyı başlat
-5. Bitir → deftere kaydet
-6. Planlayıcı'da bir öğüne tarif ekle → "Alışveriş listesini çıkar"
-7. Uçak moduna al → Defterim'den kayıtlı tarifi aç (tam çalışır)
+2. Ara → Dolapta Ne Var → görsel ızgaradan 2-3 malzeme seç (sonuç başlığı canlı daralır, uyumsuz malzemeler pasifleşir)
+3. Planlayıcı → "Menümü Oluştur" → Sadece akşam + Dolabımdan başla + bütçe → planı kaydet → "Alışveriş Listesini Çıkar" (dolaptakiler düşer, bilgi satırı görünür)
+4. Alışveriş → satır fiyatları + genel toplam → "Marketteyim" → reyon reyon işaretle
+5. Keşfet → tarif → porsiyon 4 → 6, "Gram" toggle
+6. "PİŞİRMEYE BAŞLA" → mod segmentinden Sayfa/Adım geçişi → sayacı başlat → telefonu kilitle, 2 dk sonra aç (kalan süre doğru; süre kilitliyken dolarsa bildirim gelir)
+7. Bitir → deftere kaydet → uçak modunda Defterim'den aç (tam çalışır)
+8. Profil → Yiyemediklerim'e "yumurta" ekle → menemen hiçbir listede görünmez; tarif linki uyarı bandıyla açılır

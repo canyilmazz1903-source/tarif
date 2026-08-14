@@ -14,6 +14,8 @@ import { Yazi } from '@/components/ui/Yazi';
 import { Bosluk, DokunmaHedefi, Yaricap } from '@/constants/theme';
 import { kategoriAdi, tarifBul } from '@/data/tarifler';
 import { useTema } from '@/hooks/use-tema';
+import { tarifEngelleri } from '@/lib/alerji';
+import { useAyarlar } from '@/stores/ayarlar';
 import { maliyetYazi, porsiyonMaliyeti } from '@/lib/maliyet';
 import { cevir, miktarYazi, porsiyonla } from '@/lib/olcu-motoru';
 import { useAlisveris } from '@/stores/alisveris';
@@ -33,6 +35,18 @@ export default function TarifDetay() {
   const [isaretliler, setIsaretliler] = useState<Set<number>>(new Set());
 
   const maliyet = useMemo(() => (tarif ? porsiyonMaliyeti(tarif) : 0), [tarif]);
+
+  // Doğrudan link/paylaşımla açılan tarif gizlenmez; kırmızı uyarı bandı gösterilir.
+  const yiyemedikleri = useAyarlar((s) => s.yiyemedikleri);
+  const kacinmaGruplari = useAyarlar((s) => s.kacinmaGruplari);
+  const alerjiFiltresiAcik = useAyarlar((s) => s.alerjiFiltresiAcik);
+  const engeller = useMemo(
+    () =>
+      tarif && alerjiFiltresiAcik
+        ? tarifEngelleri(tarif, { yiyemedikleri, kacinmaGruplari, alerjiFiltresiAcik })
+        : [],
+    [tarif, yiyemedikleri, kacinmaGruplari, alerjiFiltresiAcik],
+  );
 
   if (!tarif) {
     return (
@@ -115,6 +129,25 @@ export default function TarifDetay() {
           </View>
 
           <Kapak tarif={tarif} boy={190} />
+
+          {engeller.length > 0 ? (
+            <View
+              accessibilityRole="alert"
+              style={{
+                backgroundColor: palet.hata,
+                borderRadius: Yaricap.m,
+                padding: Bosluk.l,
+                flexDirection: 'row',
+                alignItems: 'center',
+                gap: Bosluk.m,
+              }}
+            >
+              <Ionicons name="warning" size={22} color="#FFFFFF" />
+              <Yazi varyant="etiket" style={{ color: '#FFFFFF', flex: 1 }}>
+                Bu tarif yiyemediklerinden {engeller.join(', ')} içeriyor.
+              </Yazi>
+            </View>
+          ) : null}
 
           <View style={{ gap: Bosluk.s }}>
             <Yazi varyant="devBaslik">{tarif.baslik}</Yazi>

@@ -6,11 +6,13 @@ export type Zorluk = 'kolay' | 'orta' | 'zor';
 export type Kategori =
   | 'corba'
   | 'ana-yemek'
+  | 'pilav-bakliyat'
   | 'hamur-isi'
   | 'tatli'
   | 'zeytinyagli'
   | 'kahvaltilik'
-  | 'salata';
+  | 'salata'
+  | 'icecek';
 
 export type Birim =
   | 'g'
@@ -48,7 +50,11 @@ export type Koleksiyon =
   | 'yeni-nesil'
   | 'sokak-lezzeti'
   | 'airfryer'
-  | 'viral-tatli';
+  | 'viral-tatli'
+  | 'osmanli-saray'
+  | 'demlik-fincan'
+  | 'fit'
+  | 'meal-prep';
 
 export interface TarifMalzeme {
   /** Malzeme sözlüğündeki ad (küçük harf) ya da serbest metin. */
