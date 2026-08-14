@@ -2,14 +2,14 @@
   "expo": {
     "name": "Tencere",
     "slug": "tencere",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "tencere",
     "userInterfaceStyle": "automatic",
     "ios": {
       "bundleIdentifier": "com.canyilmaz.tencere",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "supportsTablet": true,
       "infoPlist": {
         "CFBundleDevelopmentRegion": "tr",
@@ -18,7 +18,7 @@
     },
     "android": {
       "package": "com.canyilmaz.tencere",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "backgroundColor": "#E8590C",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -33,6 +33,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
       [
         "expo-splash-screen",
         {
