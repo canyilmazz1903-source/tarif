@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import { FlatList, Pressable, ScrollView, View } from 'react-native';
 
 import { BolumBasligi } from '@/components/BolumBasligi';
-import { MiniTarifKarti, TarifKarti } from '@/components/TarifKarti';
+import { MiniKapak, MiniTarifKarti, TarifKarti } from '@/components/TarifKarti';
 import { Cip } from '@/components/ui/Cip';
 import { Yazi } from '@/components/ui/Yazi';
 import { Ekran } from '@/components/ui/Ekran';
@@ -115,7 +115,7 @@ export default function Kesfet() {
                       opacity: pressed ? 0.9 : 1,
                     })}
                   >
-                    <Yazi style={{ fontSize: 30, lineHeight: 38 }}>{t.emoji}</Yazi>
+                    <MiniKapak tarif={t} boy={44} />
                     <View style={{ flex: 1 }}>
                       <Yazi varyant="altBaslik" numberOfLines={1}>
                         {t.baslik}
@@ -163,7 +163,7 @@ export default function Kesfet() {
                 {KATEGORILER.map((k) => (
                   <Cip
                     key={k.key}
-                    baslik={`${k.emoji} ${k.ad}`}
+                    baslik={k.ad}
                     secili={kategori === k.key}
                     onPress={() => setKategori(kategori === k.key ? null : k.key)}
                   />

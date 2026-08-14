@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import { FlatList, Modal, Pressable, ScrollView, TextInput, View } from 'react-native';
 
 import { BosDurum } from '@/components/BosDurum';
+import { MiniKapak } from '@/components/TarifKarti';
 import { Buton } from '@/components/ui/Buton';
 import { Cip } from '@/components/ui/Cip';
 import { Ekran } from '@/components/ui/Ekran';
@@ -205,7 +206,7 @@ export default function Planlayici() {
                               style={{ flex: 1, flexDirection: 'row', alignItems: 'center', gap: Bosluk.s }}
                               onPress={() => router.push({ pathname: '/tarif/[id]', params: { id: t.id } })}
                             >
-                              <Yazi>{t.emoji}</Yazi>
+                              <MiniKapak tarif={t} boy={28} />
                               <Yazi varyant="etiket" numberOfLines={1} style={{ flex: 1 }}>
                                 {t.baslik}
                               </Yazi>
@@ -401,7 +402,7 @@ export default function Planlayici() {
                             <Yazi varyant="kucuk" renk="metinIkincil" style={{ width: 58 }}>
                               {OGUN_ADI[k.ogun]}
                             </Yazi>
-                            <Yazi>{t.emoji}</Yazi>
+                            <MiniKapak tarif={t} boy={28} />
                             <Yazi varyant="etiket" numberOfLines={1} style={{ flex: 1 }}>
                               {t.baslik}
                             </Yazi>
@@ -518,7 +519,7 @@ export default function Planlayici() {
                     minHeight: DokunmaHedefi,
                   }}
                 >
-                  <Yazi style={{ fontSize: 24 }}>{item.emoji}</Yazi>
+                  <MiniKapak tarif={item} boy={40} />
                   <View style={{ flex: 1 }}>
                     <Yazi varyant="etiket">{item.baslik}</Yazi>
                     <Yazi varyant="kucuk" renk="metinIkincil">

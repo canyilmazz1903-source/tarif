@@ -15,7 +15,7 @@ import { Bosluk, Font, Yaricap } from '@/constants/theme';
 import { MALZEMELER } from '@/data/malzemeler';
 import { KATEGORILER, TARIFLER } from '@/data/tarifler';
 import { useTema } from '@/hooks/use-tema';
-import { malzemeGorseli } from '@/data/gorseller';
+import { KATEGORI_GORSELLERI, malzemeGorseli, tarifGorseli } from '@/data/gorseller';
 import {
   adayPasifMi,
   artaniDegerlendir,
@@ -52,14 +52,14 @@ function KategoriIzgara() {
     ...KATEGORILER.map((k) => ({
       slug: k.key as string,
       ad: k.ad,
-      emoji: k.emoji,
+      gorsel: KATEGORI_GORSELLERI[k.key],
       sayi: tarifler.filter((t) => t.kategori === k.key).length,
       ton: KATEGORI_TON[k.key][koyu ? 1 : 0],
     })),
     ...KOLEKSIYON_KARTLARI.map((k) => ({
       slug: k.slug as string,
       ad: k.ad,
-      emoji: k.emoji,
+      gorsel: tarifGorseli('_fallback'),
       sayi: tarifler.filter((t) => t.koleksiyonlar.includes(k.slug)).length,
       ton: palet.kartIkincil,
     })),
@@ -84,7 +84,28 @@ function KategoriIzgara() {
               opacity: pressed ? 0.85 : 1,
             })}
           >
-            <Yazi style={{ fontSize: 30, lineHeight: 38 }}>{k.emoji}</Yazi>
+            <View
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 12,
+                backgroundColor: palet.kart,
+                overflow: 'hidden',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              {k.gorsel != null ? (
+                <Image
+                  source={k.gorsel}
+                  resizeMode="cover"
+                  style={{ width: '100%', height: '100%' }}
+                  accessibilityIgnoresInvertColors
+                />
+              ) : (
+                <Yazi varyant="baslik">{k.ad.slice(0, 1)}</Yazi>
+              )}
+            </View>
             <Yazi varyant="altBaslik" numberOfLines={1}>
               {k.ad}
             </Yazi>

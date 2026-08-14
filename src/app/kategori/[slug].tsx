@@ -36,7 +36,7 @@ export default function KategoriDetay() {
 
   const kategori = KATEGORILER.find((k) => k.key === slug);
   const koleksiyon = KOLEKSIYON_KARTLARI.find((k) => k.slug === slug);
-  const baslik = kategori ? `${kategori.emoji} ${kategori.ad}` : koleksiyon ? `${koleksiyon.emoji} ${koleksiyon.ad}` : slug ?? '';
+  const baslik = kategori ? kategori.ad : koleksiyon ? koleksiyon.ad : (slug ?? '');
 
   const tarifler = useMemo(() => {
     const taban = kategori

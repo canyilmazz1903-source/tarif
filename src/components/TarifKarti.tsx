@@ -30,7 +30,9 @@ export function zorlukYazi(z: Tarif['zorluk']): string {
 export function Kapak({ tarif, boy }: { tarif: Tarif; boy: number }) {
   const { koyu } = useTema();
   const ton = KATEGORI_TON[tarif.kategori][koyu ? 1 : 0];
-  const gorsel = tarifGorseli(tarif.id);
+  // Emoji fallback yok (v1.1.1 G-2): görsel haritada yoksa nötr _fallback görseli,
+  // o da yoksa (üretim öncesi geliştirme hali) düz kategori tonlu zemin kalır.
+  const gorsel = tarifGorseli(tarif.id) ?? tarifGorseli('_fallback');
   return (
     <View
       accessibilityLabel={`${tarif.baslik} görseli`}
@@ -46,13 +48,39 @@ export function Kapak({ tarif, boy }: { tarif: Tarif; boy: number }) {
       {gorsel != null ? (
         <Image
           source={gorsel}
-          resizeMode="contain"
+          resizeMode="cover"
           style={{ width: '100%', height: '100%' }}
           accessibilityIgnoresInvertColors
         />
-      ) : (
-        <Yazi style={{ fontSize: boy * 0.42, lineHeight: boy * 0.52 }}>{tarif.emoji}</Yazi>
-      )}
+      ) : null}
+    </View>
+  );
+}
+
+/** Liste satırları için küçük kapak (öneri kartları, plan satırları, tarif seçici). */
+export function MiniKapak({ tarif, boy = 36 }: { tarif: Tarif; boy?: number }) {
+  const { koyu } = useTema();
+  const ton = KATEGORI_TON[tarif.kategori][koyu ? 1 : 0];
+  const gorsel = tarifGorseli(tarif.id) ?? tarifGorseli('_fallback');
+  return (
+    <View
+      accessibilityLabel={`${tarif.baslik} görseli`}
+      style={{
+        width: boy,
+        height: boy,
+        borderRadius: 8,
+        backgroundColor: ton,
+        overflow: 'hidden',
+      }}
+    >
+      {gorsel != null ? (
+        <Image
+          source={gorsel}
+          resizeMode="cover"
+          style={{ width: '100%', height: '100%' }}
+          accessibilityIgnoresInvertColors
+        />
+      ) : null}
     </View>
   );
 }
