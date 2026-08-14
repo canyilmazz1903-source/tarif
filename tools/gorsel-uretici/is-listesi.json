@@ -1,0 +1,2603 @@
+[
+  {
+    "tip": "tarif",
+    "slug": "tas-kebabi",
+    "prompt": "Turkish beef stew with vegetables, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "orman-kebabi",
+    "prompt": "meat stew with garden vegetables, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "et-sote",
+    "prompt": "sauteed beef with peppers, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ali-nazik",
+    "prompt": "meat on smoky eggplant yogurt, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kadinbudu-kofte",
+    "prompt": "fried rice meatballs, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "terbiyeli-sulu-kofte",
+    "prompt": "meatballs in lemon broth, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kislik-sebzeli-guvec",
+    "prompt": "winter vegetable casserole, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kagit-kebabi",
+    "prompt": "meat and vegetables baked in paper, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patlican-musakka",
+    "prompt": "eggplant moussaka with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-bezelye",
+    "prompt": "pea stew with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-ispanak",
+    "prompt": "spinach stew with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinda-kofte-patates",
+    "prompt": "baked meatballs with potatoes, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "arnavut-cigeri",
+    "prompt": "fried liver cubes with onions, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sebzeli-tavuk-guvec",
+    "prompt": "chicken vegetable casserole, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavuklu-sebzeli-sote",
+    "prompt": "sauteed chicken with vegetables, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "karniyarik",
+    "prompt": "stuffed eggplant with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kuru-fasulye",
+    "prompt": "white bean stew with meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "izmir-kofte",
+    "prompt": "meatballs in tomato sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "hunkar-begendi",
+    "prompt": "meat stew on eggplant puree, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "etli-nohut",
+    "prompt": "chickpea stew with meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavuk-sote",
+    "prompt": "sauteed chicken with peppers, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinda-tavuk-but-patatesli",
+    "prompt": "roasted chicken legs with potatoes, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "hamsi-tava",
+    "prompt": "pan fried anchovies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "hasanpasa-koftesi",
+    "prompt": "meatballs topped with mashed potato, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patatesli-yumurtali-oturtma",
+    "prompt": "baked potato egg casserole, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sade-pirinc-pilavi",
+    "prompt": "buttery white rice pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ekmek-koftesi",
+    "prompt": "bread meatballs in tomato sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "iskembe-corbasi",
+    "prompt": "creamy tripe soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "dugun-corbasi",
+    "prompt": "creamy lamb wedding soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mahluta-corbasi",
+    "prompt": "lentil bulgur soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "arabasi-corbasi",
+    "prompt": "chicken soup with dough pieces, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kremali-mantar-corbasi",
+    "prompt": "creamy mushroom soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "brokoli-corbasi",
+    "prompt": "broccoli soup bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sebze-corbasi",
+    "prompt": "vegetable soup bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "levrekli-balik-corbasi",
+    "prompt": "sea bass fish soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "terbiyeli-tavuk-suyu-corbasi",
+    "prompt": "lemony chicken broth soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yogurtlu-eriste-corbasi",
+    "prompt": "yogurt noodle soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kerevizli-kis-corbasi",
+    "prompt": "celery root winter soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tutmac-corbasi",
+    "prompt": "yogurt lentil noodle soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mercimek-corbasi",
+    "prompt": "Turkish red lentil soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ezogelin-corbasi",
+    "prompt": "spiced lentil bulgur soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yayla-corbasi",
+    "prompt": "yogurt rice mint soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tarhana-corbasi",
+    "prompt": "creamy tarhana soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "domates-corbasi",
+    "prompt": "creamy tomato soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sehriyeli-tavuk-corbasi",
+    "prompt": "chicken orzo soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "karnabahar-corbasi",
+    "prompt": "cauliflower soup bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sarimsakli-tirit-corbasi",
+    "prompt": "garlic bread soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "klasik-turk-kahvesi",
+    "prompt": "Turkish coffee in small cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "damla-sakizli-turk-kahvesi",
+    "prompt": "Turkish coffee in ornate cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sutlu-turk-kahvesi",
+    "prompt": "milky Turkish coffee cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "dibek-tarzi-kahve",
+    "prompt": "frothy Turkish coffee cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "salep",
+    "prompt": "hot salep milk drink cinnamon, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tarcinli-kis-cayi",
+    "prompt": "cinnamon spiced winter tea, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kusburnu-cayi",
+    "prompt": "rosehip tea in glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sicak-nane-limon",
+    "prompt": "hot mint lemon drink, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "demlikte-cay-demleme",
+    "prompt": "Turkish tea in tulip glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "buzlu-sutlu-soguk-kahve",
+    "prompt": "iced milk coffee glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "soguk-demleme-kahve",
+    "prompt": "cold brew coffee glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-limonatasi",
+    "prompt": "homemade lemonade glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "naneli-limonata",
+    "prompt": "mint lemonade glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cilekli-limonata",
+    "prompt": "strawberry lemonade glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "portakalli-kis-serbeti",
+    "prompt": "spiced orange winter drink, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "su-boregi",
+    "prompt": "layered cheese pastry pie, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-pide",
+    "prompt": "Turkish flatbread with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kasarli-pide",
+    "prompt": "Turkish cheese flatbread boat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-usulu-lahmacun",
+    "prompt": "thin flatbread with spiced meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "manti",
+    "prompt": "tiny dumplings with yogurt sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-ekmegi",
+    "prompt": "homemade bread loaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "evde-simit",
+    "prompt": "sesame bread ring, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "pacanga-boregi",
+    "prompt": "fried pastry rolls with pastrami, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cig-borek",
+    "prompt": "half moon fried meat pastry, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-usulu-katmer",
+    "prompt": "crispy sweet layered flatbread, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patatesli-tepsi-boregi",
+    "prompt": "potato filled tray pastry, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "puf-boregi",
+    "prompt": "puffy fried pastry, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "hashasli-corek",
+    "prompt": "poppy seed swirl bun, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "misir-ekmegi",
+    "prompt": "cornbread loaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "dereotlu-peynirli-muska-boregi",
+    "prompt": "cheese filled pastry triangles, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "peynirli-pogaca",
+    "prompt": "soft cheese buns, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "acma",
+    "prompt": "soft glazed bagel bun, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "pisi",
+    "prompt": "fried dough puffs, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "bazlama",
+    "prompt": "griddle flatbread stack, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ispanakli-tepsi-boregi",
+    "prompt": "spinach tray pastry, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kalan-yufkadan-kol-boregi",
+    "prompt": "rolled phyllo pastry, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-gozleme",
+    "prompt": "stuffed griddle flatbread, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "peynirli-sigara-boregi",
+    "prompt": "fried cheese pastry rolls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kaygana-otlu",
+    "prompt": "herb egg pancake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "pastirmali-sahanda-yumurta",
+    "prompt": "fried eggs with pastrami, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cilbir-klasik",
+    "prompt": "poached eggs on garlic yogurt, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "acuka",
+    "prompt": "spicy walnut pepper spread, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cilek-receli",
+    "prompt": "strawberry jam jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kayisi-receli",
+    "prompt": "apricot jam jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kahvaltilik-patates-kavurmasi",
+    "prompt": "breakfast fried potatoes, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "peynirli-sahanda-yumurta",
+    "prompt": "fried eggs with cheese, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "menemen",
+    "prompt": "scrambled eggs with tomato peppers, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sucuklu-yumurta",
+    "prompt": "fried eggs with sausage slices, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mihlama",
+    "prompt": "melted cheese cornmeal fondue, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patatesli-omlet",
+    "prompt": "potato omelette, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zerde",
+    "prompt": "saffron rice pudding dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "elmasiye",
+    "prompt": "fruit jelly dessert cubes, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "saray-lokmasi",
+    "prompt": "syrup soaked fried dough balls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "asure-saray",
+    "prompt": "wheat fruit nut pudding, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "gul-sulu-muhallebi",
+    "prompt": "rose water milk pudding, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kaygana-saray",
+    "prompt": "honey drizzled egg pancake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "hosmerim",
+    "prompt": "warm cheese semolina dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ayva-receli",
+    "prompt": "quince jam jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "badem-ezmesi",
+    "prompt": "almond paste marzipan, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "safranli-irmik-tatlisi",
+    "prompt": "saffron semolina milk pudding, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cevizli-sucuk",
+    "prompt": "walnut grape molasses candy rope, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kabak-receli",
+    "prompt": "pumpkin jam jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mutancana",
+    "prompt": "lamb stew with dried fruits, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mahmudiye",
+    "prompt": "chicken stew with apricots almonds, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "nirbac",
+    "prompt": "meat stew with carrots, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "badem-corbasi",
+    "prompt": "creamy almond soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "perde-pilavi",
+    "prompt": "rice pilaf in pastry dome, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patlicanli-osmanli-pilavi",
+    "prompt": "eggplant rice pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kavun-dolmasi",
+    "prompt": "stuffed melon with rice, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "visneli-yaprak-sarma",
+    "prompt": "sour cherry stuffed vine leaves, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "piruhi",
+    "prompt": "cheese filled pasta pockets, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yalanci-dolma",
+    "prompt": "rice stuffed vine leaves, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sogan-yahnisi",
+    "prompt": "pearl onion stew, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sebzeli-saray-guveci",
+    "prompt": "vegetable casserole in clay pot, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavuklu-safranli-pilav",
+    "prompt": "saffron chicken rice pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sade-bulgur-pilavi",
+    "prompt": "bulgur pilaf bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "domatesli-bulgur-pilavi",
+    "prompt": "tomato bulgur pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sebzeli-bulgur-pilavi",
+    "prompt": "vegetable bulgur pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ic-pilav",
+    "prompt": "festive rice with currants nuts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sehriyeli-pirinc-pilavi",
+    "prompt": "rice pilaf with orzo, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "nohutlu-pilav",
+    "prompt": "chickpea rice pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mercimekli-bulgur-pilavi",
+    "prompt": "lentil bulgur pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firik-pilavi",
+    "prompt": "smoky freekeh pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ozbek-pilavi",
+    "prompt": "lamb carrot rice pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "barbunya-pilaki",
+    "prompt": "borlotti bean stew olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "salcali-nohut",
+    "prompt": "chickpeas in tomato sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yesil-mercimek-yemegi",
+    "prompt": "green lentil stew, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "meyhane-pilavi",
+    "prompt": "spicy bulgur pilaf, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-besamelli-firin-makarna",
+    "prompt": "baked pasta with bechamel meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yogurtlu-kiymali-makarna",
+    "prompt": "pasta with yogurt and meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tereyagli-peynirli-eriste",
+    "prompt": "buttery cheese egg noodles, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "domates-soslu-kiymali-makarna",
+    "prompt": "pasta with meat tomato sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sebzeli-firin-makarna",
+    "prompt": "baked vegetable pasta, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "piyaz",
+    "prompt": "white bean onion salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "haydari",
+    "prompt": "thick garlic yogurt dip, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "acili-ezme",
+    "prompt": "spicy tomato pepper dip, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kabak-mucveri",
+    "prompt": "zucchini fritters, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yogurtlu-semizotu-mezesi",
+    "prompt": "purslane yogurt dip, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patates-salatasi",
+    "prompt": "potato salad bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "rus-salatasi",
+    "prompt": "creamy vegetable potato salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mercimek-koftesi",
+    "prompt": "red lentil bulgur balls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "saksuka",
+    "prompt": "fried eggplant in tomato sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "havuc-tarator",
+    "prompt": "carrot yogurt dip, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cacik",
+    "prompt": "cucumber yogurt dip, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kozlenmis-patlican-salatasi",
+    "prompt": "roasted eggplant salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mevsim-salatasi",
+    "prompt": "seasonal garden salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "nohut-salatasi",
+    "prompt": "chickpea salad bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "coban-salata",
+    "prompt": "chopped tomato cucumber salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kisir",
+    "prompt": "spiced bulgur salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "gavurdagi-salatasi",
+    "prompt": "walnut tomato chopped salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yesil-mercimekli-salata",
+    "prompt": "green lentil salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "etli-biber-dolmasi",
+    "prompt": "stuffed peppers with meat rice, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "etli-yaprak-sarma",
+    "prompt": "meat stuffed vine leaves, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-kabak-dolmasi",
+    "prompt": "stuffed zucchini with meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-karnabahar-yemegi",
+    "prompt": "cauliflower stew with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-pirasa",
+    "prompt": "leek stew with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-lahana-sarma",
+    "prompt": "meat stuffed cabbage rolls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kiymali-taze-kabak",
+    "prompt": "zucchini stew with ground meat, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-biber-dolmasi",
+    "prompt": "rice stuffed green peppers, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "soganli-ispanak-yemegi",
+    "prompt": "spinach stew with onions, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-sebzeli-turlu",
+    "prompt": "mixed vegetable olive oil stew, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-kereviz",
+    "prompt": "celery root in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "patlican-silkme",
+    "prompt": "eggplant tomato vegetable stew, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sarimsakli-brokoli-sote",
+    "prompt": "garlic sauteed broccoli, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-semizotu",
+    "prompt": "purslane stew in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-bakla",
+    "prompt": "fava beans in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cikolata-soslu-islak-kek",
+    "prompt": "chocolate sauce wet cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "havuclu-cevizli-kek",
+    "prompt": "carrot walnut cake slice, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "limonlu-kek",
+    "prompt": "lemon loaf cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "un-kurabiyesi",
+    "prompt": "melting shortbread cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "acibadem-kurabiyesi",
+    "prompt": "almond macaroon cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "un-helvasi",
+    "prompt": "flour halva dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ayva-tatlisi",
+    "prompt": "candied quince with clotted cream, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "incir-uyutmasi",
+    "prompt": "fig milk pudding, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kuru-kayisi-kompostosu",
+    "prompt": "dried apricot compote, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinda-elma-tatlisi",
+    "prompt": "baked apples with walnuts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "mozaik-pasta",
+    "prompt": "chocolate biscuit mosaic cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-baklavasi",
+    "prompt": "homemade baklava with walnuts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tulumba-tatlisi",
+    "prompt": "ridged fried syrup pastries, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kunefe",
+    "prompt": "melted cheese shredded pastry dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "lokma-tatlisi",
+    "prompt": "syrup soaked dough balls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "vezir-parmagi",
+    "prompt": "finger shaped syrup pastries, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "hanim-gobegi",
+    "prompt": "dimpled syrup soaked doughnuts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kalburabasti",
+    "prompt": "walnut syrup soaked cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sam-tatlisi",
+    "prompt": "coconut semolina syrup cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kemalpasa-tatlisi",
+    "prompt": "small syrup soaked dessert buns, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "irmik-tatlisi-serbetli",
+    "prompt": "syrup soaked semolina cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "fistikli-burma-kadayif",
+    "prompt": "pistachio shredded pastry rolls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kazandibi",
+    "prompt": "caramelized bottom milk pudding, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sade-muhallebi",
+    "prompt": "classic milk pudding cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "irmikli-muhallebi",
+    "prompt": "semolina milk pudding, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "gullac",
+    "prompt": "rose water milk pastry dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "profiterol",
+    "prompt": "cream puffs with chocolate sauce, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "keskul",
+    "prompt": "almond milk pudding cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "supangle",
+    "prompt": "chocolate milk pudding cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavukgogsu",
+    "prompt": "silky milk pudding dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sakizli-muhallebi",
+    "prompt": "milk pudding cup with pistachio, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "trilece",
+    "prompt": "milk soaked caramel cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "krem-karamel",
+    "prompt": "creme caramel flan, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firin-sutlac",
+    "prompt": "baked rice pudding bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "revani",
+    "prompt": "syrup soaked semolina sponge cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sekerpare",
+    "prompt": "soft syrup soaked cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "irmik-helvasi",
+    "prompt": "semolina halva with pine nuts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kabak-tatlisi",
+    "prompt": "candied pumpkin with walnuts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cevizli-ev-kadayifi",
+    "prompt": "walnut shredded pastry dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "asure",
+    "prompt": "wheat fruit nut pudding bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ekmek-tatlisi",
+    "prompt": "syrup soaked bread dessert, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "izgara-tavuklu-bulgur-kase",
+    "prompt": "grilled chicken bulgur bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinda-baharatli-tavuk-sebze",
+    "prompt": "roasted spiced chicken vegetables, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ton-balikli-yumurtali-fit-kase",
+    "prompt": "tuna egg salad bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinda-mercimekli-fit-kofte",
+    "prompt": "baked lentil patties, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kavanozda-nohutlu-salata",
+    "prompt": "chickpea salad in jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kavanozda-bulgurlu-sebzeli-salata",
+    "prompt": "bulgur vegetable salad in jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kavanozda-ton-balikli-makarna",
+    "prompt": "tuna pasta salad in jar, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "uc-peynirli-tost",
+    "prompt": "three cheese grilled toast, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sucuklu-kasarli-firin-tost",
+    "prompt": "baked sausage cheese toast, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "akdeniz-usulu-sebzeli-sandvic",
+    "prompt": "Mediterranean vegetable sandwich, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tek-kasede-yulafli-muzlu-kek",
+    "prompt": "banana oat cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tek-tavada-sebzeli-brunch-tavasi",
+    "prompt": "vegetable egg brunch skillet, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "bes-malzemeli-tavuk-noodle-tava",
+    "prompt": "chicken noodle stir fry, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-elma-dilim-patates",
+    "prompt": "crispy potato wedges, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-aci-soslu-tavuk-kanat",
+    "prompt": "spicy glazed chicken wings, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-citir-karnabahar",
+    "prompt": "crispy cauliflower bites, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-sarimsakli-mantar",
+    "prompt": "garlic roasted mushrooms, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-soya-balli-somon",
+    "prompt": "honey soy glazed salmon, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-kofte",
+    "prompt": "grilled meatballs on plate, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-citir-tavuk-parcalari",
+    "prompt": "crispy chicken nuggets, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-patlican-cips",
+    "prompt": "crispy eggplant chips, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-sebzeli-tavuk-sis",
+    "prompt": "chicken vegetable skewers, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-falafel",
+    "prompt": "crispy falafel balls, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "airfryer-kok-sebze-kavurmasi",
+    "prompt": "roasted root vegetables, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cilbir-modern",
+    "prompt": "poached egg on yogurt toast, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "avokadolu-yumurtali-tost",
+    "prompt": "avocado egg toast, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kabarik-amerikan-pancake",
+    "prompt": "fluffy pancake stack with syrup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tarcinli-fransiz-tostu",
+    "prompt": "cinnamon french toast, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "krem-peynirli-bazlama-tost",
+    "prompt": "cream cheese flatbread toast, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinda-yumurtali-avokado",
+    "prompt": "baked egg in avocado half, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "muzlu-fistik-ezmeli-gece-yulafi",
+    "prompt": "banana peanut butter overnight oats, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "akdeniz-usulu-protein-bowl",
+    "prompt": "Mediterranean protein bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ton-balikli-bowl",
+    "prompt": "tuna grain bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavuklu-sezar-salata",
+    "prompt": "chicken caesar salad, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "bulgurlu-buda-bowl",
+    "prompt": "bulgur buddha bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firin-beyaz-peynirli-makarna",
+    "prompt": "baked feta pasta, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kremali-mantarli-makarna",
+    "prompt": "creamy mushroom pasta, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-yapimi-mac-and-cheese",
+    "prompt": "creamy mac and cheese, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tek-tencere-domatesli-spagetti",
+    "prompt": "one pot tomato spaghetti, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sucuklu-makarna",
+    "prompt": "spicy sausage pasta, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavuklu-kori-soslu-noodle",
+    "prompt": "chicken curry noodles, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "citir-parmesanli-firin-makarna",
+    "prompt": "crispy parmesan baked pasta, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "roka-pestolu-spagetti",
+    "prompt": "arugula pesto spaghetti, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "sarimsakli-sehriyeli-pilav-bowl",
+    "prompt": "garlic butter orzo bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "acili-tavuklu-noodle-corbasi",
+    "prompt": "spicy chicken noodle soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kremali-misir-corbasi",
+    "prompt": "creamy corn soup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "smash-burger",
+    "prompt": "smash burger with cheese, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "citir-tavuk-burger",
+    "prompt": "crispy chicken burger, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "ev-usulu-tavuk-doner",
+    "prompt": "chicken doner wrap, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "dana-tantuni",
+    "prompt": "beef tantuni wrap, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "teriyaki-tavuk-sandvic",
+    "prompt": "teriyaki chicken sandwich, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "balli-hardalli-tavuk-wrap",
+    "prompt": "honey mustard chicken wrap, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firin-kumpir",
+    "prompt": "loaded baked potato, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zurna-kofte-durum",
+    "prompt": "long meatball wrap, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "islak-hamburger",
+    "prompt": "saucy steamed burger, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cokertme-kebabi",
+    "prompt": "beef strips on shoestring potatoes, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavuk-sis-durum",
+    "prompt": "grilled chicken skewer wrap, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "san-sebastian-cheesecake",
+    "prompt": "burnt basque cheesecake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "islak-brownie",
+    "prompt": "fudgy chocolate brownie, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yumusak-damla-cikolatali-kurabiye",
+    "prompt": "soft chocolate chip cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kedidili-tiramisu",
+    "prompt": "classic tiramisu slice, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "muzlu-magnolia",
+    "prompt": "banana pudding dessert cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cikolatali-sufle",
+    "prompt": "molten chocolate souffle, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tavada-bruksel-waffle",
+    "prompt": "Belgian waffle with toppings, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kadayifli-fistikli-kup",
+    "prompt": "pistachio shredded pastry dessert cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinsiz-limonlu-cheesecake-kupu",
+    "prompt": "no bake lemon cheesecake cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tarcinli-rulo-corek",
+    "prompt": "cinnamon roll buns, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tarcin-sekerli-citir-cubuklar",
+    "prompt": "cinnamon sugar pastry sticks, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "beyaz-cikolatali-blondie",
+    "prompt": "white chocolate blondie bars, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "cifte-cikolatali-cookie",
+    "prompt": "double chocolate cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "yulafli-fistik-ezmeli-cookie",
+    "prompt": "oatmeal peanut butter cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "bardakta-cilekli-cheesecake",
+    "prompt": "strawberry cheesecake in glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "bardakta-cikolatali-mus",
+    "prompt": "chocolate mousse in glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "karamelize-biskuvili-kup",
+    "prompt": "caramelized biscuit dessert cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kahveli-latte-kupu",
+    "prompt": "coffee latte dessert cup, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "firinsiz-cikolatali-salam",
+    "prompt": "chocolate salami slices, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "limon-kremali-mini-tart",
+    "prompt": "mini lemon cream tarts, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "kat-kat-pankek-keki",
+    "prompt": "layered pancake cake, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "tahinli-cevizli-rulo-corek",
+    "prompt": "tahini walnut swirl buns, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "akiskan-cikolatali-kurabiye",
+    "prompt": "molten chocolate stuffed cookies, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-yaprak-sarma",
+    "prompt": "rice stuffed vine leaves plate, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "imam-bayildi",
+    "prompt": "eggplant stuffed with onion tomato, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-taze-fasulye",
+    "prompt": "green beans in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-enginar",
+    "prompt": "artichokes in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-pirasa",
+    "prompt": "leeks in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "tarif",
+    "slug": "zeytinyagli-barbunya",
+    "prompt": "borlotti beans in olive oil, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "corba",
+    "prompt": "steaming soup pot, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "ana-yemek",
+    "prompt": "Turkish meat stew plate, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "pilav-bakliyat",
+    "prompt": "rice pilaf bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "hamur-isi",
+    "prompt": "fresh baked pastries, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "tatli",
+    "prompt": "Turkish dessert plate, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "zeytinyagli",
+    "prompt": "olive oil vegetable dish, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "kahvaltilik",
+    "prompt": "Turkish breakfast spread small, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "salata",
+    "prompt": "fresh salad bowl, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "kategori",
+    "slug": "icecek",
+    "prompt": "Turkish tea glass, single dish, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, 3/4 top view, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "un",
+    "ad": "un",
+    "prompt": "flour pile, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "toz-seker",
+    "ad": "toz şeker",
+    "prompt": "granulated sugar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "pudra-sekeri",
+    "ad": "pudra şekeri",
+    "prompt": "powdered sugar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "pirinc",
+    "ad": "pirinç",
+    "prompt": "rice grains, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "bulgur",
+    "ad": "bulgur",
+    "prompt": "bulgur wheat, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ince-bulgur",
+    "ad": "ince bulgur",
+    "prompt": "fine bulgur grains, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kirmizi-mercimek",
+    "ad": "kırmızı mercimek",
+    "prompt": "red lentils, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "yesil-mercimek",
+    "ad": "yeşil mercimek",
+    "prompt": "green lentils, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "nohut",
+    "ad": "nohut",
+    "prompt": "chickpeas, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuru-fasulye",
+    "ad": "kuru fasulye",
+    "prompt": "dried white beans, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "irmik",
+    "ad": "irmik",
+    "prompt": "semolina, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "yulaf-ezmesi",
+    "ad": "yulaf ezmesi",
+    "prompt": "rolled oats, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "nisasta",
+    "ad": "nişasta",
+    "prompt": "starch powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "makarna",
+    "ad": "makarna",
+    "prompt": "dry pasta, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sehriye",
+    "ad": "şehriye",
+    "prompt": "orzo pasta, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "galeta-unu",
+    "ad": "galeta unu",
+    "prompt": "breadcrumbs, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sut",
+    "ad": "süt",
+    "prompt": "glass of milk, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "yogurt",
+    "ad": "yoğurt",
+    "prompt": "yogurt bowl, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "suzme-yogurt",
+    "ad": "süzme yoğurt",
+    "prompt": "strained thick yogurt, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tereyagi",
+    "ad": "tereyağı",
+    "prompt": "butter block, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "krema",
+    "ad": "krema",
+    "prompt": "cream pitcher, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "labne",
+    "ad": "labne",
+    "prompt": "labneh cream cheese, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "beyaz-peynir",
+    "ad": "beyaz peynir",
+    "prompt": "white feta cheese block, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kasar-peyniri",
+    "ad": "kaşar peyniri",
+    "prompt": "yellow cheese wheel, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "lor-peyniri",
+    "ad": "lor peyniri",
+    "prompt": "curd cheese, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "yumurta",
+    "ad": "yumurta",
+    "prompt": "egg, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kaymak",
+    "ad": "kaymak",
+    "prompt": "clotted cream, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kiyma",
+    "ad": "kıyma",
+    "prompt": "ground meat, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kusbasi-et",
+    "ad": "kuşbaşı et",
+    "prompt": "cubed beef, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tavuk-gogsu",
+    "ad": "tavuk göğsü",
+    "prompt": "chicken breast, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tavuk-but",
+    "ad": "tavuk but",
+    "prompt": "chicken leg, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuzu-incik",
+    "ad": "kuzu incik",
+    "prompt": "lamb shank, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "hamsi",
+    "ad": "hamsi",
+    "prompt": "anchovy fish, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sucuk",
+    "ad": "sucuk",
+    "prompt": "Turkish sausage, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "pastirma",
+    "ad": "pastırma",
+    "prompt": "cured beef pastrami slices, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sogan",
+    "ad": "soğan",
+    "prompt": "onion, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sarimsak",
+    "ad": "sarımsak",
+    "prompt": "garlic bulb, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "domates",
+    "ad": "domates",
+    "prompt": "tomato, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "salcalik-biber",
+    "ad": "salçalık biber",
+    "prompt": "red capia pepper, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sivri-biber",
+    "ad": "sivri biber",
+    "prompt": "long green pepper, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kirmizi-biber",
+    "ad": "kırmızı biber",
+    "prompt": "red bell pepper, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "patlican",
+    "ad": "patlıcan",
+    "prompt": "eggplant, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kabak",
+    "ad": "kabak",
+    "prompt": "zucchini, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "patates",
+    "ad": "patates",
+    "prompt": "potato, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "havuc",
+    "ad": "havuç",
+    "prompt": "carrot, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ispanak",
+    "ad": "ıspanak",
+    "prompt": "spinach leaves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "pirasa",
+    "ad": "pırasa",
+    "prompt": "leek, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "karnabahar",
+    "ad": "karnabahar",
+    "prompt": "cauliflower head, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "taze-fasulye",
+    "ad": "taze fasulye",
+    "prompt": "green beans, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "enginar",
+    "ad": "enginar",
+    "prompt": "artichoke, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "bakla",
+    "ad": "bakla",
+    "prompt": "fava beans, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "salatalik",
+    "ad": "salatalık",
+    "prompt": "cucumber, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "marul",
+    "ad": "marul",
+    "prompt": "lettuce head, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "roka",
+    "ad": "roka",
+    "prompt": "arugula leaves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "maydanoz",
+    "ad": "maydanoz",
+    "prompt": "parsley bunch, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "dereotu",
+    "ad": "dereotu",
+    "prompt": "dill bunch, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "taze-nane",
+    "ad": "taze nane",
+    "prompt": "fresh mint leaves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "taze-sogan",
+    "ad": "taze soğan",
+    "prompt": "spring onion, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "limon",
+    "ad": "limon",
+    "prompt": "lemon, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "elma",
+    "ad": "elma",
+    "prompt": "apple, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kabak-bal-kabagi",
+    "ad": "kabak (bal kabağı)",
+    "prompt": "pumpkin, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tuz",
+    "ad": "tuz",
+    "prompt": "salt pile, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "karabiber",
+    "ad": "karabiber",
+    "prompt": "black peppercorns, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "pul-biber",
+    "ad": "pul biber",
+    "prompt": "red chili flakes, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kimyon",
+    "ad": "kimyon",
+    "prompt": "cumin powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuru-nane",
+    "ad": "kuru nane",
+    "prompt": "dried mint flakes, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kekik",
+    "ad": "kekik",
+    "prompt": "dried thyme, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tarcin",
+    "ad": "tarçın",
+    "prompt": "cinnamon sticks, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "vanilin",
+    "ad": "vanilin",
+    "prompt": "vanilla powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kabartma-tozu",
+    "ad": "kabartma tozu",
+    "prompt": "baking powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "instant-maya",
+    "ad": "instant maya",
+    "prompt": "instant yeast, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "domates-salcasi",
+    "ad": "domates salçası",
+    "prompt": "tomato paste, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "biber-salcasi",
+    "ad": "biber salçası",
+    "prompt": "red pepper paste, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "zeytinyagi",
+    "ad": "zeytinyağı",
+    "prompt": "olive oil bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "aycicek-yagi",
+    "ad": "ayçiçek yağı",
+    "prompt": "sunflower oil bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sirke",
+    "ad": "sirke",
+    "prompt": "vinegar bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "nar-eksisi",
+    "ad": "nar ekşisi",
+    "prompt": "pomegranate molasses bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "bal",
+    "ad": "bal",
+    "prompt": "honey jar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "pekmez",
+    "ad": "pekmez",
+    "prompt": "grape molasses jar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tahin",
+    "ad": "tahin",
+    "prompt": "tahini jar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "su",
+    "ad": "su",
+    "prompt": "glass of water, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ceviz-ici",
+    "ad": "ceviz içi",
+    "prompt": "walnut halves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "findik-ici",
+    "ad": "fındık içi",
+    "prompt": "hazelnuts, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "antep-fistigi",
+    "ad": "antep fıstığı",
+    "prompt": "pistachios, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "cam-fistigi",
+    "ad": "çam fıstığı",
+    "prompt": "pine nuts, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kus-uzumu",
+    "ad": "kuş üzümü",
+    "prompt": "dried currants, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuru-kayisi",
+    "ad": "kuru kayısı",
+    "prompt": "dried apricots, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "susam",
+    "ad": "susam",
+    "prompt": "sesame seeds, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "corek-otu",
+    "ad": "çörek otu",
+    "prompt": "nigella seeds, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "yufka",
+    "ad": "yufka",
+    "prompt": "thin phyllo sheets, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kadayif",
+    "ad": "kadayıf",
+    "prompt": "shredded pastry strands, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "bayat-ekmek",
+    "ad": "bayat ekmek",
+    "prompt": "stale bread slices, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ekmek",
+    "ad": "ekmek",
+    "prompt": "bread loaf, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "asma-yapragi",
+    "ad": "asma yaprağı",
+    "prompt": "vine leaves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "zeytin",
+    "ad": "zeytin",
+    "prompt": "black olives, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "cikolata-bitter",
+    "ad": "çikolata (bitter)",
+    "prompt": "dark chocolate bar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kakao",
+    "ad": "kakao",
+    "prompt": "cocoa powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "hindistan-cevizi",
+    "ad": "hindistan cevizi",
+    "prompt": "shredded coconut, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "misir-unu",
+    "ad": "mısır unu",
+    "prompt": "cornmeal, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "lavas",
+    "ad": "lavaş",
+    "prompt": "lavash flatbread, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tortilla",
+    "ad": "tortilla",
+    "prompt": "tortilla wrap, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "hamburger-ekmegi",
+    "ad": "hamburger ekmeği",
+    "prompt": "burger bun, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sandvic-ekmegi",
+    "ad": "sandviç ekmeği",
+    "prompt": "sandwich bread slices, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "spagetti",
+    "ad": "spagetti",
+    "prompt": "dry spaghetti bundle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "noodle",
+    "ad": "noodle",
+    "prompt": "noodles, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "cheddar-peyniri",
+    "ad": "cheddar peyniri",
+    "prompt": "cheddar cheese block, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "mozzarella",
+    "ad": "mozzarella",
+    "prompt": "mozzarella ball, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "parmesan",
+    "ad": "parmesan",
+    "prompt": "parmesan cheese wedge, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "krem-peynir",
+    "ad": "krem peynir",
+    "prompt": "cream cheese, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "mascarpone",
+    "ad": "mascarpone",
+    "prompt": "mascarpone cheese, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "mayonez",
+    "ad": "mayonez",
+    "prompt": "mayonnaise jar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ketcap",
+    "ad": "ketçap",
+    "prompt": "ketchup bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "hardal",
+    "ad": "hardal",
+    "prompt": "mustard bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "soya-sosu",
+    "ad": "soya sosu",
+    "prompt": "soy sauce bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "aci-sos",
+    "ad": "acı sos",
+    "prompt": "hot sauce bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kornison-tursu",
+    "ad": "kornişon turşu",
+    "prompt": "pickled gherkins, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "misir-konserve",
+    "ad": "mısır (konserve)",
+    "prompt": "sweet corn kernels, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "mantar",
+    "ad": "mantar",
+    "prompt": "mushrooms, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "avokado",
+    "ad": "avokado",
+    "prompt": "avocado, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "muz",
+    "ad": "muz",
+    "prompt": "banana, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "cilek",
+    "ad": "çilek",
+    "prompt": "strawberry, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "zencefil",
+    "ad": "zencefil",
+    "prompt": "ginger root, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kori",
+    "ad": "köri",
+    "prompt": "curry powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tatli-toz-biber",
+    "ad": "tatlı toz biber",
+    "prompt": "sweet paprika powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sarimsak-tozu",
+    "ad": "sarımsak tozu",
+    "prompt": "garlic powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "tavuk-kanat",
+    "ad": "tavuk kanat",
+    "prompt": "raw chicken wings, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "somon",
+    "ad": "somon",
+    "prompt": "salmon fillet, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ton-baligi-konserve",
+    "ad": "ton balığı (konserve)",
+    "prompt": "canned tuna, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "dana-bonfile",
+    "ad": "dana bonfile",
+    "prompt": "beef tenderloin, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "beyaz-cikolata",
+    "ad": "beyaz çikolata",
+    "prompt": "white chocolate bar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "damla-cikolata",
+    "ad": "damla çikolata",
+    "prompt": "chocolate chips, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "filtre-kahve",
+    "ad": "filtre kahve",
+    "prompt": "ground coffee, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "yer-fistigi-ezmesi",
+    "ad": "yer fıstığı ezmesi",
+    "prompt": "peanut butter jar, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kedidili-biskuvi",
+    "ad": "kedidili bisküvi",
+    "prompt": "ladyfinger biscuits, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "burcak-biskuvi",
+    "ad": "burçak bisküvi",
+    "prompt": "oat biscuits, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "iskembe",
+    "ad": "işkembe",
+    "prompt": "beef tripe, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuzu-cigeri",
+    "ad": "kuzu ciğeri",
+    "prompt": "lamb liver, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "butun-tavuk",
+    "ad": "bütün tavuk",
+    "prompt": "whole raw chicken, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "levrek",
+    "ad": "levrek",
+    "prompt": "sea bass fish, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "brokoli",
+    "ad": "brokoli",
+    "prompt": "broccoli head, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kereviz",
+    "ad": "kereviz",
+    "prompt": "celery root, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "beyaz-lahana",
+    "ad": "beyaz lahana",
+    "prompt": "white cabbage head, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "semizotu",
+    "ad": "semizotu",
+    "prompt": "purslane leaves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kirmizi-sogan",
+    "ad": "kırmızı soğan",
+    "prompt": "red onion, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kirmizi-lahana",
+    "ad": "kırmızı lahana",
+    "prompt": "red cabbage head, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "portakal",
+    "ad": "portakal",
+    "prompt": "orange, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "visne",
+    "ad": "vişne",
+    "prompt": "sour cherries, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kayisi",
+    "ad": "kayısı",
+    "prompt": "apricot, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ayva",
+    "ad": "ayva",
+    "prompt": "quince, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuru-incir",
+    "ad": "kuru incir",
+    "prompt": "dried figs, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kuru-uzum",
+    "ad": "kuru üzüm",
+    "prompt": "raisins, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "hurma",
+    "ad": "hurma",
+    "prompt": "dates, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "badem",
+    "ad": "badem",
+    "prompt": "almonds, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kabak-cekirdegi-ic",
+    "ad": "kabak çekirdeği (iç)",
+    "prompt": "shelled pumpkin seeds, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "siyah-cay",
+    "ad": "siyah çay",
+    "prompt": "black tea leaves, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "turk-kahvesi",
+    "ad": "türk kahvesi",
+    "prompt": "Turkish coffee grounds, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "ihlamur",
+    "ad": "ıhlamur",
+    "prompt": "dried linden flowers, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "kusburnu-kuru",
+    "ad": "kuşburnu (kuru)",
+    "prompt": "dried rosehips, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "salep-tozu",
+    "ad": "salep tozu",
+    "prompt": "salep powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "damla-sakizi",
+    "ad": "damla sakızı",
+    "prompt": "mastic resin drops, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "karanfil",
+    "ad": "karanfil",
+    "prompt": "clove spice, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "zerdecal",
+    "ad": "zerdeçal",
+    "prompt": "turmeric powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "safran",
+    "ad": "safran",
+    "prompt": "saffron threads, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "eriste",
+    "ad": "erişte",
+    "prompt": "egg noodles, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "bezelye",
+    "ad": "bezelye",
+    "prompt": "green peas, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "dolmalik-biber",
+    "ad": "dolmalık biber",
+    "prompt": "bell pepper, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "barbunya-kuru",
+    "ad": "barbunya (kuru)",
+    "prompt": "dried borlotti beans, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "sumak",
+    "ad": "sumak",
+    "prompt": "sumac powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "hashas",
+    "ad": "haşhaş",
+    "prompt": "poppy seeds, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "gul-suyu",
+    "ad": "gül suyu",
+    "prompt": "rose water bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "guar-jelatin-toz",
+    "ad": "guar/jelatin (toz)",
+    "prompt": "gelatin powder, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "buz",
+    "ad": "buz",
+    "prompt": "ice cubes, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "maden-suyu",
+    "ad": "maden suyu",
+    "prompt": "sparkling water bottle, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "gullac-yapragi",
+    "ad": "güllaç yaprağı",
+    "prompt": "thin wafer sheets, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "bugday-asurelik",
+    "ad": "buğday (aşurelik)",
+    "prompt": "wheat berries, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  },
+  {
+    "tip": "malzeme",
+    "slug": "firik-bulguru",
+    "ad": "firik bulguru",
+    "prompt": "freekeh grains, single ingredient, isolated, soft 3d clay style illustration, centered, warm cream background, terracotta and olive color palette, soft studio lighting, smooth, minimal, no text"
+  }
+]

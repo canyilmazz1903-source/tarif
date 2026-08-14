@@ -29,9 +29,21 @@ const tarifler = kopyala('tarif');
 const kategoriler = kopyala('kategori');
 const malzemeler = kopyala('malzeme');
 
+// Malzeme webp'leri slug adlı; uygulama Türkçe adla arar — is-listesi.json köprü olur.
+const isListesiYolu = path.join(__dirname, 'is-listesi.json');
+const slugToAd = {};
+if (fs.existsSync(isListesiYolu)) {
+  for (const k of JSON.parse(fs.readFileSync(isListesiYolu, 'utf8'))) {
+    if (k.tip === 'malzeme' && k.ad) slugToAd[k.slug] = k.ad.toLocaleLowerCase('tr');
+  }
+}
+
 function satirlar(tip, sluglar) {
   return sluglar
-    .map((s) => `  '${s.replace(/'/g, "\\'")}': require('@/assets/gorseller/${tip}/${s}.webp'),`)
+    .map((s) => {
+      const anahtar = tip === 'malzeme' ? (slugToAd[s] ?? s) : s;
+      return `  '${anahtar.replace(/'/g, "\\'")}': require('@/assets/gorseller/${tip}/${s}.webp'),`;
+    })
     .join('\n');
 }
 

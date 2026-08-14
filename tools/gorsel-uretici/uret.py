@@ -6,6 +6,7 @@
 import hashlib
 import json
 import os
+import shutil
 import sys
 import time
 import urllib.request
@@ -97,7 +98,8 @@ def main():
             for img in cikti.get("images", []):
                 kaynak = os.path.join(cikti_klasoru, img.get("subfolder", ""), img["filename"])
                 if os.path.exists(kaynak):
-                    os.replace(kaynak, hedef)
+                    # shutil.move: os.replace sürücüler arası (D: -> C:) çalışmaz.
+                    shutil.move(kaynak, hedef)
         yapilan += 1
         print(f"[{yapilan+atlanan}/{len(isler)}] {kalem['tip']}/{kalem['slug']} tamam", flush=True)
 
