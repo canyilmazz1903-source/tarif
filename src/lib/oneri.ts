@@ -10,12 +10,13 @@ export function gunlukOneriler(
   const saat = simdi.getHours();
   const ay = simdi.getMonth() + 1;
 
+  // Ana yemek her saat diliminde önde: kullanıcıların çoğu "akşama ne pişirsem" arar.
   const oncelikliKategoriler: Kategori[] =
     saat < 11
-      ? ['kahvaltilik', 'hamur-isi']
+      ? ['kahvaltilik', 'ana-yemek', 'hamur-isi']
       : saat < 16
-        ? ['corba', 'ana-yemek', 'salata']
-        : ['ana-yemek', 'corba', 'zeytinyagli'];
+        ? ['ana-yemek', 'corba', 'salata']
+        : ['ana-yemek', 'pilav-bakliyat', 'zeytinyagli'];
 
   const puanla = (t: Tarif): number => {
     let puan = 0;

@@ -53,11 +53,48 @@ export default function Kesfet() {
     [tarifler, simdi, tercihler],
   );
   const mevsim = useMemo(() => mevsimindekiler(tarifler, simdi), [tarifler, simdi]);
-  const akis = useMemo(
-    () => (kategori ? tarifler.filter((t) => t.kategori === kategori) : tarifler),
-    [tarifler, kategori],
-  );
+  // Akış sıralaması: paket sırası (çorbalar önde) yerine sofra öncelikli —
+  // ana yemekler ve akşam kategorileri üstte, gün bazlı hafif rotasyonla.
+  const akis = useMemo(() => {
+    const taban = kategori ? tarifler.filter((t) => t.kategori === kategori) : tarifler;
+    if (kategori) return taban;
+    const oncelik: Record<string, number> = {
+      'ana-yemek': 0,
+      'pilav-bakliyat': 1,
+      zeytinyagli: 2,
+      corba: 3,
+      'hamur-isi': 4,
+      salata: 5,
+      kahvaltilik: 6,
+      tatli: 7,
+      icecek: 8,
+    };
+    const gunTohumu = simdi.getFullYear() * 400 + simdi.getMonth() * 31 + simdi.getDate();
+    const hashla = (id: string) => {
+      let h = gunTohumu;
+      for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) | 0;
+      return Math.abs(h) % 1000;
+    };
+    return [...taban].sort(
+      (a, b) =>
+        (oncelik[a.kategori] ?? 9) - (oncelik[b.kategori] ?? 9) || hashla(a.id) - hashla(b.id),
+    );
+  }, [tarifler, kategori, simdi]);
   const kol = (k: string) => tarifler.filter((t) => t.koleksiyonlar.includes(k as never));
+  const aksamOnerileri = useMemo(() => {
+    const gunTohumu = simdi.getDate() + simdi.getMonth() * 31;
+    return tarifler
+      .filter((t) => t.kategori === 'ana-yemek')
+      .sort((a, b) => {
+        const h = (id: string) => {
+          let x = gunTohumu;
+          for (let i = 0; i < id.length; i++) x = (x * 31 + id.charCodeAt(i)) | 0;
+          return Math.abs(x);
+        };
+        return h(a.id) - h(b.id);
+      })
+      .slice(0, 10);
+  }, [tarifler, simdi]);
   const onbes = tarifler.filter(
     (t) => t.koleksiyonlar.includes('15-dakika') || t.hazirlikDk + t.pisirmeDk <= 20,
   );
@@ -132,6 +169,7 @@ export default function Kesfet() {
               </View>
             </View>
 
+            <Ray baslik="🌙 Bu Akşam Ne Pişirsem" tarifler={aksamOnerileri} />
             <Ray baslik="🔥 Yeni Nesil Mutfak" tarifler={kol('yeni-nesil')} />
             <Ray baslik="⚡ 15 Dakikada" tarifler={onbes} />
             <Ray baslik="🍲 Tek Tencere" tarifler={kol('tek-tencere')} />

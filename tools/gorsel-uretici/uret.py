@@ -16,17 +16,19 @@ BURASI = os.path.dirname(os.path.abspath(__file__))
 CIKTI = os.path.join(BURASI, "cikti")
 
 NEGATIF = (
-    "photo, photorealistic, text, watermark, hands, people, cluttered, "
-    "multiple dishes, dark, harsh shadows, blurry, frame, border"
+    "photo, photorealistic, text, watermark, letters, words, hands, people, faces, "
+    "cluttered, multiple dishes, dark, harsh shadows, blurry, frame, border, "
+    "ugly, deformed, extra objects, 3d render"
 )
 
 def seed_uret(slug: str) -> int:
     return int(hashlib.sha256(slug.encode("utf-8")).hexdigest()[:8], 16)
 
 def workflow(prompt: str, seed: int, dosya_on_eki: str) -> dict:
-    # SD1.5 + DreamShaper v8, 512x512, CFG 6.5, 28 adım, dpmpp_2m karras.
+    # SD1.5 + Deliberate v2 (v1.1.2: içerik örtüşmesi için model değişti),
+    # 512x512, CFG 7, 30 adım, dpmpp_2m karras.
     return {
-        "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "DreamShaper_8_pruned.safetensors"}},
+        "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "Deliberate_v2.safetensors"}},
         "2": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["1", 1], "text": prompt}},
         "3": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["1", 1], "text": NEGATIF}},
         "4": {"class_type": "EmptyLatentImage", "inputs": {"width": 512, "height": 512, "batch_size": 1}},
@@ -34,7 +36,7 @@ def workflow(prompt: str, seed: int, dosya_on_eki: str) -> dict:
             "class_type": "KSampler",
             "inputs": {
                 "model": ["1", 0], "positive": ["2", 0], "negative": ["3", 0], "latent_image": ["4", 0],
-                "seed": seed, "steps": 28, "cfg": 6.5,
+                "seed": seed, "steps": 30, "cfg": 7,
                 "sampler_name": "dpmpp_2m", "scheduler": "karras", "denoise": 1.0,
             },
         },
