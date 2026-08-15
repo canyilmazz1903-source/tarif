@@ -16,9 +16,9 @@ BURASI = os.path.dirname(os.path.abspath(__file__))
 CIKTI = os.path.join(BURASI, "cikti")
 
 NEGATIF = (
-    "photo, photorealistic, text, watermark, letters, words, hands, people, faces, "
-    "cluttered, multiple dishes, dark, harsh shadows, blurry, frame, border, "
-    "ugly, deformed, extra objects, 3d render"
+    "photo, photorealistic, cartoon, anime, flat vector, sticker, text, watermark, "
+    "letters, words, hands, people, faces, cluttered, multiple dishes, dark, "
+    "harsh shadows, blurry, frame, border, ugly, deformed, extra objects, 3d render"
 )
 
 def seed_uret(slug: str) -> int:
