@@ -8,7 +8,7 @@ import { Cip } from '@/components/ui/Cip';
 import { Yazi } from '@/components/ui/Yazi';
 import { Ekran } from '@/components/ui/Ekran';
 import { Bosluk, Yaricap } from '@/constants/theme';
-import { KATEGORILER, TARIFLER } from '@/data/tarifler';
+import { DUNYA_TARIFLER, KATEGORILER, TARIFLER, YORESEL_TARIFLER } from '@/data/tarifler';
 import { useTarifler } from '@/hooks/use-tarifler';
 import { useTema } from '@/hooks/use-tema';
 import { gunlukOneriler, mevsimindekiler } from '@/lib/oneri';
@@ -170,6 +170,20 @@ export default function Kesfet() {
             </View>
 
             <Ray baslik="🌙 Bu Akşam Ne Pişirsem" tarifler={aksamOnerileri} />
+            <Ray
+              baslik="🗺 Yöresel Lezzetler"
+              tarifler={(() => {
+                const idler = new Set(YORESEL_TARIFLER.map((t) => t.id));
+                return tarifler.filter((t) => idler.has(t.id));
+              })()}
+            />
+            <Ray
+              baslik="🌍 Dünya Mutfağı"
+              tarifler={(() => {
+                const idler = new Set(DUNYA_TARIFLER.map((t) => t.id));
+                return tarifler.filter((t) => idler.has(t.id));
+              })()}
+            />
             <Ray baslik="🔥 Yeni Nesil Mutfak" tarifler={kol('yeni-nesil')} />
             <Ray baslik="⚡ 15 Dakikada" tarifler={onbes} />
             <Ray baslik="🍲 Tek Tencere" tarifler={kol('tek-tencere')} />

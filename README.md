@@ -2,7 +2,7 @@
 
 **"Bugün ne pişirsem?" sorusunu 10 saniyede cevaplayan, mutfakta eller serbest kullanılan, israfı ve maliyeti düşünen tarif uygulaması.**
 
-Expo (React Native) ile geliştirildi. **300 denenmiş, ölçülü tarif** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır. Katmanlar (v1.1):
+Expo (React Native) ile geliştirildi. **500 denenmiş, ölçülü tarif** uygulamaya gömülüdür — internet bağlantısı olmadan tüm özellikler çalışır. v1.2 ile eklenen: **Yöresel Lezzetler** (Karadeniz, Ege, Güneydoğu, İç Anadolu — 53 tarif), **Dünya Mutfağı** (ev usulü İtalyan, Uzakdoğu, Meksika/Amerika — 40 tarif) ve çeşit derinliği (yeni çorbalar, köfte-kebap, dolma-sarma, tatlılar, kurabiyeler, mezeler — 107 tarif). Katmanlar (v1.1):
 
 - **Günlük Türk Mutfağı (180):** çorbalar, etli/sebzeli ana yemekler, pilav & bakliyat, hamur işleri, kahvaltılıklar, salata & mezeler, pratik makarnalar
 - **Klasik Tatlılar (~50):** sütlü, şerbetli, kek-kurabiye ve meyveli tatlılar

@@ -1,21 +1,33 @@
 import { MALZEMELER, malzemeBul } from '@/data/malzemeler';
 import {
+  DUNYA_TARIFLER,
   GUNLUK_EK_TARIFLER,
   KLASIK_TARIFLER,
   OSMANLI_SARAY_TARIFLER,
   TARIFLER,
+  V12_EK_TARIFLER,
   YENI_NESIL_TARIFLER,
+  YORESEL_TARIFLER,
 } from '@/data/tarifler';
 import { maliyetRozeti, porsiyonMaliyeti } from '@/lib/maliyet';
 
 // v1.1 kabul kriterleri: 300 tarif, kısa başlıklar, tutarlı veri (P0-A).
 describe('tarif verisi bütünlüğü', () => {
-  it('paket dağılımı: 50 klasik + 80 yeni nesil + 130 günlük ek + 25 Osmanlı + 15 içecek = 300', () => {
+  it('paket dağılımı: 300 (v1.1) + 53 yöresel + 40 dünya + 107 çeşit derinliği = 500', () => {
     expect(KLASIK_TARIFLER).toHaveLength(50);
     expect(YENI_NESIL_TARIFLER).toHaveLength(80);
     expect(GUNLUK_EK_TARIFLER).toHaveLength(130);
     expect(OSMANLI_SARAY_TARIFLER).toHaveLength(25);
-    expect(TARIFLER).toHaveLength(300);
+    expect(YORESEL_TARIFLER).toHaveLength(53);
+    expect(DUNYA_TARIFLER).toHaveLength(40);
+    expect(V12_EK_TARIFLER).toHaveLength(107);
+    expect(TARIFLER).toHaveLength(500);
+  });
+
+  it('v1.2 paketlerinin tamamı editör onaylı', () => {
+    for (const t of [...YORESEL_TARIFLER, ...DUNYA_TARIFLER, ...V12_EK_TARIFLER]) {
+      expect(t.editorOnayli).toBe(true);
+    }
   });
 
   it('Osmanlı Saray paketi osmanli-saray etiketli ve tarihi alt başlıklı', () => {

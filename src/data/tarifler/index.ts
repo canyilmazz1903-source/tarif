@@ -27,6 +27,21 @@ import { SERBETLI_TATLILAR } from '@/data/tarifler/tatlilar-serbetli';
 import { SUTLU_TATLILAR } from '@/data/tarifler/tatlilar-sutlu';
 import { TREND_FIT } from '@/data/tarifler/trend-fit';
 import { YENI_TATLILAR_EK } from '@/data/tarifler/yeni-tatlilar-ek';
+import { CORBALAR_YENI } from '@/data/tarifler/corbalar-yeni';
+import { DOLMA_SARMA } from '@/data/tarifler/dolma-sarma';
+import { DUNYA_ITALYAN } from '@/data/tarifler/dunya-italyan';
+import { DUNYA_MEKSIKA_AMERIKA } from '@/data/tarifler/dunya-meksika-amerika';
+import { DUNYA_UZAKDOGU } from '@/data/tarifler/dunya-uzakdogu';
+import { ICECEK_VEJETARYEN } from '@/data/tarifler/icecek-vejetaryen';
+import { KAHVALTI_BRUNCH } from '@/data/tarifler/kahvalti-brunch';
+import { KOFTE_KEBAP } from '@/data/tarifler/kofte-kebap';
+import { KURABIYE_ATISTIRMALIK } from '@/data/tarifler/kurabiye-atistirmalik';
+import { SALATA_MEZE_YENI } from '@/data/tarifler/salata-meze-yeni';
+import { TATLILAR_YENI } from '@/data/tarifler/tatlilar-yeni';
+import { YORESEL_ANADOLU } from '@/data/tarifler/yoresel-anadolu';
+import { YORESEL_EGE } from '@/data/tarifler/yoresel-ege';
+import { YORESEL_GUNEYDOGU } from '@/data/tarifler/yoresel-guneydogu';
+import { YORESEL_KARADENIZ } from '@/data/tarifler/yoresel-karadeniz';
 
 /** v1.0 klasik Türk mutfağı paketi (50 tarif). */
 export const KLASIK_TARIFLER: Tarif[] = [
@@ -68,12 +83,42 @@ export const GUNLUK_EK_TARIFLER: Tarif[] = [
 /** Osmanlı Saray Mutfağı koleksiyonu (Katman 3). */
 export const OSMANLI_SARAY_TARIFLER: Tarif[] = [...OSMANLI_YEMEKLER, ...OSMANLI_TATLILAR];
 
+/** v1.2: Yöresel Türk mutfağı (Karadeniz, Ege, Güneydoğu, İç Anadolu/Akdeniz). */
+export const YORESEL_TARIFLER: Tarif[] = [
+  ...YORESEL_KARADENIZ,
+  ...YORESEL_EGE,
+  ...YORESEL_GUNEYDOGU,
+  ...YORESEL_ANADOLU,
+];
+
+/** v1.2: Ev usulü dünya mutfağı (İtalyan, Uzakdoğu, Meksika/Amerika). */
+export const DUNYA_TARIFLER: Tarif[] = [
+  ...DUNYA_ITALYAN,
+  ...DUNYA_UZAKDOGU,
+  ...DUNYA_MEKSIKA_AMERIKA,
+];
+
+/** v1.2: çeşit derinliği (çorba, köfte-kebap, dolma-sarma, tatlı, kurabiye, kahvaltı, meze, içecek). */
+export const V12_EK_TARIFLER: Tarif[] = [
+  ...CORBALAR_YENI,
+  ...KOFTE_KEBAP,
+  ...DOLMA_SARMA,
+  ...TATLILAR_YENI,
+  ...KURABIYE_ATISTIRMALIK,
+  ...KAHVALTI_BRUNCH,
+  ...SALATA_MEZE_YENI,
+  ...ICECEK_VEJETARYEN,
+];
+
 export const TARIFLER: Tarif[] = [
   ...KLASIK_TARIFLER,
   ...YENI_NESIL_TARIFLER,
   ...GUNLUK_EK_TARIFLER,
   ...OSMANLI_SARAY_TARIFLER,
   ...DEMLIK_FINCAN,
+  ...YORESEL_TARIFLER,
+  ...DUNYA_TARIFLER,
+  ...V12_EK_TARIFLER,
 ];
 
 const INDEX = new Map(TARIFLER.map((t) => [t.id, t]));
