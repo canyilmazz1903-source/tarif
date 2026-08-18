@@ -41,3 +41,12 @@ example
 # generated native folders
 /ios
 /android
+
+# gorsel hatti calisma klasorleri (repoya girmez; LISANS.csv + assets/gorseller/*.webp girer)
+tools/gorsel-uretici/referans/*.jpg
+tools/gorsel-uretici/referans/_aday/
+tools/gorsel-uretici/referans-hazir/
+tools/gorsel-uretici/cikti-pilot/
+tools/gorsel-uretici/cikti/
+tools/gorsel-uretici/webp/
+tools/gorsel-uretici/qc/

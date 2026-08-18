@@ -1,0 +1,2502 @@
+[
+ {
+  "slug": "tas-kebabi",
+  "tr": "Tas Kebabı",
+  "en": "tender beef cubes and carrot potato chunks in glossy tomato gravy"
+ },
+ {
+  "slug": "orman-kebabi",
+  "tr": "Orman Kebabı",
+  "en": "chunky lamb stew with green peas"
+ },
+ {
+  "slug": "et-sote",
+  "tr": "Et Sote",
+  "en": "sauteed beef strips with green peppers"
+ },
+ {
+  "slug": "ali-nazik",
+  "tr": "Ali Nazik",
+  "en": "mound of spiced minced lamb over a smoky eggplant puree bed"
+ },
+ {
+  "slug": "kadinbudu-kofte",
+  "tr": "Kadınbudu Köfte",
+  "en": "oval golden fried meat patties with light egg coating"
+ },
+ {
+  "slug": "terbiyeli-sulu-kofte",
+  "tr": "Terbiyeli Sulu Köfte",
+  "en": "small meatballs and diced potatoes in pale lemony egg broth"
+ },
+ {
+  "slug": "kislik-sebzeli-guvec",
+  "tr": "Kışlık Sebzeli Güveç",
+  "en": "winter vegetable casserole with potato"
+ },
+ {
+  "slug": "kagit-kebabi",
+  "tr": "Kağıt Kebabı",
+  "en": "lamb cubes with peppers"
+ },
+ {
+  "slug": "patlican-musakka",
+  "tr": "Patlıcan Musakka",
+  "en": "layered fried eggplant slices with minced meat and red tomato sauce in a baking dish"
+ },
+ {
+  "slug": "kiymali-bezelye",
+  "tr": "Kıymalı Bezelye",
+  "en": "green pea stew with minced meat and diced carrots in light tomato sauce"
+ },
+ {
+  "slug": "kiymali-ispanak",
+  "tr": "Kıymalı Ispanak",
+  "en": "dark green spinach cooked with minced meat and rice"
+ },
+ {
+  "slug": "firinda-kofte-patates",
+  "tr": "Fırında Köfte Patates",
+  "en": "oven tray of browned meatballs and golden potato wedges in tomato sauce with green peppers"
+ },
+ {
+  "slug": "arnavut-cigeri",
+  "tr": "Arnavut Ciğeri",
+  "en": "crispy fried liver cubes piled on a rustic plate with raw red onion rings and parsley"
+ },
+ {
+  "slug": "sebzeli-tavuk-guvec",
+  "tr": "Sebzeli Tavuk Güveç",
+  "en": "chicken pieces with peppers"
+ },
+ {
+  "slug": "tavuklu-sebzeli-sote",
+  "tr": "Tavuklu Sebzeli Sote",
+  "en": "sauteed chicken cubes with colorful red and green pepper strips and tomatoes"
+ },
+ {
+  "slug": "karniyarik",
+  "tr": "Karnıyarık",
+  "en": "whole roasted eggplant split open and stuffed with minced meat"
+ },
+ {
+  "slug": "kuru-fasulye",
+  "tr": "Etli Kuru Fasulye",
+  "en": "white beans and small beef chunks in rich red tomato gravy"
+ },
+ {
+  "slug": "izmir-kofte",
+  "tr": "İzmir Köfte",
+  "en": "oblong meatballs with potato wedges"
+ },
+ {
+  "slug": "hunkar-begendi",
+  "tr": "Hünkar Beğendi",
+  "en": "chunks of braised beef in tomato gravy served over a small bed of pale eggplant puree"
+ },
+ {
+  "slug": "etli-nohut",
+  "tr": "Etli Nohut Yemeği",
+  "en": "chickpea stew with beef cubes in red tomato broth"
+ },
+ {
+  "slug": "tavuk-sote",
+  "tr": "Tavuk Sote",
+  "en": "chicken breast cubes sauteed with tomatoes"
+ },
+ {
+  "slug": "firinda-tavuk-but-patatesli",
+  "tr": "Fırında Tavuk But (Patatesli)",
+  "en": "golden roasted chicken drumsticks with seasoned potato wedges and carrot pieces on an oven tray"
+ },
+ {
+  "slug": "hamsi-tava",
+  "tr": "Hamsi Tava",
+  "en": "small anchovies fried golden in cornmeal"
+ },
+ {
+  "slug": "hasanpasa-koftesi",
+  "tr": "Hasanpaşa Köftesi",
+  "en": "round baked meatballs on a tray"
+ },
+ {
+  "slug": "patatesli-yumurtali-oturtma",
+  "tr": "Patatesli Yumurtalı Oturtma",
+  "en": "baked casserole of potato slices and minced meat topped with boiled egg slices and tomato sauce"
+ },
+ {
+  "slug": "sade-pirinc-pilavi",
+  "tr": "Sade Pirinç Pilavı",
+  "en": "fluffy white buttered rice pilaf shaped in a neat mound on a plate"
+ },
+ {
+  "slug": "ekmek-koftesi",
+  "tr": "Ekmek Köftesi",
+  "en": "soft golden pan-fried meat patties stacked on a rustic plate with parsley and tomato garnish"
+ },
+ {
+  "slug": "iskembe-corbasi",
+  "tr": "İşkembe Çorbası",
+  "en": "creamy white tripe soup with red pepper butter drizzle"
+ },
+ {
+  "slug": "dugun-corbasi",
+  "tr": "Düğün Çorbası",
+  "en": "creamy pale lemony lamb soup with swirls of red paprika butter on top"
+ },
+ {
+  "slug": "mahluta-corbasi",
+  "tr": "Mahluta Çorbası",
+  "en": "thick orange-red lentil and bulgur soup with dried mint flecks"
+ },
+ {
+  "slug": "arabasi-corbasi",
+  "tr": "Arabaşı Çorbası",
+  "en": "spicy red chicken soup in a bowl served with soft white jelly-like dough cubes on a plate beside"
+ },
+ {
+  "slug": "kremali-mantar-corbasi",
+  "tr": "Kremalı Mantar Çorbası",
+  "en": "creamy pale beige mushroom soup with sliced mushrooms and cream swirl"
+ },
+ {
+  "slug": "brokoli-corbasi",
+  "tr": "Brokoli Çorbası",
+  "en": "smooth soft green broccoli soup with cream swirl and tiny broccoli floret on top"
+ },
+ {
+  "slug": "sebze-corbasi",
+  "tr": "Sebze Çorbası",
+  "en": "chunky vegetable soup with diced carrots"
+ },
+ {
+  "slug": "levrekli-balik-corbasi",
+  "tr": "Levrekli Balık Çorbası",
+  "en": "creamy lemony fish soup with white sea bass chunks"
+ },
+ {
+  "slug": "terbiyeli-tavuk-suyu-corbasi",
+  "tr": "Terbiyeli Tavuk Suyu Çorbası",
+  "en": "pale yellow chicken broth soup thickened with egg and lemon"
+ },
+ {
+  "slug": "yogurtlu-eriste-corbasi",
+  "tr": "Yoğurtlu Erişte Çorbası",
+  "en": "white yogurt soup with short homemade noodles and dried mint butter drizzle"
+ },
+ {
+  "slug": "kerevizli-kis-corbasi",
+  "tr": "Kerevizli Kış Çorbası",
+  "en": "creamy ivory celeriac soup with cream swirl and fresh dill sprinkle"
+ },
+ {
+  "slug": "tutmac-corbasi",
+  "tr": "Tutmaç Çorbası",
+  "en": "yogurt soup with tiny pasta squares and green lentils"
+ },
+ {
+  "slug": "mercimek-corbasi",
+  "tr": "Mercimek Çorbası",
+  "en": "red lentil soup"
+ },
+ {
+  "slug": "ezogelin-corbasi",
+  "tr": "Ezogelin Çorbası",
+  "en": "orange-red lentil and bulgur soup speckled with dried mint and red pepper flakes"
+ },
+ {
+  "slug": "yayla-corbasi",
+  "tr": "Yayla Çorbası",
+  "en": "white yogurt and rice soup with red dried mint butter drizzle on top"
+ },
+ {
+  "slug": "tarhana-corbasi",
+  "tr": "Tarhana Çorbası",
+  "en": "warm reddish-orange tarhana grain soup with melted butter sheen and mint flecks"
+ },
+ {
+  "slug": "domates-corbasi",
+  "tr": "Domates Çorbası",
+  "en": "smooth bright red tomato soup topped with grated cheese and basil leaf"
+ },
+ {
+  "slug": "sehriyeli-tavuk-corbasi",
+  "tr": "Şehriyeli Tavuk Çorbası",
+  "en": "golden chicken soup with tiny orzo pasta and shredded chicken"
+ },
+ {
+  "slug": "karnabahar-corbasi",
+  "tr": "Karnabahar Çorbası",
+  "en": "velvety ivory cauliflower soup with cream swirl and small roasted floret on top"
+ },
+ {
+  "slug": "sarimsakli-tirit-corbasi",
+  "tr": "Sarımsaklı Tirit Çorbası",
+  "en": "garlic broth soup poured over toasted bread cubes"
+ },
+ {
+  "slug": "klasik-turk-kahvesi",
+  "tr": "Klasik Türk Kahvesi",
+  "en": "Turkish coffee with thick brown foam in a small ornate porcelain cup"
+ },
+ {
+  "slug": "damla-sakizli-turk-kahvesi",
+  "tr": "Damla Sakızlı Türk Kahvesi",
+  "en": "foamy Turkish coffee in a small white cup on a saucer with a glass of water beside"
+ },
+ {
+  "slug": "sutlu-turk-kahvesi",
+  "tr": "Sütlü Türk Kahvesi",
+  "en": "light caramel-brown milky Turkish coffee with soft foam in a small decorated cup on a saucer"
+ },
+ {
+  "slug": "dibek-tarzi-kahve",
+  "tr": "Dibek Tarzı Kahve",
+  "en": "extra creamy frothy stone-ground coffee in a rustic ceramic cup with thick pale foam layer"
+ },
+ {
+  "slug": "salep",
+  "tr": "Salep",
+  "en": "creamy white hot milk drink dusted with cinnamon in a warm mug"
+ },
+ {
+  "slug": "tarcinli-kis-cayi",
+  "tr": "Tarçınlı Kış Çayı",
+  "en": "amber winter tea with apple slices"
+ },
+ {
+  "slug": "kusburnu-cayi",
+  "tr": "Kuşburnu Çayı",
+  "en": "deep coral-red rosehip tea in a clear glass cup with small red rosehip berries beside"
+ },
+ {
+  "slug": "sicak-nane-limon",
+  "tr": "Sıcak Nane-Limon",
+  "en": "pale yellow hot mint lemon drink in a glass mug with fresh mint leaves and lemon slice"
+ },
+ {
+  "slug": "demlikte-cay-demleme",
+  "tr": "Demlikte Klasik Çay",
+  "en": "Turkish tea in tulip-shaped glass"
+ },
+ {
+  "slug": "buzlu-sutlu-soguk-kahve",
+  "tr": "Buzlu Sütlü Soğuk Kahve",
+  "en": "iced milky coffee in a tall glass with ice cubes"
+ },
+ {
+  "slug": "soguk-demleme-kahve",
+  "tr": "Soğuk Demleme Kahve",
+  "en": "dark cold brew coffee in a tall clear glass with ice cubes"
+ },
+ {
+  "slug": "ev-limonatasi",
+  "tr": "Ev Limonatası",
+  "en": "pale yellow homemade lemonade in a glass pitcher and glass with lemon slices and ice cubes"
+ },
+ {
+  "slug": "naneli-limonata",
+  "tr": "Naneli Limonata",
+  "en": "refreshing mint lemonade"
+ },
+ {
+  "slug": "cilekli-limonata",
+  "tr": "Çilekli Limonata",
+  "en": "pink strawberry lemonade in a tall glass with fresh strawberries"
+ },
+ {
+  "slug": "portakalli-kis-serbeti",
+  "tr": "Portakallı Kış Şerbeti",
+  "en": "warm orange winter sherbet drink in a glass mug with orange slice"
+ },
+ {
+  "slug": "su-boregi",
+  "tr": "Su Böreği",
+  "en": "layered soft cheese pastry pie with golden top"
+ },
+ {
+  "slug": "kiymali-pide",
+  "tr": "Kıymalı Pide",
+  "en": "boat-shaped baked flatbread topped with spiced minced meat"
+ },
+ {
+  "slug": "kasarli-pide",
+  "tr": "Kaşarlı Pide",
+  "en": "boat-shaped baked flatbread filled with bubbling melted yellow cheese"
+ },
+ {
+  "slug": "ev-usulu-lahmacun",
+  "tr": "Ev Usulü Lahmacun",
+  "en": "thin round crispy flatbread topped with red minced meat and tomato spread"
+ },
+ {
+  "slug": "manti",
+  "tr": "Mantı",
+  "en": "rows of tiny square dumplings piled in a shallow bowl"
+ },
+ {
+  "slug": "ev-ekmegi",
+  "tr": "Ev Ekmeği",
+  "en": "round rustic homemade bread loaf with golden crackled crust"
+ },
+ {
+  "slug": "evde-simit",
+  "tr": "Evde Simit",
+  "en": "golden brown ring-shaped bread fully crusted with sesame seeds"
+ },
+ {
+  "slug": "pacanga-boregi",
+  "tr": "Paçanga Böreği",
+  "en": "golden fried pastry rolls filled with cured beef and melted cheese"
+ },
+ {
+  "slug": "cig-borek",
+  "tr": "Çiğ Börek",
+  "en": "large half-moon fried thin pastry with bubbly golden surface"
+ },
+ {
+  "slug": "ev-usulu-katmer",
+  "tr": "Ev Usulü Şekerli Katmer",
+  "en": "thin crispy folded pastry square filled with clotted cream and green crushed pistachio"
+ },
+ {
+  "slug": "patatesli-tepsi-boregi",
+  "tr": "Patatesli Tepsi Böreği",
+  "en": "golden layered phyllo pastry pie with soft potato filling"
+ },
+ {
+  "slug": "puf-boregi",
+  "tr": "Puf Böreği",
+  "en": "puffy pillow-like golden fried half-moon pastries piled on a plate"
+ },
+ {
+  "slug": "hashasli-corek",
+  "tr": "Haşhaşlı Çörek",
+  "en": "soft swirl bread rolls with dark poppy seed spiral filling"
+ },
+ {
+  "slug": "misir-ekmegi",
+  "tr": "Mısır Ekmeği",
+  "en": "golden yellow cornbread loaf with dense crumb"
+ },
+ {
+  "slug": "dereotlu-peynirli-muska-boregi",
+  "tr": "Dereotlu Peynirli Muska Böreği",
+  "en": "golden baked triangle phyllo parcels filled with white cheese and dill"
+ },
+ {
+  "slug": "peynirli-pogaca",
+  "tr": "Peynirli Poğaça",
+  "en": "soft golden round buns with glossy tops sprinkled with nigella seeds"
+ },
+ {
+  "slug": "acma",
+  "tr": "Yumuşacık Açma",
+  "en": "soft fluffy ring-shaped glossy golden buns piled in a basket"
+ },
+ {
+  "slug": "pisi",
+  "tr": "Pişi",
+  "en": "puffy golden fried dough pieces piled on a rustic plate"
+ },
+ {
+  "slug": "bazlama",
+  "tr": "Bazlama",
+  "en": "thick round griddle flatbreads with browned spots"
+ },
+ {
+  "slug": "ispanakli-tepsi-boregi",
+  "tr": "Ispanaklı Tepsi Böreği",
+  "en": "golden layered phyllo pastry pie with green spinach filling"
+ },
+ {
+  "slug": "kalan-yufkadan-kol-boregi",
+  "tr": "Kalan Yufkadan Kol Böreği",
+  "en": "long rolled pastry coiled into a spiral"
+ },
+ {
+  "slug": "kiymali-gozleme",
+  "tr": "Kıymalı Gözleme",
+  "en": "thin folded griddle flatbread with browned spots filled with minced meat"
+ },
+ {
+  "slug": "peynirli-sigara-boregi",
+  "tr": "Peynirli Sigara Böreği",
+  "en": "crispy golden fried cigar-shaped pastry rolls filled with white cheese"
+ },
+ {
+  "slug": "kaygana-otlu",
+  "tr": "Otlu Kaygana",
+  "en": "golden herb pancake flecked with green dill and parsley"
+ },
+ {
+  "slug": "pastirmali-sahanda-yumurta",
+  "tr": "Pastırmalı Sahanda Yumurta",
+  "en": "sunny fried eggs with thin cured beef slices in a small copper pan"
+ },
+ {
+  "slug": "cilbir-klasik",
+  "tr": "Klasik Çılbır",
+  "en": "two poached eggs on a thin garlic yogurt bed"
+ },
+ {
+  "slug": "acuka",
+  "tr": "Acuka",
+  "en": "deep red spicy walnut and pepper paste spread in a small bowl with olive oil drizzle and walnuts"
+ },
+ {
+  "slug": "cilek-receli",
+  "tr": "Çilek Reçeli",
+  "en": "glossy red strawberry jam with whole berries in a glass jar"
+ },
+ {
+  "slug": "kayisi-receli",
+  "tr": "Kayısı Reçeli",
+  "en": "golden orange apricot jam with soft fruit halves in a glass jar"
+ },
+ {
+  "slug": "kahvaltilik-patates-kavurmasi",
+  "tr": "Kahvaltılık Patates Kavurması",
+  "en": "golden pan-fried potato cubes with herbs and red pepper flakes in a small skillet"
+ },
+ {
+  "slug": "peynirli-sahanda-yumurta",
+  "tr": "Peynirli Sahanda Yumurta",
+  "en": "two sunny fried eggs in a small pan"
+ },
+ {
+  "slug": "menemen",
+  "tr": "Menemen",
+  "en": "soft scrambled eggs with tomatoes and green peppers"
+ },
+ {
+  "slug": "sucuklu-yumurta",
+  "tr": "Sucuklu Yumurta",
+  "en": "sunny fried eggs with sliced red spicy sausage rounds in a small pan"
+ },
+ {
+  "slug": "mihlama",
+  "tr": "Mıhlama",
+  "en": "copper pan filled with golden cornmeal cheese fondue"
+ },
+ {
+  "slug": "patatesli-omlet",
+  "tr": "Patatesli Omlet",
+  "en": "golden folded omelet filled with diced potatoes"
+ },
+ {
+  "slug": "zerde",
+  "tr": "Zerde",
+  "en": "bright yellow saffron rice pudding in glass bowls topped with pomegranate seeds"
+ },
+ {
+  "slug": "elmasiye",
+  "tr": "Elmasiye",
+  "en": "glistening translucent rosy fruit jelly cut into diamond shapes"
+ },
+ {
+  "slug": "saray-lokmasi",
+  "tr": "Saray Lokması",
+  "en": "small round golden fried dough balls soaked in syrup"
+ },
+ {
+  "slug": "asure-saray",
+  "tr": "Saray Usulü Aşure",
+  "en": "creamy grain pudding topped with pomegranate seeds"
+ },
+ {
+  "slug": "gul-sulu-muhallebi",
+  "tr": "Gül Sulu Su Muhallebisi",
+  "en": "silky white milk pudding with pink rose syrup drizzle and dried rose petals"
+ },
+ {
+  "slug": "kaygana-saray",
+  "tr": "Ballı Saray Kayganası",
+  "en": "fluffy golden egg pancakes drizzled with honey and chopped walnuts"
+ },
+ {
+  "slug": "hosmerim",
+  "tr": "Höşmerim",
+  "en": "warm golden crumbly cheese dessert in a small pan"
+ },
+ {
+  "slug": "ayva-receli",
+  "tr": "Ayva Reçeli",
+  "en": "pink-red translucent quince jam with thin fruit slices in a glass jar"
+ },
+ {
+  "slug": "badem-ezmesi",
+  "tr": "Ev Usulü Badem Ezmesi",
+  "en": "soft white almond paste rolls dusted with powdered sugar"
+ },
+ {
+  "slug": "safranli-irmik-tatlisi",
+  "tr": "Safranlı Sütlü İrmik Tatlısı",
+  "en": "golden yellow saffron semolina pudding scoops topped with pine nuts and cinnamon"
+ },
+ {
+  "slug": "cevizli-sucuk",
+  "tr": "Cevizli Sucuk",
+  "en": "walnut grape molasses candy ropes"
+ },
+ {
+  "slug": "kabak-receli",
+  "tr": "Kabak Reçeli",
+  "en": "bright orange translucent candied pumpkin jam strips in a glass jar"
+ },
+ {
+  "slug": "mutancana",
+  "tr": "Mutancana",
+  "en": "glossy lamb stew with dried apricots"
+ },
+ {
+  "slug": "mahmudiye",
+  "tr": "Mahmudiye",
+  "en": "chicken pieces stewed with dried apricots"
+ },
+ {
+  "slug": "nirbac",
+  "tr": "Nirbaç",
+  "en": "lamb stew with carrot slices in dark pomegranate glaze"
+ },
+ {
+  "slug": "badem-corbasi",
+  "tr": "Badem Çorbası",
+  "en": "creamy white almond soup with slivered almonds and gentle cream swirl"
+ },
+ {
+  "slug": "perde-pilavi",
+  "tr": "Perde Pilavı",
+  "en": "golden dome-shaped pastry crust cut open revealing spiced rice with chicken"
+ },
+ {
+  "slug": "patlicanli-osmanli-pilavi",
+  "tr": "Patlıcanlı Osmanlı Pilavı",
+  "en": "buttery rice pilaf mixed with golden fried eggplant cubes"
+ },
+ {
+  "slug": "kavun-dolmasi",
+  "tr": "Kavun Dolması",
+  "en": "roasted melon half stuffed with spiced rice"
+ },
+ {
+  "slug": "visneli-yaprak-sarma",
+  "tr": "Vişneli Yaprak Sarma",
+  "en": "grape leaf rice rolls topped with glossy dark sour cherries"
+ },
+ {
+  "slug": "piruhi",
+  "tr": "Piruhi",
+  "en": "boiled pasta parcels filled with cheese"
+ },
+ {
+  "slug": "yalanci-dolma",
+  "tr": "Yalancı Dolma",
+  "en": "grape leaf rolls stuffed with herbed rice"
+ },
+ {
+  "slug": "sogan-yahnisi",
+  "tr": "Soğan Yahnisi",
+  "en": "caramelized whole pearl onions and lamb chunks in glossy dark tomato gravy"
+ },
+ {
+  "slug": "sebzeli-saray-guveci",
+  "tr": "Sebzeli Saray Güveci",
+  "en": "colorful vegetable casserole with eggplant"
+ },
+ {
+  "slug": "tavuklu-safranli-pilav",
+  "tr": "Tavuklu Safranlı Pilav",
+  "en": "golden yellow saffron rice pilaf with tender chicken pieces and almonds"
+ },
+ {
+  "slug": "sade-bulgur-pilavi",
+  "tr": "Sade Bulgur Pilavı",
+  "en": "fluffy golden-brown bulgur pilaf mounded on a rustic plate with butter sheen"
+ },
+ {
+  "slug": "domatesli-bulgur-pilavi",
+  "tr": "Domatesli Bulgur Pilavı",
+  "en": "reddish bulgur pilaf cooked with tomato and pepper"
+ },
+ {
+  "slug": "sebzeli-bulgur-pilavi",
+  "tr": "Sebzeli Bulgur Pilavı",
+  "en": "bulgur pilaf with colorful diced peppers"
+ },
+ {
+  "slug": "ic-pilav",
+  "tr": "İç Pilav",
+  "en": "spiced rice pilaf with currants"
+ },
+ {
+  "slug": "sehriyeli-pirinc-pilavi",
+  "tr": "Şehriyeli Pirinç Pilavı",
+  "en": "white rice pilaf speckled with browned orzo pieces"
+ },
+ {
+  "slug": "nohutlu-pilav",
+  "tr": "Nohutlu Pilav",
+  "en": "buttery white rice pilaf studded with golden chickpeas"
+ },
+ {
+  "slug": "mercimekli-bulgur-pilavi",
+  "tr": "Mercimekli Bulgur Pilavı",
+  "en": "bulgur pilaf mixed with green lentils and caramelized onions"
+ },
+ {
+  "slug": "firik-pilavi",
+  "tr": "Firik Pilavı",
+  "en": "smoky green freekeh grain pilaf with chickpeas"
+ },
+ {
+  "slug": "ozbek-pilavi",
+  "tr": "Özbek Pilavı",
+  "en": "rice pilaf with lamb chunks"
+ },
+ {
+  "slug": "barbunya-pilaki",
+  "tr": "Barbunya Pilaki",
+  "en": "pink-speckled borlotti beans stewed with carrots in olive oil tomato sauce"
+ },
+ {
+  "slug": "salcali-nohut",
+  "tr": "Salçalı Nohut Yemeği",
+  "en": "golden chickpeas in rich red tomato paste sauce"
+ },
+ {
+  "slug": "yesil-mercimek-yemegi",
+  "tr": "Yeşil Mercimek Yemeği",
+  "en": "green lentil stew with onions and carrot bits in light tomato broth"
+ },
+ {
+  "slug": "meyhane-pilavi",
+  "tr": "Meyhane Pilavı",
+  "en": "spicy bulgur pilaf with tomatoes"
+ },
+ {
+  "slug": "kiymali-besamelli-firin-makarna",
+  "tr": "Kıymalı Beşamelli Fırın Makarna",
+  "en": "baked pasta casserole with minced meat and creamy bechamel"
+ },
+ {
+  "slug": "yogurtlu-kiymali-makarna",
+  "tr": "Yoğurtlu Makarna",
+  "en": "shallow bowl of pasta with browned minced meat"
+ },
+ {
+  "slug": "tereyagli-peynirli-eriste",
+  "tr": "Tereyağlı Peynirli Erişte",
+  "en": "homemade egg noodles tossed with melted butter"
+ },
+ {
+  "slug": "domates-soslu-kiymali-makarna",
+  "tr": "Domates Soslu Kıymalı Makarna",
+  "en": "pasta with rich red minced meat tomato sauce and parsley sprinkle"
+ },
+ {
+  "slug": "sebzeli-firin-makarna",
+  "tr": "Sebzeli Fırın Makarna",
+  "en": "baked pasta casserole with colorful peppers"
+ },
+ {
+  "slug": "piyaz",
+  "tr": "Piyaz",
+  "en": "white bean salad with red onion slices"
+ },
+ {
+  "slug": "haydari",
+  "tr": "Haydari",
+  "en": "thick white strained yogurt dip with garlic and dill"
+ },
+ {
+  "slug": "acili-ezme",
+  "tr": "Acılı Ezme",
+  "en": "finely chopped spicy red tomato pepper salad glistening with pomegranate molasses and olive oil"
+ },
+ {
+  "slug": "kabak-mucveri",
+  "tr": "Kabak Mücveri",
+  "en": "golden fried zucchini fritters with green flecks stacked on a plate"
+ },
+ {
+  "slug": "yogurtlu-semizotu-mezesi",
+  "tr": "Yoğurtlu Semizotu Mezesi",
+  "en": "fresh green purslane leaves folded into garlicky white yogurt"
+ },
+ {
+  "slug": "patates-salatasi",
+  "tr": "Patates Salatası",
+  "en": "potato salad with parsley"
+ },
+ {
+  "slug": "rus-salatasi",
+  "tr": "Rus Salatası",
+  "en": "creamy diced potato salad with peas"
+ },
+ {
+  "slug": "mercimek-koftesi",
+  "tr": "Mercimek Köftesi",
+  "en": "orange-red lentil bulgur patties shaped by hand"
+ },
+ {
+  "slug": "saksuka",
+  "tr": "Şakşuka",
+  "en": "fried eggplant and zucchini cubes in garlicky red tomato sauce"
+ },
+ {
+  "slug": "havuc-tarator",
+  "tr": "Havuç Tarator",
+  "en": "bowl of thick carrot yogurt dip with visible shredded orange carrot strands"
+ },
+ {
+  "slug": "cacik",
+  "tr": "Cacık",
+  "en": "cold white yogurt and grated cucumber dip with dill and dried mint"
+ },
+ {
+  "slug": "kozlenmis-patlican-salatasi",
+  "tr": "Közlenmiş Patlıcan Salatası",
+  "en": "smoky roasted eggplant salad with chopped peppers"
+ },
+ {
+  "slug": "mevsim-salatasi",
+  "tr": "Mevsim Salatası",
+  "en": "fresh mixed salad of lettuce"
+ },
+ {
+  "slug": "nohut-salatasi",
+  "tr": "Nohut Salatası",
+  "en": "chickpea salad with diced tomato"
+ },
+ {
+  "slug": "coban-salata",
+  "tr": "Çoban Salata",
+  "en": "chopped tomato"
+ },
+ {
+  "slug": "kisir",
+  "tr": "Kısır",
+  "en": "orange-red fine bulgur salad with herbs"
+ },
+ {
+  "slug": "gavurdagi-salatasi",
+  "tr": "Gavurdağı Salatası",
+  "en": "finely chopped tomato and pepper salad with walnut pieces and pomegranate molasses"
+ },
+ {
+  "slug": "yesil-mercimekli-salata",
+  "tr": "Yeşil Mercimekli Salata",
+  "en": "green lentil salad with diced tomato"
+ },
+ {
+  "slug": "etli-biber-dolmasi",
+  "tr": "Etli Biber Dolması",
+  "en": "stuffed green peppers standing upright filled with rice and minced meat"
+ },
+ {
+  "slug": "etli-yaprak-sarma",
+  "tr": "Etli Yaprak Sarma",
+  "en": "tightly rolled grape leaf rolls filled with meat and rice"
+ },
+ {
+  "slug": "kiymali-kabak-dolmasi",
+  "tr": "Kabak Dolması (Kıymalı)",
+  "en": "hollowed zucchini pieces stuffed with rice and minced meat"
+ },
+ {
+  "slug": "kiymali-karnabahar-yemegi",
+  "tr": "Kıymalı Karnabahar Yemeği",
+  "en": "cauliflower florets stewed with minced meat in light tomato sauce"
+ },
+ {
+  "slug": "kiymali-pirasa",
+  "tr": "Kıymalı Pırasa",
+  "en": "sliced leek pieces stewed with minced meat and carrot in light tomato broth"
+ },
+ {
+  "slug": "kiymali-lahana-sarma",
+  "tr": "Lahana Sarma (Kıymalı)",
+  "en": "pale green cabbage leaf rolls stuffed with meat and rice"
+ },
+ {
+  "slug": "kiymali-taze-kabak",
+  "tr": "Kıymalı Taze Kabak Yemeği",
+  "en": "diced zucchini stewed with minced meat"
+ },
+ {
+  "slug": "zeytinyagli-biber-dolmasi",
+  "tr": "Zeytinyağlı Biber Dolması",
+  "en": "green peppers stuffed with herbed rice"
+ },
+ {
+  "slug": "soganli-ispanak-yemegi",
+  "tr": "Soğanlı Ispanak Yemeği",
+  "en": "dark green spinach stew with onions and rice in olive oil"
+ },
+ {
+  "slug": "zeytinyagli-sebzeli-turlu",
+  "tr": "Zeytinyağlı Sebzeli Türlü",
+  "en": "mixed vegetable stew with eggplant"
+ },
+ {
+  "slug": "zeytinyagli-kereviz",
+  "tr": "Zeytinyağlı Kereviz",
+  "en": "celeriac slices with diced carrots and peas in lemony olive oil sauce"
+ },
+ {
+  "slug": "patlican-silkme",
+  "tr": "Patlıcan Silkme (Etsiz)",
+  "en": "eggplant"
+ },
+ {
+  "slug": "sarimsakli-brokoli-sote",
+  "tr": "Sarımsaklı Brokoli Sote",
+  "en": "bright green broccoli florets sauteed with golden garlic slices and olive oil"
+ },
+ {
+  "slug": "zeytinyagli-semizotu",
+  "tr": "Zeytinyağlı Semizotu Yemeği",
+  "en": "green purslane stew with rice in light olive oil tomato sauce"
+ },
+ {
+  "slug": "zeytinyagli-bakla",
+  "tr": "Zeytinyağlı Bakla",
+  "en": "tender green broad beans in olive oil on a serving plate"
+ },
+ {
+  "slug": "cikolata-soslu-islak-kek",
+  "tr": "Çikolata Soslu Islak Kek",
+  "en": "moist dark chocolate cake squares soaked in glossy chocolate sauce"
+ },
+ {
+  "slug": "havuclu-cevizli-kek",
+  "tr": "Havuçlu Cevizli Kek",
+  "en": "carrot walnut cake slice with orange flecks and cinnamon"
+ },
+ {
+  "slug": "limonlu-kek",
+  "tr": "Limonlu Kek",
+  "en": "golden lemon loaf cake with white sugar glaze drizzle"
+ },
+ {
+  "slug": "un-kurabiyesi",
+  "tr": "Un Kurabiyesi",
+  "en": "crumbly pale round shortbread cookies generously dusted with powdered sugar"
+ },
+ {
+  "slug": "acibadem-kurabiyesi",
+  "tr": "Acıbadem Kurabiyesi",
+  "en": "golden domed almond cookies with cracked tops"
+ },
+ {
+  "slug": "un-helvasi",
+  "tr": "Un Helvası",
+  "en": "golden brown flour halva shaped into soft spoon quenelles"
+ },
+ {
+  "slug": "ayva-tatlisi",
+  "tr": "Ayva Tatlısı",
+  "en": "poached quince halves in deep ruby red syrup topped with clotted cream and crushed walnuts"
+ },
+ {
+  "slug": "incir-uyutmasi",
+  "tr": "İncir Uyutması",
+  "en": "creamy fig milk pudding with fig pieces"
+ },
+ {
+  "slug": "kuru-kayisi-kompostosu",
+  "tr": "Kuru Kayısı Kompostosu",
+  "en": "plump golden dried apricots floating in light amber syrup"
+ },
+ {
+  "slug": "firinda-elma-tatlisi",
+  "tr": "Fırında Cevizli Elma Tatlısı",
+  "en": "baked apple halves filled with chopped walnuts and cinnamon"
+ },
+ {
+  "slug": "mozaik-pasta",
+  "tr": "Mozaik Pasta",
+  "en": "chocolate mosaic cake log slice showing biscuit pieces pattern in dark chocolate"
+ },
+ {
+  "slug": "ev-baklavasi",
+  "tr": "Ev Baklavası",
+  "en": "layered golden filo pastry diamonds glistening with syrup"
+ },
+ {
+  "slug": "tulumba-tatlisi",
+  "tr": "Tulumba Tatlısı",
+  "en": "ridged oval golden fried dough pieces soaked in syrup"
+ },
+ {
+  "slug": "kunefe",
+  "tr": "Künefe",
+  "en": "round flat golden shredded kadayif pastry disk"
+ },
+ {
+  "slug": "lokma-tatlisi",
+  "tr": "Lokma Tatlısı",
+  "en": "small round golden fried doughnut balls soaked in syrup"
+ },
+ {
+  "slug": "vezir-parmagi",
+  "tr": "Vezir Parmağı",
+  "en": "finger-shaped golden fried pastries soaked in syrup"
+ },
+ {
+  "slug": "hanim-gobegi",
+  "tr": "Hanım Göbeği",
+  "en": "round golden syrup-soaked doughnuts each with a dimple in the center"
+ },
+ {
+  "slug": "kalburabasti",
+  "tr": "Kalburabastı",
+  "en": "oval semolina cookies with sieve-textured pattern soaked in syrup"
+ },
+ {
+  "slug": "sam-tatlisi",
+  "tr": "Şam Tatlısı",
+  "en": "golden square syrup-soaked soft cake pieces sprinkled with shredded coconut"
+ },
+ {
+  "slug": "kemalpasa-tatlisi",
+  "tr": "Kemalpaşa Tatlısı",
+  "en": "small round golden cheese dough discs soaked in glossy syrup"
+ },
+ {
+  "slug": "irmik-tatlisi-serbetli",
+  "tr": "Şerbetli İrmik Tatlısı",
+  "en": "golden syrup-soaked semolina cake squares with almond on top"
+ },
+ {
+  "slug": "fistikli-burma-kadayif",
+  "tr": "Fıstıklı Burma Kadayıf",
+  "en": "rolled shredded pastry logs filled with green pistachio"
+ },
+ {
+  "slug": "kazandibi",
+  "tr": "Kazandibi",
+  "en": "rolled milk pudding slices with caramelized dark brown top"
+ },
+ {
+  "slug": "sade-muhallebi",
+  "tr": "Sade Muhallebi",
+  "en": "silky white milk pudding in a glass bowl dusted with cinnamon"
+ },
+ {
+  "slug": "irmikli-muhallebi",
+  "tr": "İrmikli Muhallebi",
+  "en": "creamy semolina milk pudding in glass bowls topped with cinnamon and chopped hazelnuts"
+ },
+ {
+  "slug": "gullac",
+  "tr": "Güllaç",
+  "en": "delicate white milky pastry layers topped with pomegranate seeds and crushed walnuts"
+ },
+ {
+  "slug": "profiterol",
+  "tr": "Profiterol",
+  "en": "pile of round choux pastry balls in a glass bowl"
+ },
+ {
+  "slug": "keskul",
+  "tr": "Keşkül",
+  "en": "white almond milk pudding in small cups topped with shredded coconut and crushed pistachio"
+ },
+ {
+  "slug": "supangle",
+  "tr": "Supangle",
+  "en": "thick glossy dark chocolate pudding in glass cups topped with pistachio"
+ },
+ {
+  "slug": "tavukgogsu",
+  "tr": "Tavukgöğsü",
+  "en": "soft white rolled milk pudding slices with fine stringy texture"
+ },
+ {
+  "slug": "sakizli-muhallebi",
+  "tr": "Sakızlı Muhallebi",
+  "en": "silky ivory mastic milk pudding in elegant glass bowls"
+ },
+ {
+  "slug": "trilece",
+  "tr": "Trileçe",
+  "en": "milk-soaked white sponge cake square topped with shiny amber caramel glaze layer"
+ },
+ {
+  "slug": "krem-karamel",
+  "tr": "Krem Karamel",
+  "en": "wobbly caramel custard flan with glossy amber caramel sauce dripping down"
+ },
+ {
+  "slug": "firin-sutlac",
+  "tr": "Fırın Sütlaç",
+  "en": "baked rice pudding in clay bowls with browned spotted caramelized tops"
+ },
+ {
+  "slug": "revani",
+  "tr": "Revani",
+  "en": "golden syrup-soaked semolina cake squares topped with shredded coconut and pistachio"
+ },
+ {
+  "slug": "sekerpare",
+  "tr": "Şekerpare",
+  "en": "small round golden semolina cookies soaked in syrup"
+ },
+ {
+  "slug": "irmik-helvasi",
+  "tr": "İrmik Helvası",
+  "en": "golden semolina halva scoops shaped with a spoon"
+ },
+ {
+  "slug": "kabak-tatlisi",
+  "tr": "Kabak Tatlısı",
+  "en": "deep orange candied pumpkin slices glistening with syrup"
+ },
+ {
+  "slug": "cevizli-ev-kadayifi",
+  "tr": "Cevizli Ev Kadayıfı",
+  "en": "golden crispy shredded pastry squares filled with walnuts"
+ },
+ {
+  "slug": "asure",
+  "tr": "Aşure",
+  "en": "creamy grain pudding with beans and wheat"
+ },
+ {
+  "slug": "ekmek-tatlisi",
+  "tr": "Ekmek Tatlısı",
+  "en": "golden syrup-soaked bread dessert slices topped with clotted cream and crushed pistachio"
+ },
+ {
+  "slug": "izgara-tavuklu-bulgur-kase",
+  "tr": "Izgara Tavuklu Bulgur Kase",
+  "en": "grilled chicken slices over bulgur in a bowl with cherry tomatoes"
+ },
+ {
+  "slug": "firinda-baharatli-tavuk-sebze",
+  "tr": "Fırında Baharatlı Tavuk ve Sebze",
+  "en": "roasted spiced chicken pieces with colorful zucchini"
+ },
+ {
+  "slug": "ton-balikli-yumurtali-fit-kase",
+  "tr": "Ton Balıklı Yumurtalı Fit Kase",
+  "en": "healthy bowl of tuna flakes"
+ },
+ {
+  "slug": "firinda-mercimekli-fit-kofte",
+  "tr": "Fırında Mercimekli Fit Köfte",
+  "en": "baked orange-brown lentil patties on a tray with fresh green salad and lemon wedges beside"
+ },
+ {
+  "slug": "kavanozda-nohutlu-salata",
+  "tr": "Kavanozda Nohutlu Salata",
+  "en": "colorful layered salad in a glass jar with chickpeas"
+ },
+ {
+  "slug": "kavanozda-bulgurlu-sebzeli-salata",
+  "tr": "Kavanozda Bulgurlu Sebzeli Salata",
+  "en": "layered bulgur salad in a glass jar with diced peppers"
+ },
+ {
+  "slug": "kavanozda-ton-balikli-makarna",
+  "tr": "Kavanozda Ton Balıklı Makarna",
+  "en": "pasta salad layered in a glass jar with tuna"
+ },
+ {
+  "slug": "uc-peynirli-tost",
+  "tr": "Üç Peynirli Tost",
+  "en": "golden grilled toast sandwich halves on a wooden board"
+ },
+ {
+  "slug": "sucuklu-kasarli-firin-tost",
+  "tr": "Sucuklu Kaşarlı Fırın Tost",
+  "en": "oven-baked toast halves topped with red sausage slices and bubbling melted yellow cheese"
+ },
+ {
+  "slug": "akdeniz-usulu-sebzeli-sandvic",
+  "tr": "Akdeniz Usulü Sebzeli Sandviç",
+  "en": "rustic sandwich filled with tomato"
+ },
+ {
+  "slug": "tek-kasede-yulafli-muzlu-kek",
+  "tr": "Tek Kasede Yulaflı Muzlu Kek",
+  "en": "rustic oat banana cake slice topped with banana slices and walnuts"
+ },
+ {
+  "slug": "tek-tavada-sebzeli-brunch-tavasi",
+  "tr": "Sebzeli Yumurtalı Brunch Tavası",
+  "en": "one-pan brunch skillet with sunny eggs nestled among sauteed peppers"
+ },
+ {
+  "slug": "bes-malzemeli-tavuk-noodle-tava",
+  "tr": "5 Malzemeli Tavuk Noodle Tava",
+  "en": "stir-fried noodles with chicken strips"
+ },
+ {
+  "slug": "airfryer-elma-dilim-patates",
+  "tr": "Çıtır Elma Dilim Patates",
+  "en": "crispy golden thick-cut potato wedges piled in a paper-lined basket with dipping sauce beside"
+ },
+ {
+  "slug": "airfryer-aci-soslu-tavuk-kanat",
+  "tr": "Acı Soslu Tavuk Kanat",
+  "en": "glossy red hot-sauce glazed chicken wings piled on a plate with sesame and green onion sprinkle"
+ },
+ {
+  "slug": "airfryer-citir-karnabahar",
+  "tr": "Çıtır Karnabahar",
+  "en": "crispy golden-breaded cauliflower bites piled in a bowl with creamy white dip beside"
+ },
+ {
+  "slug": "airfryer-sarimsakli-mantar",
+  "tr": "Sarımsaklı Mantar",
+  "en": "glossy roasted button mushrooms with garlic and parsley in a small bowl"
+ },
+ {
+  "slug": "airfryer-soya-balli-somon",
+  "tr": "Soya-Ballı Somon Fileto",
+  "en": "glazed salmon fillet with glossy amber honey-soy coating and sesame seeds"
+ },
+ {
+  "slug": "airfryer-kofte",
+  "tr": "Airfryer Köfte",
+  "en": "evenly browned round meatballs in an air fryer basket"
+ },
+ {
+  "slug": "airfryer-citir-tavuk-parcalari",
+  "tr": "Çıtır Tavuk Parçaları",
+  "en": "crispy golden breaded chicken nugget pieces piled on a plate with ketchup dip beside"
+ },
+ {
+  "slug": "airfryer-patlican-cips",
+  "tr": "Patlıcan Cips",
+  "en": "thin crispy golden eggplant chips stacked on a plate with white yogurt dip in a bowl"
+ },
+ {
+  "slug": "airfryer-sebzeli-tavuk-sis",
+  "tr": "Sebzeli Tavuk Şiş",
+  "en": "skewers of grilled chicken cubes with red and green pepper and onion pieces"
+ },
+ {
+  "slug": "airfryer-falafel",
+  "tr": "Airfryer Falafel",
+  "en": "golden brown falafel balls"
+ },
+ {
+  "slug": "airfryer-kok-sebze-kavurmasi",
+  "tr": "Fırın Kök Sebze Kavurması",
+  "en": "roasted root vegetable chunks of carrot"
+ },
+ {
+  "slug": "cilbir-modern",
+  "tr": "Modern Çılbır",
+  "en": "single poached egg with runny yolk on a thin herbed yogurt bed"
+ },
+ {
+  "slug": "avokadolu-yumurtali-tost",
+  "tr": "Avokadolu Yumurtalı Tost",
+  "en": "toasted bread topped with mashed green avocado and a sunny fried egg"
+ },
+ {
+  "slug": "kabarik-amerikan-pancake",
+  "tr": "Kabarık Amerikan Pancake",
+  "en": "tall stack of fluffy golden pancakes with butter pat and syrup dripping down the sides"
+ },
+ {
+  "slug": "tarcinli-fransiz-tostu",
+  "tr": "Tarçınlı Fransız Tostu",
+  "en": "golden French toast slices dusted with cinnamon and powdered sugar"
+ },
+ {
+  "slug": "krem-peynirli-bazlama-tost",
+  "tr": "Krem Peynirli Bazlama Tost",
+  "en": "grilled thick flatbread toast halves with golden browned spots"
+ },
+ {
+  "slug": "firinda-yumurtali-avokado",
+  "tr": "Fırında Yumurtalı Avokado",
+  "en": "baked avocado halves each filled with a cooked egg"
+ },
+ {
+  "slug": "muzlu-fistik-ezmeli-gece-yulafi",
+  "tr": "Muzlu Fıstık Ezmeli Gece Yulafı",
+  "en": "overnight oats in a glass jar layered with banana slices and peanut butter swirl"
+ },
+ {
+  "slug": "akdeniz-usulu-protein-bowl",
+  "tr": "Akdeniz Usulü Protein Bowl",
+  "en": "protein bowl with grilled chicken"
+ },
+ {
+  "slug": "ton-balikli-bowl",
+  "tr": "Ton Balıklı Bowl",
+  "en": "tuna bowl with bulgur"
+ },
+ {
+  "slug": "tavuklu-sezar-salata",
+  "tr": "Tavuklu Sezar Salata",
+  "en": "Caesar salad with grilled chicken slices"
+ },
+ {
+  "slug": "bulgurlu-buda-bowl",
+  "tr": "Bulgurlu Buda Bowl",
+  "en": "colorful buddha bowl with bulgur"
+ },
+ {
+  "slug": "firin-beyaz-peynirli-makarna",
+  "tr": "Fırında Beyaz Peynirli Makarna",
+  "en": "baked pasta with softened white cheese block and burst cherry tomatoes stirred creamy"
+ },
+ {
+  "slug": "kremali-mantarli-makarna",
+  "tr": "Kremalı Mantarlı Makarna",
+  "en": "pasta in silky cream sauce with sauteed mushroom slices and parsley"
+ },
+ {
+  "slug": "ev-yapimi-mac-and-cheese",
+  "tr": "Ev Yapımı Mac and Cheese",
+  "en": "baking dish of macaroni elbows lightly coated in yellow cheese sauce"
+ },
+ {
+  "slug": "tek-tencere-domatesli-spagetti",
+  "tr": "Tek Tencere Domatesli Spagetti",
+  "en": "spaghetti twirled in glossy red tomato sauce with basil leaves"
+ },
+ {
+  "slug": "sucuklu-makarna",
+  "tr": "Sucuklu Makarna",
+  "en": "pasta tossed with red spicy sausage slices in tomato sauce"
+ },
+ {
+  "slug": "tavuklu-kori-soslu-noodle",
+  "tr": "Tavuklu Köri Soslu Noodle",
+  "en": "tangle of noodles with chicken strips and colorful peppers"
+ },
+ {
+  "slug": "citir-parmesanli-firin-makarna",
+  "tr": "Çıtır Parmesanlı Fırın Makarna",
+  "en": "baked pasta with golden crispy parmesan breadcrumb crust"
+ },
+ {
+  "slug": "roka-pestolu-spagetti",
+  "tr": "Roka Pestolu Spagetti",
+  "en": "spaghetti coated in bright green arugula pesto with pine nuts and parmesan shavings"
+ },
+ {
+  "slug": "sarimsakli-sehriyeli-pilav-bowl",
+  "tr": "Sarımsaklı Tereyağlı Şehriye Bowl",
+  "en": "golden buttery toasted orzo pilaf with garlic in a cozy bowl"
+ },
+ {
+  "slug": "acili-tavuklu-noodle-corbasi",
+  "tr": "Acılı Tavuklu Noodle Çorbası",
+  "en": "spicy red chicken noodle soup with chili oil swirl"
+ },
+ {
+  "slug": "kremali-misir-corbasi",
+  "tr": "Kremalı Mısır Çorbası",
+  "en": "creamy pale yellow corn soup with sweet corn kernels and cream swirl"
+ },
+ {
+  "slug": "smash-burger",
+  "tr": "Smash Burger",
+  "en": "smashed beef patty burger with crispy lacy edges"
+ },
+ {
+  "slug": "citir-tavuk-burger",
+  "tr": "Çıtır Tavuk Burger",
+  "en": "crispy golden fried chicken fillet burger with lettuce and creamy sauce in a glossy bun"
+ },
+ {
+  "slug": "ev-usulu-tavuk-doner",
+  "tr": "Ev Usulü Tavuk Döner",
+  "en": "thin sliced marinated chicken doner strips piled on flatbread with tomato"
+ },
+ {
+  "slug": "dana-tantuni",
+  "tr": "Dana Tantuni",
+  "en": "finely chopped seasoned beef rolled tightly in thin lavash wrap with parsley and onions"
+ },
+ {
+  "slug": "teriyaki-tavuk-sandvic",
+  "tr": "Teriyaki Tavuk Sandviç",
+  "en": "sandwich filled with glossy teriyaki glazed chicken slices"
+ },
+ {
+  "slug": "balli-hardalli-tavuk-wrap",
+  "tr": "Ballı Hardallı Tavuk Wrap",
+  "en": "tortilla wrap sliced showing chicken strips"
+ },
+ {
+  "slug": "firin-kumpir",
+  "tr": "Fırın Kumpir",
+  "en": "large baked jacket potato split open"
+ },
+ {
+  "slug": "zurna-kofte-durum",
+  "tr": "Zurna Köfte Dürüm",
+  "en": "extra long thin wrap filled with grilled meatballs"
+ },
+ {
+  "slug": "islak-hamburger",
+  "tr": "Islak Hamburger",
+  "en": "small glossy steamed burgers soaked in garlicky tomato sauce"
+ },
+ {
+  "slug": "cokertme-kebabi",
+  "tr": "Çökertme Kebabı",
+  "en": "thin crispy shoestring fried potatoes topped with sliced beef strips"
+ },
+ {
+  "slug": "tavuk-sis-durum",
+  "tr": "Tavuk Şiş Dürüm",
+  "en": "grilled marinated chicken skewer cubes wrapped in lavash with onions and parsley"
+ },
+ {
+  "slug": "san-sebastian-cheesecake",
+  "tr": "San Sebastian Cheesecake",
+  "en": "burnt basque cheesecake with dark caramelized top and creamy soft center"
+ },
+ {
+  "slug": "islak-brownie",
+  "tr": "Islak Brownie",
+  "en": "fudgy dark chocolate brownie squares with glossy moist tops"
+ },
+ {
+  "slug": "yumusak-damla-cikolatali-kurabiye",
+  "tr": "Yumuşak Damla Çikolatalı Kurabiye",
+  "en": "soft golden cookies studded with melting chocolate chips"
+ },
+ {
+  "slug": "kedidili-tiramisu",
+  "tr": "Kedidili Tiramisu",
+  "en": "layered tiramisu in a glass dish with ladyfinger biscuits"
+ },
+ {
+  "slug": "muzlu-magnolia",
+  "tr": "Muzlu Magnolia",
+  "en": "creamy banana pudding cups layered with crushed biscuits and banana slices"
+ },
+ {
+  "slug": "cikolatali-sufle",
+  "tr": "Çikolatalı Sufle",
+  "en": "chocolate souffle in a ramekin with molten chocolate center flowing out"
+ },
+ {
+  "slug": "tavada-bruksel-waffle",
+  "tr": "Tavada Brüksel Waffle",
+  "en": "golden grid-patterned waffle topped with berries"
+ },
+ {
+  "slug": "kadayifli-fistikli-kup",
+  "tr": "Kadayıflı Fıstıklı Kup",
+  "en": "glass dessert cup layered with crispy golden shredded pastry"
+ },
+ {
+  "slug": "firinsiz-limonlu-cheesecake-kupu",
+  "tr": "Fırınsız Limonlu Cheesecake Kupu",
+  "en": "no-bake cheesecake in a glass cup with biscuit crumb base"
+ },
+ {
+  "slug": "tarcinli-rulo-corek",
+  "tr": "Tarçınlı Rulo Çörek",
+  "en": "soft cinnamon swirl rolls with white icing glaze drizzle"
+ },
+ {
+  "slug": "tarcin-sekerli-citir-cubuklar",
+  "tr": "Tarçın Şekerli Çıtır Çubuklar",
+  "en": "crispy golden pastry sticks coated in cinnamon sugar"
+ },
+ {
+  "slug": "beyaz-cikolatali-blondie",
+  "tr": "Beyaz Çikolatalı Blondie",
+  "en": "golden blondie squares studded with white chocolate chunks"
+ },
+ {
+  "slug": "cifte-cikolatali-cookie",
+  "tr": "Çifte Çikolatalı Cookie",
+  "en": "dark chocolate cookies with cracked tops and melting chocolate chunks"
+ },
+ {
+  "slug": "yulafli-fistik-ezmeli-cookie",
+  "tr": "Yulaflı Fıstık Ezmeli Cookie",
+  "en": "golden oatmeal peanut butter cookies with crosshatch fork pattern"
+ },
+ {
+  "slug": "bardakta-cilekli-cheesecake",
+  "tr": "Bardakta Çilekli Cheesecake",
+  "en": "strawberry cheesecake in a glass cup"
+ },
+ {
+  "slug": "bardakta-cikolatali-mus",
+  "tr": "Bardakta Çikolatalı Mus",
+  "en": "airy dark chocolate mousse in a glass cup topped with whipped cream swirl and chocolate shavings"
+ },
+ {
+  "slug": "karamelize-biskuvili-kup",
+  "tr": "Karamelize Bisküvili Kup",
+  "en": "glass dessert cup layered with caramel biscuit crumbs"
+ },
+ {
+  "slug": "kahveli-latte-kupu",
+  "tr": "Kahveli Latte Kupu",
+  "en": "coffee latte dessert in a glass cup with layered coffee cream"
+ },
+ {
+  "slug": "firinsiz-cikolatali-salam",
+  "tr": "Fırınsız Çikolatalı Salam",
+  "en": "chocolate salami log dusted with powdered sugar"
+ },
+ {
+  "slug": "limon-kremali-mini-tart",
+  "tr": "Limon Kremalı Mini Tart",
+  "en": "mini golden tart shells filled with bright yellow lemon cream"
+ },
+ {
+  "slug": "kat-kat-pankek-keki",
+  "tr": "Kat Kat Pankek Keki",
+  "en": "tall layered pancake cake with cream spread between many thin pancake layers"
+ },
+ {
+  "slug": "tahinli-cevizli-rulo-corek",
+  "tr": "Tahinli Cevizli Rulo Çörek",
+  "en": "swirled buns with dark tahini and walnut spiral filling"
+ },
+ {
+  "slug": "akiskan-cikolatali-kurabiye",
+  "tr": "Akışkan Çikolatalı Kurabiye",
+  "en": "golden cookie broken open with molten chocolate center flowing out"
+ },
+ {
+  "slug": "zeytinyagli-yaprak-sarma",
+  "tr": "Zeytinyağlı Yaprak Sarma",
+  "en": "glossy dark green grape leaf rolls filled with rice"
+ },
+ {
+  "slug": "imam-bayildi",
+  "tr": "İmam Bayıldı",
+  "en": "whole braised eggplant split open filled with caramelized onions and tomatoes"
+ },
+ {
+  "slug": "zeytinyagli-taze-fasulye",
+  "tr": "Zeytinyağlı Taze Fasulye",
+  "en": "green beans stewed with tomatoes and onions in olive oil"
+ },
+ {
+  "slug": "zeytinyagli-enginar",
+  "tr": "Zeytinyağlı Enginar",
+  "en": "artichoke bottoms filled with peas"
+ },
+ {
+  "slug": "zeytinyagli-pirasa",
+  "tr": "Zeytinyağlı Pırasa",
+  "en": "sliced leeks stewed with carrot rounds and rice in lemony olive oil"
+ },
+ {
+  "slug": "zeytinyagli-barbunya",
+  "tr": "Zeytinyağlı Barbunya",
+  "en": "pink-speckled borlotti beans in olive oil tomato sauce with carrot slices"
+ },
+ {
+  "slug": "karalahana-corbasi",
+  "tr": "Karalahana Çorbası",
+  "en": "hearty dark green collard soup with cranberry beans and cornmeal"
+ },
+ {
+  "slug": "karalahana-sarmasi",
+  "tr": "Karalahana Sarması",
+  "en": "rolled dark green collard leaf wraps lined in a pan"
+ },
+ {
+  "slug": "karalahana-diblesi",
+  "tr": "Karalahana Diblesi",
+  "en": "soft braised dark collard greens with rice grains"
+ },
+ {
+  "slug": "taze-fasulye-diblesi",
+  "tr": "Taze Fasulye Diblesi",
+  "en": "braised green beans with rice grains and diced tomato"
+ },
+ {
+  "slug": "hamsili-pilav",
+  "tr": "Hamsili Pilav",
+  "en": "golden dome-shaped rice cake crusted with small silver anchovy fillets arranged in rays"
+ },
+ {
+  "slug": "hamsi-bugulama",
+  "tr": "Hamsi Buğulama",
+  "en": "small silver anchovies arranged over tomato"
+ },
+ {
+  "slug": "hamsili-misir-ekmegi",
+  "tr": "Mısır Unlu Hamsili Ekmek",
+  "en": "golden cornbread loaf slices studded with small anchovy fillets and greens"
+ },
+ {
+  "slug": "laz-boregi",
+  "tr": "Laz Böreği",
+  "en": "golden layered phyllo pastry squares with creamy custard filling"
+ },
+ {
+  "slug": "trabzon-kuru-fasulyesi",
+  "tr": "Trabzon Kuru Fasulyesi",
+  "en": "creamy white beans in rich buttery tomato stew"
+ },
+ {
+  "slug": "isirgan-corbasi",
+  "tr": "Isırgan Çorbası",
+  "en": "vibrant green nettle soup thickened with cornmeal"
+ },
+ {
+  "slug": "pazi-sarmasi",
+  "tr": "Pazı Sarması",
+  "en": "rolled green chard leaf wraps lined in a pot"
+ },
+ {
+  "slug": "pazili-misir-yemegi",
+  "tr": "Pazılı Mısır Yemeği",
+  "en": "sauteed green chard leaves with yellow corn kernels"
+ },
+ {
+  "slug": "taze-misir-haslama",
+  "tr": "Taze Mısır Haşlama",
+  "en": "boiled yellow corn cobs brushed with melted butter"
+ },
+ {
+  "slug": "keskek-dugun-usulu",
+  "tr": "Keşkek",
+  "en": "creamy pounded wheat and shredded meat porridge"
+ },
+ {
+  "slug": "izmir-boyozu",
+  "tr": "İzmir Boyozu",
+  "en": "round golden flaky swirled pastry buns piled on a plate"
+ },
+ {
+  "slug": "ev-usulu-kumru",
+  "tr": "Ev Usulü Kumru",
+  "en": "toasted oval sandwich bun filled with grilled sausage slices"
+ },
+ {
+  "slug": "yumurtali-ot-kavurmasi",
+  "tr": "Yumurtalı Ot Kavurması",
+  "en": "sauteed wild greens with sunny-side-up eggs nested on top"
+ },
+ {
+  "slug": "ege-usulu-enginar-dolmasi",
+  "tr": "Ege Usulü Enginar Dolması",
+  "en": "artichoke bowls filled with herbed rice"
+ },
+ {
+  "slug": "naneli-sakiz-kabagi-sote",
+  "tr": "Naneli Sakız Kabağı Sote",
+  "en": "sauteed pale green zucchini slices with fresh mint leaves"
+ },
+ {
+  "slug": "sebzeli-levrek-bugulama",
+  "tr": "Sebzeli Levrek Buğulama",
+  "en": "whole white sea bass on a bed of tomato"
+ },
+ {
+  "slug": "pazili-ege-boregi",
+  "tr": "Pazılı Ege Böreği",
+  "en": "golden baked layered pastry squares with green chard filling visible"
+ },
+ {
+  "slug": "lor-peynirli-ege-salatasi",
+  "tr": "Lor Peynirli Ege Salatası",
+  "en": "fresh salad of tomato"
+ },
+ {
+  "slug": "cevizli-kuru-incir-tatlisi",
+  "tr": "Cevizli Kuru İncir Tatlısı",
+  "en": "glossy syrup-poached dried figs stuffed with walnuts"
+ },
+ {
+  "slug": "zeytinli-ege-keki",
+  "tr": "Zeytinli Ege Keki",
+  "en": "sliced savory loaf cake studded with black olives and white cheese"
+ },
+ {
+  "slug": "ege-usulu-domates-dolmasi",
+  "tr": "Ege Usulü Domates Dolması",
+  "en": "ripe red tomatoes stuffed with herbed rice"
+ },
+ {
+  "slug": "yalanci-sogus-durum",
+  "tr": "Söğüş Dürüm",
+  "en": "rolled thin flatbread wrap filled with tomato"
+ },
+ {
+  "slug": "icli-kofte-haslama",
+  "tr": "Haşlama İçli Köfte",
+  "en": "oval brown bulgur shells with minced meat and walnut filling"
+ },
+ {
+  "slug": "etsiz-cig-kofte",
+  "tr": "Etsiz Çiğ Köfte",
+  "en": "hand-pressed reddish-brown spiced bulgur patties with finger marks"
+ },
+ {
+  "slug": "beyran-corbasi",
+  "tr": "Beyran Çorbası",
+  "en": "spicy red lamb and rice soup with shredded meat"
+ },
+ {
+  "slug": "anali-kizli",
+  "tr": "Analı Kızlı",
+  "en": "stuffed bulgur balls large and small with chickpeas"
+ },
+ {
+  "slug": "yuvalama",
+  "tr": "Yuvalama",
+  "en": "tiny white rice and meat dumplings with chickpeas"
+ },
+ {
+  "slug": "antep-patlican-kebabi",
+  "tr": "Antep Patlıcan Kebabı",
+  "en": "skewered alternating eggplant rounds and meatballs lined in a baking tray"
+ },
+ {
+  "slug": "urfa-tepsi-kebabi",
+  "tr": "Urfa Usulü Tepsi Kebabı",
+  "en": "baked ground meat kebab in a round tray topped with tomato slices and green peppers"
+ },
+ {
+  "slug": "eksili-ufak-kofte",
+  "tr": "Ekşili Ufak Köfte",
+  "en": "small bulgur meatballs"
+ },
+ {
+  "slug": "adana-bicak-arasi-ezme",
+  "tr": "Adana Bıçak Arası Ezme",
+  "en": "finely chopped tomato"
+ },
+ {
+  "slug": "mardin-sembusek",
+  "tr": "Mardin Usulü Sembusek",
+  "en": "golden half-moon stuffed flatbreads with minced meat filling"
+ },
+ {
+  "slug": "fistikli-sillik",
+  "tr": "Fıstıklı Şıllık Tatlısı",
+  "en": "layered thin crepes soaked in syrup topped with bright green ground pistachios"
+ },
+ {
+  "slug": "antep-peynir-helvasi",
+  "tr": "Antep Usulü Peynir Helvası",
+  "en": "golden semolina cheese halva with soft stretchy texture"
+ },
+ {
+  "slug": "sumakli-tepsi-koftesi",
+  "tr": "Sumaklı Piyazlı Tepsi Köftesi",
+  "en": "baked tray meatball squares topped with sumac onion and parsley salad"
+ },
+ {
+  "slug": "kayseri-yaglamasi",
+  "tr": "Kayseri Yağlaması",
+  "en": "stacked thin flatbread layers with spiced minced meat between"
+ },
+ {
+  "slug": "testi-kebabi",
+  "tr": "Testi Kebabı (Güveçte)",
+  "en": "beef and vegetable stew served from an opened clay jug into a rustic bowl"
+ },
+ {
+  "slug": "konya-etli-ekmek",
+  "tr": "Konya Etli Ekmek (Ev Usulü)",
+  "en": "long thin crisp flatbread topped with spiced minced meat and peppers"
+ },
+ {
+  "slug": "ankara-tava",
+  "tr": "Ankara Tava",
+  "en": "roasted lamb shank on golden orzo pilaf in a round copper tray"
+ },
+ {
+  "slug": "nevzine",
+  "tr": "Nevzine Tatlısı",
+  "en": "diamond-cut syrup-soaked semolina pastry pieces topped with crushed walnuts"
+ },
+ {
+  "slug": "konya-firin-kebabi",
+  "tr": "Konya Fırın Kebabı (Ev Usulü)",
+  "en": "slow-roasted tender lamb pieces with crispy golden edges on flatbread"
+ },
+ {
+  "slug": "yag-mantisi",
+  "tr": "Yağ Mantısı",
+  "en": "crispy fried golden dumpling parcels"
+ },
+ {
+  "slug": "sivas-koftesi",
+  "tr": "Sivas Köftesi",
+  "en": "plump grilled beef meatballs with charred marks"
+ },
+ {
+  "slug": "anadolu-kesme-corbasi",
+  "tr": "Kesme Çorbası",
+  "en": "hearty lentil and homemade flat noodle soup"
+ },
+ {
+  "slug": "tahinli-piyaz",
+  "tr": "Antalya Usulü Tahinli Piyaz",
+  "en": "white bean salad coated in creamy tahini dressing"
+ },
+ {
+  "slug": "hibes",
+  "tr": "Hibeş",
+  "en": "creamy pale tahini dip swirled in a shallow bowl"
+ },
+ {
+  "slug": "cezerye",
+  "tr": "Cezerye",
+  "en": "orange carrot confection cubes coated with shredded coconut"
+ },
+ {
+  "slug": "sicak-humus",
+  "tr": "Sıcak Humus (Pastırmalı)",
+  "en": "warm golden chickpea puree in an oval baking dish topped with crispy pastrami slices and pine nuts"
+ },
+ {
+  "slug": "ev-usulu-iskender",
+  "tr": "Ev Usulü İskender",
+  "en": "sliced doner beef strips over diced flatbread"
+ },
+ {
+  "slug": "margherita-pizza",
+  "tr": "Ev Usulü Margherita Pizza",
+  "en": "round pizza with melted mozzarella"
+ },
+ {
+  "slug": "kiymali-besamelli-lazanya",
+  "tr": "Kıymalı Beşamelli Lazanya",
+  "en": "square slice of layered lasagna with meat sauce and creamy bechamel"
+ },
+ {
+  "slug": "mantarli-risotto",
+  "tr": "Mantarlı Risotto",
+  "en": "creamy risotto rice with sauteed mushroom slices"
+ },
+ {
+  "slug": "pastirmali-carbonara",
+  "tr": "Pastırmalı Carbonara",
+  "en": "spaghetti tangled with silky egg sauce and crispy pastrami bits"
+ },
+ {
+  "slug": "minestrone-corbasi",
+  "tr": "Minestrone Çorbası",
+  "en": "chunky vegetable soup with beans"
+ },
+ {
+  "slug": "zeytinli-kekikli-focaccia",
+  "tr": "Zeytinli Kekikli Focaccia",
+  "en": "golden dimpled focaccia bread slab topped with black olives and thyme"
+ },
+ {
+  "slug": "patates-gnocchi",
+  "tr": "Tereyağlı Adaçaylı Gnocchi",
+  "en": "soft ridged potato gnocchi pillows glossed with sage butter"
+ },
+ {
+  "slug": "domatesli-bruschetta",
+  "tr": "Domatesli Bruschetta",
+  "en": "toasted bread slices topped with diced tomato"
+ },
+ {
+  "slug": "caprese-salata",
+  "tr": "Caprese Salata",
+  "en": "alternating red tomato slices and white mozzarella rounds with basil leaves"
+ },
+ {
+  "slug": "penne-arrabbiata",
+  "tr": "Penne Arrabbiata",
+  "en": "penne pasta tubes"
+ },
+ {
+  "slug": "firinda-patlican-parmigiana",
+  "tr": "Fırında Patlıcan Parmigiana",
+  "en": "baked layered eggplant slices with tomato sauce and melted cheese"
+ },
+ {
+  "slug": "cilekli-panna-cotta",
+  "tr": "Çilek Soslu Panna Cotta",
+  "en": "white creamy panna cotta dome on a plate"
+ },
+ {
+  "slug": "sebzeli-frittata",
+  "tr": "Sebzeli Frittata",
+  "en": "thick golden egg frittata wedge with peppers"
+ },
+ {
+  "slug": "lorlu-limonlu-krep",
+  "tr": "Lorlu Limonlu Tatlı Krep",
+  "en": "rolled thin crepes filled with lemon ricotta cream"
+ },
+ {
+  "slug": "tavuklu-sebzeli-fried-rice",
+  "tr": "Tavuklu Sebzeli Fried Rice",
+  "en": "stir-fried rice with chicken cubes"
+ },
+ {
+  "slug": "yer-fistigi-ezmeli-pad-thai",
+  "tr": "Fıstık Ezmeli Pad Thai",
+  "en": "stir-fried rice noodles with vegetables and crushed peanuts"
+ },
+ {
+  "slug": "firinda-citir-spring-roll",
+  "tr": "Fırında Çıtır Spring Roll",
+  "en": "golden crispy baked spring rolls stacked on a plate"
+ },
+ {
+  "slug": "galeta-kaplamali-tavuk-katsu",
+  "tr": "Tavuk Katsu",
+  "en": "sliced golden breaded chicken cutlet with crispy crust"
+ },
+ {
+  "slug": "tavada-teriyaki-somon",
+  "tr": "Teriyaki Soslu Somon",
+  "en": "seared salmon fillet"
+ },
+ {
+  "slug": "kore-usulu-yapiskan-aci-tavuk",
+  "tr": "Kore Usulü Yapışkan Acı Tavuk",
+  "en": "crispy fried chicken bites"
+ },
+ {
+  "slug": "sebzeli-wok-noodle",
+  "tr": "Sebzeli Wok Noodle",
+  "en": "stir-fried noodles tangled with colorful peppers"
+ },
+ {
+  "slug": "hindistan-cevizli-tavuk-kori",
+  "tr": "Hindistan Cevizli Tavuk Köri",
+  "en": "golden chicken curry chunks"
+ },
+ {
+  "slug": "manti-hamurlu-tava-gyoza",
+  "tr": "Tava Gyoza (Mantı Hamurlu)",
+  "en": "pan-fried pleated dumplings with golden crispy bottoms"
+ },
+ {
+  "slug": "sebzeli-yumurtali-pirinc-kasesi",
+  "tr": "Sebzeli Yumurtalı Pirinç Kasesi",
+  "en": "white rice bowl topped with sauteed vegetables and a soft fried egg"
+ },
+ {
+  "slug": "tatli-eksi-tavuk",
+  "tr": "Tatlı Ekşi Tavuk",
+  "en": "crispy battered chicken chunks"
+ },
+ {
+  "slug": "cin-usulu-sarimsakli-patlican",
+  "tr": "Çin Usulü Sarımsaklı Patlıcan",
+  "en": "golden fried eggplant batons"
+ },
+ {
+  "slug": "zencefilli-balli-cay",
+  "tr": "Zencefilli Ballı Çay",
+  "en": "amber ginger tea in a glass cup"
+ },
+ {
+  "slug": "kiymali-taco",
+  "tr": "Kıymalı Taco",
+  "en": "crisp corn taco shells filled with seasoned ground beef"
+ },
+ {
+  "slug": "tavuklu-burrito",
+  "tr": "Tavuklu Burrito",
+  "en": "large flour tortilla burrito cut in half showing chicken"
+ },
+ {
+  "slug": "kasarli-quesadilla",
+  "tr": "Kaşarlı Quesadilla",
+  "en": "golden grilled tortilla quesadilla wedges with melted cheese pull"
+ },
+ {
+  "slug": "firinda-nachos",
+  "tr": "Fırında Nachos",
+  "en": "tortilla chips topped with melted cheese"
+ },
+ {
+  "slug": "chili-con-carne",
+  "tr": "Chili Con Carne",
+  "en": "hearty ground beef and red kidney bean chili stew"
+ },
+ {
+  "slug": "guacamole",
+  "tr": "Guacamole",
+  "en": "chunky green avocado dip in a stone bowl"
+ },
+ {
+  "slug": "bbq-soslu-firin-tavuk",
+  "tr": "BBQ Soslu Fırın Tavuk",
+  "en": "roasted chicken drumsticks"
+ },
+ {
+  "slug": "sloppy-joe-sandvic",
+  "tr": "Sloppy Joe Sandviç",
+  "en": "soft burger bun filled with saucy seasoned ground beef"
+ },
+ {
+  "slug": "baharatli-patates-wedges",
+  "tr": "Baharatlı Patates Wedges",
+  "en": "golden crispy seasoned potato wedges piled on a plate"
+ },
+ {
+  "slug": "kirmizi-lahanali-coleslaw",
+  "tr": "Kırmızı Lahanalı Coleslaw",
+  "en": "shredded purple and white cabbage and carrot slaw in light creamy dressing"
+ },
+ {
+  "slug": "meksika-fasulye-misir-salatasi",
+  "tr": "Mısırlı Fasulyeli Meksika Salatası",
+  "en": "colorful salad of black beans"
+ },
+ {
+  "slug": "muzlu-ekmek-banana-bread",
+  "tr": "Muzlu Ekmek (Banana Bread)",
+  "en": "sliced golden-brown banana bread loaf with walnuts"
+ },
+ {
+  "slug": "new-york-cheesecake",
+  "tr": "New York Cheesecake",
+  "en": "tall creamy cheesecake slice with golden biscuit base and smooth pale top"
+ },
+ {
+  "slug": "kesme-corbasi",
+  "tr": "Kesme Çorbası",
+  "en": "red lentil soup with flat homemade noodle pieces"
+ },
+ {
+  "slug": "tavuklu-eriste-corbasi",
+  "tr": "Tavuklu Erişte Çorbası",
+  "en": "chicken noodle soup with shredded chicken"
+ },
+ {
+  "slug": "terbiyeli-balkabagi-corbasi",
+  "tr": "Terbiyeli Bal Kabağı Çorbası",
+  "en": "velvety orange pumpkin soup in a bowl"
+ },
+ {
+  "slug": "pancar-corbasi",
+  "tr": "Pancar Çorbası",
+  "en": "vibrant magenta beet soup in a bowl"
+ },
+ {
+  "slug": "naneli-bezelye-corbasi",
+  "tr": "Naneli Bezelye Çorbası",
+  "en": "smooth bright green pea soup with fresh mint"
+ },
+ {
+  "slug": "sehriyeli-domates-corbasi",
+  "tr": "Şehriyeli Domates Çorbası",
+  "en": "red tomato soup with tiny orzo pasta"
+ },
+ {
+  "slug": "kerevizli-elmali-corbasi",
+  "tr": "Kerevizli Elmalı Çorba",
+  "en": "pale creamy celeriac and apple soup in a bowl"
+ },
+ {
+  "slug": "terbiyeli-ispanak-corbasi",
+  "tr": "Terbiyeli Ispanak Çorbası",
+  "en": "green spinach and rice soup with creamy egg-lemon finish"
+ },
+ {
+  "slug": "bulgurlu-kis-corbasi",
+  "tr": "Bulgurlu Kış Çorbası",
+  "en": "hearty red bulgur and tomato winter soup"
+ },
+ {
+  "slug": "nohutlu-ezme-corba",
+  "tr": "Nohutlu Ezme Çorba",
+  "en": "smooth golden chickpea puree soup"
+ },
+ {
+  "slug": "eristeli-yesil-mercimek-corbasi",
+  "tr": "Erişteli Yeşil Mercimek Çorbası",
+  "en": "green lentil soup with short noodle pieces"
+ },
+ {
+  "slug": "kremali-patates-corbasi",
+  "tr": "Kremalı Patates Çorbası",
+  "en": "creamy pale potato soup in a bowl"
+ },
+ {
+  "slug": "misir-unlu-peynirli-corba",
+  "tr": "Mısır Unlu Peynirli Çorba",
+  "en": "thick golden cornmeal soup with melted cheese strands"
+ },
+ {
+  "slug": "kuru-kofte",
+  "tr": "Klasik Kuru Köfte",
+  "en": "classic pan-fried oval beef patties with browned crust"
+ },
+ {
+  "slug": "dalyan-kofte",
+  "tr": "Dalyan Köfte",
+  "en": "sliced meatloaf roll revealing boiled egg"
+ },
+ {
+  "slug": "eksili-kofte",
+  "tr": "Ekşili Köfte",
+  "en": "small tender meatballs"
+ },
+ {
+  "slug": "cop-sis",
+  "tr": "Çöp Şiş",
+  "en": "small cubes of grilled marinated lamb on thin wooden skewers"
+ },
+ {
+  "slug": "adana-kofte",
+  "tr": "Ev Usulü Adana Köfte",
+  "en": "long grilled minced meat kebab on a flat skewer"
+ },
+ {
+  "slug": "misket-kofte",
+  "tr": "Domates Soslu Misket Köfte",
+  "en": "small round browned meatballs"
+ },
+ {
+  "slug": "sebzeli-kebap-dizmesi",
+  "tr": "Fırında Sebzeli Kebap Dizmesi",
+  "en": "skewers of marinated meat cubes with pepper"
+ },
+ {
+  "slug": "sac-kavurma",
+  "tr": "Saç Kavurma",
+  "en": "sizzling diced lamb with green peppers and tomatoes"
+ },
+ {
+  "slug": "ciger-tava",
+  "tr": "Soğanlı Sumaklı Ciğer Tava",
+  "en": "crispy fried liver cubes piled on a plate"
+ },
+ {
+  "slug": "kuzu-guvec",
+  "tr": "Sebzeli Kuzu Güveç",
+  "en": "lamb chunks with eggplant"
+ },
+ {
+  "slug": "et-haslama",
+  "tr": "Sebzeli Et Haşlama",
+  "en": "tender boiled beef chunks with whole carrots and potatoes in clear broth"
+ },
+ {
+  "slug": "yogurtlu-kofte-kasesi",
+  "tr": "Sarımsaklı Yoğurtlu Köfte Kasesi",
+  "en": "grilled mini meatballs over toasted bread cubes"
+ },
+ {
+  "slug": "tepsi-koftesi",
+  "tr": "Biberli Soğanlı Tepsi Köftesi",
+  "en": "baked round tray of meatballs with onion and green pepper slices between"
+ },
+ {
+  "slug": "dana-rosto",
+  "tr": "Patates Püreli Dana Rosto",
+  "en": "sliced beef roast lightly spooned with brown gravy"
+ },
+ {
+  "slug": "midye-dolma",
+  "tr": "Midye Dolma",
+  "en": "open black mussel shells filled with spiced rice pilaf"
+ },
+ {
+  "slug": "kuru-patlican-dolmasi",
+  "tr": "Kuru Patlıcan Dolması",
+  "en": "dark dried eggplant shells stuffed with bulgur filling"
+ },
+ {
+  "slug": "kuru-biber-dolmasi",
+  "tr": "Bulgurlu Kuru Biber Dolması",
+  "en": "dark red dried pepper shells stuffed with bulgur"
+ },
+ {
+  "slug": "zeytinyagli-lahana-sarmasi",
+  "tr": "Zeytinyağlı Lahana Sarması",
+  "en": "thin pale green cabbage leaf rolls lined in rows"
+ },
+ {
+  "slug": "etli-pazi-sarmasi",
+  "tr": "Etli Pazı Sarması",
+  "en": "rolled green chard wraps with meat filling in a pan"
+ },
+ {
+  "slug": "zeytinyagli-pazi-sarmasi",
+  "tr": "Zeytinyağlı Pazı Sarması",
+  "en": "slender rolled chard leaf wraps arranged in rows"
+ },
+ {
+  "slug": "firin-mantar-dolmasi",
+  "tr": "Fırında Peynirli Mantar Dolması",
+  "en": "baked mushroom caps filled with melted cheese and herbs"
+ },
+ {
+  "slug": "etli-domates-dolmasi",
+  "tr": "Etli Domates Dolması",
+  "en": "red tomatoes stuffed with minced meat and rice"
+ },
+ {
+  "slug": "firin-patates-dolmasi",
+  "tr": "Fırın Patates Dolması",
+  "en": "baked hollowed potato halves filled with minced meat"
+ },
+ {
+  "slug": "zeytinyagli-kabak-dolmasi",
+  "tr": "Zeytinyağlı Kabak Dolması",
+  "en": "pale green zucchini shells stuffed with bulgur and herbs"
+ },
+ {
+  "slug": "etli-marul-sarmasi",
+  "tr": "Etli Marul Sarması",
+  "en": "rolled lettuce leaf wraps with meat filling lined in a pot"
+ },
+ {
+  "slug": "elma-dolmasi",
+  "tr": "Osmanlı Usulü Elma Dolması",
+  "en": "baked whole apples stuffed with spiced rice"
+ },
+ {
+  "slug": "ayva-dolmasi",
+  "tr": "Etli Ayva Dolması",
+  "en": "roasted quince halves filled with minced meat"
+ },
+ {
+  "slug": "misir-unlu-lahana-dolmasi",
+  "tr": "Mısır Unlu Lahana Dolması",
+  "en": "plump cabbage leaf bundles lined in a pot"
+ },
+ {
+  "slug": "cilekli-yas-pasta",
+  "tr": "Çilekli Yaş Pasta",
+  "en": "round layered sponge cake covered in white whipped cream"
+ },
+ {
+  "slug": "ev-usulu-ekler",
+  "tr": "Ev Usulü Ekler",
+  "en": "oblong choux eclairs glazed with dark chocolate"
+ },
+ {
+  "slug": "kakaolu-rulo-pasta",
+  "tr": "Kakaolu Rulo Pasta",
+  "en": "chocolate swiss roll cake slices showing white cream spiral"
+ },
+ {
+  "slug": "salepli-ev-dondurmasi",
+  "tr": "Salepli Ev Dondurması",
+  "en": "scoops of stretchy white salep ice cream in a metal cup"
+ },
+ {
+  "slug": "cilekli-ev-dondurmasi",
+  "tr": "Çilekli Ev Dondurması",
+  "en": "pink strawberry ice cream scoops in a glass bowl"
+ },
+ {
+  "slug": "portakalli-islak-kek",
+  "tr": "Portakallı Islak Kek",
+  "en": "moist orange syrup cake squares with glistening tops"
+ },
+ {
+  "slug": "damla-cikolatali-kek",
+  "tr": "Damla Çikolatalı Kek",
+  "en": "sliced golden loaf cake studded with chocolate chips"
+ },
+ {
+  "slug": "cevizli-kadayif-dolmasi",
+  "tr": "Cevizli Kadayıf Dolması",
+  "en": "golden fried shredded pastry rolls soaked in syrup"
+ },
+ {
+  "slug": "fistikli-kus-yuvasi",
+  "tr": "Fıstıklı Kuş Yuvası Kadayıfı",
+  "en": "round golden shredded pastry nests filled with bright green pistachios"
+ },
+ {
+  "slug": "gul-sulu-ev-lokumu",
+  "tr": "Gül Sulu Ev Lokumu",
+  "en": "pink rose turkish delight cubes dusted with powdered sugar"
+ },
+ {
+  "slug": "kaymakli-kuru-kayisi-tatlisi",
+  "tr": "Kaymaklı Kuru Kayısı Tatlısı",
+  "en": "glossy syrup-poached orange apricots filled with white clotted cream"
+ },
+ {
+  "slug": "sutlu-nuriye",
+  "tr": "Sütlü Nuriye",
+  "en": "pale golden milky syrup-soaked layered phyllo dessert squares topped with hazelnuts"
+ },
+ {
+  "slug": "muhallebili-kadayif",
+  "tr": "Muhallebili Kadayıf",
+  "en": "golden crisp shredded pastry layers with white milk pudding between"
+ },
+ {
+  "slug": "cilek-muzlu-meyve-kupu",
+  "tr": "Çilek-Muzlu Meyve Kupu",
+  "en": "layered dessert cup with cream"
+ },
+ {
+  "slug": "tuzlu-corek-otlu-cay-kurabiyesi",
+  "tr": "Çörek Otlu Tuzlu Çay Kurabiyesi",
+  "en": "crumbly golden savory tea cookies sprinkled with black nigella seeds"
+ },
+ {
+  "slug": "peynirli-kurabiye",
+  "tr": "Peynirli Kurabiye",
+  "en": "golden cheese cookies with sesame seed tops"
+ },
+ {
+  "slug": "susamli-cubuk-kraker",
+  "tr": "Susamlı Çubuk Kraker",
+  "en": "thin golden sesame-coated cracker sticks bundled upright in a glass jar"
+ },
+ {
+  "slug": "parmesanli-ev-grissinisi",
+  "tr": "Parmesanlı Ev Grissinisi",
+  "en": "long thin golden breadsticks crusted with grated parmesan"
+ },
+ {
+  "slug": "patates-kroketi",
+  "tr": "Patates Kroketi",
+  "en": "golden crispy oval potato croquettes"
+ },
+ {
+  "slug": "firinda-sogan-halkasi",
+  "tr": "Fırında Soğan Halkası",
+  "en": "golden crispy breaded onion rings stacked on a plate"
+ },
+ {
+  "slug": "milfoy-peynirli-citir-ucgen",
+  "tr": "Milföy Peynirli Çıtır Üçgenler",
+  "en": "golden flaky puff pastry triangles with cheese filling"
+ },
+ {
+  "slug": "firinda-elma-cipsi",
+  "tr": "Fırında Elma Cipsi",
+  "en": "thin round baked apple chips with cinnamon dusting"
+ },
+ {
+  "slug": "baharatli-kavrulmus-nohut",
+  "tr": "Baharatlı Kavrulmuş Nohut",
+  "en": "crunchy roasted chickpeas coated with red paprika spices"
+ },
+ {
+  "slug": "balli-yulafli-ev-granolasi",
+  "tr": "Ballı Yulaflı Ev Granolası",
+  "en": "golden clusters of honey oat granola with nuts and seeds"
+ },
+ {
+  "slug": "hurmali-enerji-toplari",
+  "tr": "Hurmalı Enerji Topları",
+  "en": "round brown date energy balls rolled in shredded coconut and cocoa"
+ },
+ {
+  "slug": "kakaolu-yulaf-toplari",
+  "tr": "Kakaolu Yulaf Topları",
+  "en": "chocolate oat balls dusted with cocoa"
+ },
+ {
+  "slug": "tahinli-susamli-halka-kurabiye",
+  "tr": "Tahinli Susamlı Halka Kurabiye",
+  "en": "golden ring-shaped tahini cookies fully coated in sesame seeds"
+ },
+ {
+  "slug": "sucuklu-peynirli-firin-yumurta",
+  "tr": "Sucuklu Peynirli Fırın Yumurta",
+  "en": "baked eggs with sliced spicy sausage and melted cheese in a small clay dish"
+ },
+ {
+  "slug": "ispanakli-yumurta",
+  "tr": "Ispanaklı Yumurta",
+  "en": "sauteed green spinach with sunny-side-up eggs nested on top"
+ },
+ {
+  "slug": "klasik-krep",
+  "tr": "Klasik Krep",
+  "en": "stack of thin golden crepes folded in triangles"
+ },
+ {
+  "slug": "mantarli-sahanda-yumurta",
+  "tr": "Mantarlı Sahanda Yumurta",
+  "en": "fried eggs with runny yolks and sauteed mushroom slices in a small pan"
+ },
+ {
+  "slug": "firinda-sucuklu-patates",
+  "tr": "Fırında Sucuklu Patates",
+  "en": "roasted potato cubes with spicy sausage slices and melted cheese"
+ },
+ {
+  "slug": "muzlu-yulaf-pankeki",
+  "tr": "Muzlu Yulaf Pankeki",
+  "en": "stack of small golden oat pancakes topped with banana slices"
+ },
+ {
+  "slug": "peynirli-omlet-rulosu",
+  "tr": "Peynirli Omlet Rulosu",
+  "en": "rolled yellow omelet slices with melted cheese spiral"
+ },
+ {
+  "slug": "findikli-surulebilir-cikolata",
+  "tr": "Ev Usulü Fındıklı Çikolata",
+  "en": "glass jar of glossy hazelnut chocolate spread"
+ },
+ {
+  "slug": "yumurta-salatali-sandvic",
+  "tr": "Yumurta Salatalı Sandviç",
+  "en": "sandwich halves filled with creamy chopped egg salad and greens"
+ },
+ {
+  "slug": "avokadolu-kahvalti-tabagi",
+  "tr": "Haşlanmış Yumurtalı Avokado Tabağı",
+  "en": "fanned green avocado slices with halved soft-boiled eggs"
+ },
+ {
+  "slug": "labneli-meyveli-kahvalti-kasesi",
+  "tr": "Labneli Meyveli Kahvaltı Kasesi",
+  "en": "white labneh cream bowl topped with fresh berries"
+ },
+ {
+  "slug": "kahvaltilik-zeytin-ezmesi",
+  "tr": "Kahvaltılık Zeytin Ezmesi",
+  "en": "dark olive tapenade in a small bowl"
+ },
+ {
+  "slug": "balli-cevizli-yogurt-kasesi",
+  "tr": "Ballı Cevizli Yoğurt Kasesi",
+  "en": "thick white yogurt bowl topped with walnut halves and golden honey drizzle"
+ },
+ {
+  "slug": "fava",
+  "tr": "Fava",
+  "en": "pale yellow fava bean puree slices on a plate"
+ },
+ {
+  "slug": "humus",
+  "tr": "Humus",
+  "en": "creamy hummus swirled in a shallow bowl"
+ },
+ {
+  "slug": "muhammara",
+  "tr": "Muhammara",
+  "en": "textured red roasted pepper and walnut dip in a bowl"
+ },
+ {
+  "slug": "atom-mezesi",
+  "tr": "Atom",
+  "en": "sizzled whole dried red chilies over thick white garlic yogurt"
+ },
+ {
+  "slug": "pancarli-yogurt-mezesi",
+  "tr": "Pancarlı Yoğurt Mezesi",
+  "en": "vivid pink beet yogurt dip swirled in a bowl"
+ },
+ {
+  "slug": "yogurtlu-kabak-mezesi",
+  "tr": "Yoğurtlu Kabak Mezesi",
+  "en": "creamy sauteed zucchini and yogurt meze in a bowl"
+ },
+ {
+  "slug": "yogurtlu-makarna-salatasi",
+  "tr": "Yoğurtlu Makarna Salatası",
+  "en": "pasta salad with light creamy yogurt dressing"
+ },
+ {
+  "slug": "rokali-parmesan-salatasi",
+  "tr": "Roka Parmesan Salatası",
+  "en": "fresh green arugula salad with parmesan shavings and pomegranate seeds"
+ },
+ {
+  "slug": "izgara-hellim-salatasi",
+  "tr": "Izgara Hellim Salatası",
+  "en": "golden grilled halloumi slices with grill marks over green salad and cherry tomatoes"
+ },
+ {
+  "slug": "elmali-kirmizi-lahana-salatasi",
+  "tr": "Elmalı Kırmızı Lahana Salatası",
+  "en": "shredded purple red cabbage salad with apple strips and walnuts"
+ },
+ {
+  "slug": "kozlenmis-biber-mezesi",
+  "tr": "Közlenmiş Biber Mezesi",
+  "en": "glossy roasted red pepper strips marinated in garlic olive oil"
+ },
+ {
+  "slug": "misirli-citir-salata",
+  "tr": "Mısırlı Çıtır Salata",
+  "en": "green salad with yellow corn"
+ },
+ {
+  "slug": "cevizli-gavurdagi",
+  "tr": "Cevizli Gavurdağı",
+  "en": "finely diced tomato"
+ },
+ {
+  "slug": "ev-ayrani",
+  "tr": "Köpüklü Ev Ayranı",
+  "en": "frothy white ayran yogurt drink in a copper cup"
+ },
+ {
+  "slug": "bitter-sicak-cikolata",
+  "tr": "Bitter Sıcak Çikolata",
+  "en": "dark hot chocolate in a ceramic mug"
+ },
+ {
+  "slug": "muzlu-cilekli-smoothie",
+  "tr": "Muzlu Çilekli Smoothie",
+  "en": "pink strawberry banana smoothie in a tall glass"
+ },
+ {
+  "slug": "karpuz-limonatasi",
+  "tr": "Karpuz Limonatası",
+  "en": "pink watermelon lemonade in a tall glass with ice cubes"
+ },
+ {
+  "slug": "adacayi-demleme",
+  "tr": "Demlikte Adaçayı",
+  "en": "pale golden sage tea in a glass teacup"
+ },
+ {
+  "slug": "kahveli-milkshake",
+  "tr": "Kahveli Milkshake",
+  "en": "creamy coffee milkshake in a tall glass"
+ },
+ {
+  "slug": "etsiz-sebzeli-guvec",
+  "tr": "Etsiz Sebzeli Güveç",
+  "en": "colorful baked vegetable stew with eggplant"
+ },
+ {
+  "slug": "kremali-mantar-sote",
+  "tr": "Kremalı Mantar Sote",
+  "en": "golden sauteed mushroom slices"
+ },
+ {
+  "slug": "besamelli-sebze-graten",
+  "tr": "Beşamelli Sebze Graten",
+  "en": "baked vegetable gratin with golden cheese crust"
+ },
+ {
+  "slug": "baharatli-karnabahar-izgara",
+  "tr": "Baharatlı Karnabahar Izgara",
+  "en": "roasted cauliflower steaks with charred edges and red spice crust"
+ },
+ {
+  "slug": "nohutlu-ispanakli-tencere",
+  "tr": "Nohutlu Ispanaklı Tencere",
+  "en": "chickpeas and green spinach leaves"
+ },
+ {
+  "slug": "patlicanli-soslu-makarna",
+  "tr": "Patlıcanlı Soslu Makarna",
+  "en": "pasta with golden fried eggplant cubes in tomato sauce"
+ },
+ {
+  "slug": "firinda-peynirli-kabak-sandal",
+  "tr": "Fırında Peynirli Kabak Sandal",
+  "en": "baked zucchini boats filled with melted cheese and herbs"
+ }
+]
