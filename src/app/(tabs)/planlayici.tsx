@@ -15,7 +15,7 @@ import { useTarifler } from '@/hooks/use-tarifler';
 import { useTema } from '@/hooks/use-tema';
 import { normalize } from '@/lib/ara';
 import { porsiyonMaliyeti } from '@/lib/maliyet';
-import { alternatifOner, haftalikMenuOner } from '@/lib/menu-oner';
+import { alternatifOner, haftalikMenuOner, ogunUygunlukSirasi } from '@/lib/menu-oner';
 import { useAlisveris } from '@/stores/alisveris';
 import { useDolap } from '@/stores/dolap';
 import { OGUNLER, tarihKey, usePlan, type Ogun, type PlanKaydi } from '@/stores/plan';
@@ -130,10 +130,19 @@ export default function Planlayici() {
     setSihirbazAcik(false);
   };
 
+  // Elle seçimde liste öğüne uygunluğa göre sıralanır: akşam için ana yemekler
+  // önce gelir, tatlı/içecek en sona düşer (v1.2.2 kullanılabilirlik düzeltmesi).
   const secimSonuclari = useMemo(() => {
     const q = normalize(arama);
-    return q ? tarifler.filter((t) => normalize(t.baslik).includes(q)) : tarifler;
-  }, [tarifler, arama]);
+    const taban = q ? tarifler.filter((t) => normalize(t.baslik).includes(q)) : tarifler;
+    if (!secim) return taban;
+    const sira = ogunUygunlukSirasi(secim.ogun);
+    const oncelik = (t: (typeof taban)[number]) => {
+      const i = sira.indexOf(t.kategori);
+      return i === -1 ? sira.length + 1 : i;
+    };
+    return [...taban].sort((a, b) => oncelik(a) - oncelik(b));
+  }, [tarifler, arama, secim]);
 
   return (
     <Ekran>
