@@ -20,6 +20,65 @@ const AY_ADLARI = [
   'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık',
 ];
 
+/**
+ * Ana akış "ilgi çekme" puanı: uygulamada kalma süresini artıracak şekilde
+ * çorba/tatlı gibi tek boyutlu bloklar yerine yüksek etkileşim ihtimali olan
+ * (ana yemek, editör onaylı, hızlı hazırlanan) tarifleri öne çıkarır.
+ */
+const KATEGORI_ILGI_AGIRLIGI: Record<Kategori, number> = {
+  'ana-yemek': 40,
+  tatli: 34,
+  kahvaltilik: 30,
+  'hamur-isi': 28,
+  'pilav-bakliyat': 24,
+  zeytinyagli: 22,
+  corba: 18,
+  salata: 16,
+  icecek: 10,
+};
+
+function hashla(id: string, tohum: number): number {
+  let h = tohum;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+function ilgiPuani(t: Tarif, gunTohumu: number): number {
+  let p = KATEGORI_ILGI_AGIRLIGI[t.kategori] ?? 12;
+  if (t.editorOnayli) p += 6;
+  if (t.hazirlikDk + t.pisirmeDk <= 25) p += 5; // hızlı karar → akışta kalma
+  if (t.koleksiyonlar.length > 0) p += 2; // vitrin değeri olan koleksiyonlar
+  p += hashla(t.id, gunTohumu) % 9; // günlük rotasyon, aynı tarifler her gün üstte kalmasın
+  return p;
+}
+
+/**
+ * Puana göre sıralar, ama aynı kategoriden art arda en fazla 2 kart gösterir —
+ * uygulamanın çeşitliliğini (yöresel, dünya, tatlı, çorba…) sürekli görünür
+ * kılmak, kaydırma boyunca tekdüzelikten kaynaklı bırakmaları azaltmak için.
+ */
+function cesitlilikliDiz(tarifler: Tarif[], gunTohumu: number): Tarif[] {
+  const ARDISIK_SINIR = 2;
+  const kalan = [...tarifler].sort((a, b) => ilgiPuani(b, gunTohumu) - ilgiPuani(a, gunTohumu));
+  const sonuc: Tarif[] = [];
+  while (kalan.length > 0) {
+    let idx = 0;
+    if (sonuc.length >= ARDISIK_SINIR) {
+      const sonKategori = sonuc[sonuc.length - 1].kategori;
+      const oncekiHepsiAyni = sonuc
+        .slice(-ARDISIK_SINIR)
+        .every((t) => t.kategori === sonKategori);
+      if (oncekiHepsiAyni) {
+        const farkli = kalan.findIndex((t) => t.kategori !== sonKategori);
+        if (farkli > 0) idx = farkli;
+      }
+    }
+    sonuc.push(kalan[idx]);
+    kalan.splice(idx, 1);
+  }
+  return sonuc;
+}
+
 function Ray({ baslik, tarifler }: { baslik: string; tarifler: Tarif[] }) {
   if (tarifler.length === 0) return null;
   return (
@@ -53,32 +112,12 @@ export default function Kesfet() {
     [tarifler, simdi, tercihler],
   );
   const mevsim = useMemo(() => mevsimindekiler(tarifler, simdi), [tarifler, simdi]);
-  // Akış sıralaması: paket sırası (çorbalar önde) yerine sofra öncelikli —
-  // ana yemekler ve akşam kategorileri üstte, gün bazlı hafif rotasyonla.
+  // Akış sıralaması: uygulamada kalma süresini artıracak "ilgi puanı" +
+  // kategori çeşitliliği (art arda en fazla 2 aynı kategori) — bkz. ilgiPuani/cesitlilikliDiz.
   const akis = useMemo(() => {
-    const taban = kategori ? tarifler.filter((t) => t.kategori === kategori) : tarifler;
-    if (kategori) return taban;
-    const oncelik: Record<string, number> = {
-      'ana-yemek': 0,
-      'pilav-bakliyat': 1,
-      zeytinyagli: 2,
-      corba: 3,
-      'hamur-isi': 4,
-      salata: 5,
-      kahvaltilik: 6,
-      tatli: 7,
-      icecek: 8,
-    };
+    if (kategori) return tarifler.filter((t) => t.kategori === kategori);
     const gunTohumu = simdi.getFullYear() * 400 + simdi.getMonth() * 31 + simdi.getDate();
-    const hashla = (id: string) => {
-      let h = gunTohumu;
-      for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) | 0;
-      return Math.abs(h) % 1000;
-    };
-    return [...taban].sort(
-      (a, b) =>
-        (oncelik[a.kategori] ?? 9) - (oncelik[b.kategori] ?? 9) || hashla(a.id) - hashla(b.id),
-    );
+    return cesitlilikliDiz(tarifler, gunTohumu);
   }, [tarifler, kategori, simdi]);
   const kol = (k: string) => tarifler.filter((t) => t.koleksiyonlar.includes(k as never));
   const aksamOnerileri = useMemo(() => {
